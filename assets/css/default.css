@@ -433,9 +433,9 @@ body {
         #header .header-wrap .quick .pathogen-search .form-group .form-control::placeholder {
           color: #fff; }
         #header .header-wrap .quick .pathogen-search .form-group .form-control:-ms-input-placeholder {
-          color: red; }
+          color: #fff; }
         #header .header-wrap .quick .pathogen-search .form-group .form-control::-ms-input-placeholder {
-          color: red; }
+          color: #fff; }
       #header .header-wrap .quick .pathogen-search .pathogen-search {
         position: absolute;
         right: 0;
