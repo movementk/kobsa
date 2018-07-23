@@ -3,7 +3,7 @@
     <div class="container">
         <div class="header-wrap">
             <h1 class="logo">
-                <a href="/"><img src="/assets/image/logo.jpg" alt="한국생물안전협회"></a>
+                <a href="/"><img src="/assets/images/logo.jpg" alt="한국생물안전협회"></a>
             </h1>
             <div class="quick">
                 <div class="pathogen-search">
@@ -125,7 +125,7 @@
                     </div>
                 </form>
                 <button type="button" class="btn btn-close">
-                    <img src="/assets/image/btn_close.jpg" alt="">
+                    <img src="/assets/images/btn_close.jpg" alt="">
                     <span class="sr-only">네비닫기</span>
                 </button>
             </div>

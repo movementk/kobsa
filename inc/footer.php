@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-12 col-md-3 col-xl-2">
                 <h2 class="foot-logo">
-                    <img src="/assets/image/foot_logo.jpg" alt="한국생물안전협회">
+                    <img src="/assets/images/foot_logo.jpg" alt="한국생물안전협회">
                 </h2>
             </div>
             <div class="col-12 col-md-9 col-xl-10">

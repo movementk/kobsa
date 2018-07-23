@@ -40,7 +40,8 @@ a {
   color: inherit;
   text-decoration: none !important; }
   a:hover, a:focus {
-    color: inherit; }
+    color: inherit;
+    outline: none; }
 
 .container,
 .container-fluid {
@@ -409,33 +410,35 @@ a {
         width: 20px;
         border-radius: 10px;
         background-color: #fff; }
-  .jumbotron .visual-slider > div {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 0 50%; }
-    .jumbotron .visual-slider > div.summary {
-      width: 100%;
-      height: 365px;
-      color: #fff;
-      padding: 50px 10px 0;
-      background-image: url(/assets/image/main/bg_xl_jumbo.jpg);
+  .jumbotron .visual-slider {
+    outline: none; }
+    .jumbotron .visual-slider > div {
       background-repeat: no-repeat;
       background-size: cover;
-      background-position: 50% 50%; }
-      .jumbotron .visual-slider > div.summary small {
-        font-size: 16px;
-        font-weight: 400; }
-      .jumbotron .visual-slider > div.summary h3 {
-        font-size: 30px;
-        line-height: 36px;
-        font-family: 'Lato', sans-serif;
-        font-weight: bold;
-        margin: 20px 0 40px; }
-      .jumbotron .visual-slider > div.summary p {
-        font-size: 13px;
-        line-height: 24px; }
-    .jumbotron .visual-slider > div.slider-bg {
-      display: none; }
+      background-position: 0 50%; }
+      .jumbotron .visual-slider > div.summary {
+        width: 100%;
+        height: 365px;
+        color: #fff;
+        padding: 50px 10px 0;
+        background-image: url(/assets/images/main/bg_xl_jumbo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%; }
+        .jumbotron .visual-slider > div.summary small {
+          font-size: 16px;
+          font-weight: 400; }
+        .jumbotron .visual-slider > div.summary h3 {
+          font-size: 30px;
+          line-height: 36px;
+          font-family: 'Lato', sans-serif;
+          font-weight: bold;
+          margin: 20px 0 40px; }
+        .jumbotron .visual-slider > div.summary p {
+          font-size: 13px;
+          line-height: 24px; }
+      .jumbotron .visual-slider > div.slider-bg {
+        display: none; }
   @media (min-width: 768px) {
     .jumbotron {
       overflow: hidden; }
@@ -527,7 +530,7 @@ a {
         .jumbotron .visual-slider > div.slider-bg {
           top: 30px;
           height: 619px;
-          background-image: url(/assets/image/main/img_md_slider01.jpg); }
+          background-image: url(/assets/images/main/img_md_slider01.jpg); }
       .jumbotron .visual-slider.action > div {
         opacity: 1; }
         .jumbotron .visual-slider.action > div.summary {
@@ -562,7 +565,7 @@ a {
     .jumbotron .visual-slider > div.slider-bg {
       top: 30px;
       height: 797px;
-      background-image: url(/assets/image/main/img_xl_slider01.jpg); } }
+      background-image: url(/assets/images/main/img_xl_slider01.jpg); } }
   @media (min-width: 1400px) {
     .jumbotron .slick-arrow {
       top: 50%;
@@ -589,7 +592,7 @@ a {
     .jumbotron .visual-slider > div.slider-bg {
       top: 30px;
       height: 797px;
-      background-image: url(/assets/image/main/img_xl_slider01.jpg); } }
+      background-image: url(/assets/images/main/img_xl_slider01.jpg); } }
   @media (min-width: 1600px) {
     .jumbotron .slick-arrow.slick-prev {
       left: 10%; }
@@ -617,7 +620,7 @@ a {
       font-weight: 400;
       margin-bottom: 10px;
       padding-right: 20px;
-      background-image: url(/assets/image/main/ico_professional.png);
+      background-image: url(/assets/images/main/ico_professional.png);
       background-repeat: no-repeat;
       background-position: 100% 0; }
     .professional-list ul > li > .professional small {

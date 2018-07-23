@@ -118,7 +118,7 @@
                                 <li>
                                     <a href="#">
                                         <figure>
-                                            <img src="/assets/image/main/img_about01.jpg" alt="">
+                                            <img src="/assets/images/main/img_about01.jpg" alt="">
                                             <figcaption>생물안전교육</figcaption>
                                         </figure>
                                         <p class="more">자세히 보기</p>
@@ -127,7 +127,7 @@
                                 <li>
                                     <a href="#">
                                         <figure>
-                                            <img src="/assets/image/main/img_about02.jpg" alt="">
+                                            <img src="/assets/images/main/img_about02.jpg" alt="">
                                             <figcaption>생물안전관리</figcaption>
                                         </figure>
                                         <p class="more">자세히 보기</p>
@@ -136,7 +136,7 @@
                                 <li>
                                     <a href="#">
                                         <figure>
-                                            <img src="/assets/image/main/img_about03.jpg" alt="">
+                                            <img src="/assets/images/main/img_about03.jpg" alt="">
                                             <figcaption>생물안전협의회</figcaption>
                                         </figure>
                                         <p class="more">자세히 보기</p>
@@ -192,56 +192,56 @@
                     <li class="col-6 col-md-4 col-xl-3">
                         <a href="#" target="_blank">
                             <figure>
-                                <img src="/assets/image/main/img_partner01.jpg" class="img-fluid" alt="">
+                                <img src="/assets/images/main/img_partner01.jpg" class="img-fluid" alt="">
                             </figure>
                         </a>
                     </li>
                     <li class="col-6 col-md-4 col-xl-3">
                         <a href="#" target="_blank">
                             <figure>
-                                <img src="/assets/image/main/img_partner02.jpg" class="img-fluid" alt="">
+                                <img src="/assets/images/main/img_partner02.jpg" class="img-fluid" alt="">
                             </figure>
                         </a>
                     </li>
                     <li class="col-6 col-md-4 col-xl-3">
                         <a href="#" target="_blank">
                             <figure>
-                                <img src="/assets/image/main/img_partner03.jpg" class="img-fluid" alt="">
+                                <img src="/assets/images/main/img_partner03.jpg" class="img-fluid" alt="">
                             </figure>
                         </a>
                     </li>
                     <li class="col-6 col-md-4 col-xl-3">
                         <a href="#" target="_blank">
                             <figure>
-                                <img src="/assets/image/main/img_partner04.jpg" class="img-fluid" alt="">
+                                <img src="/assets/images/main/img_partner04.jpg" class="img-fluid" alt="">
                             </figure>
                         </a>
                     </li>
                     <li class="col-6 col-md-4 col-xl-3">
                         <a href="#" target="_blank">
                             <figure>
-                                <img src="/assets/image/main/img_partner01.jpg" class="img-fluid" alt="">
+                                <img src="/assets/images/main/img_partner01.jpg" class="img-fluid" alt="">
                             </figure>
                         </a>
                     </li>
                     <li class="col-6 col-md-4 col-xl-3">
                         <a href="#" target="_blank">
                             <figure>
-                                <img src="/assets/image/main/img_partner02.jpg" class="img-fluid" alt="">
+                                <img src="/assets/images/main/img_partner02.jpg" class="img-fluid" alt="">
                             </figure>
                         </a>
                     </li>
                     <li class="col-6 col-md-4 col-xl-3">
                         <a href="#" target="_blank">
                             <figure>
-                                <img src="/assets/image/main/img_partner03.jpg" class="img-fluid" alt="">
+                                <img src="/assets/images/main/img_partner03.jpg" class="img-fluid" alt="">
                             </figure>
                         </a>
                     </li>
                     <li class="col-6 col-md-4 col-xl-3">
                         <a href="#" target="_blank">
                             <figure>
-                                <img src="/assets/image/main/img_partner04.jpg" class="img-fluid" alt="">
+                                <img src="/assets/images/main/img_partner04.jpg" class="img-fluid" alt="">
                             </figure>
                         </a>
                     </li>
