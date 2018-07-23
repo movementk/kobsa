@@ -1,6 +1,6 @@
 <!-- Header -->
 <header id="header">
-    <div class="container">
+    <div class="container-fluid">
         <div class="header-wrap">
             <h1 class="logo">
                 <a href="/"><img src="/assets/images/logo.jpg" alt="한국생물안전협회"></a>

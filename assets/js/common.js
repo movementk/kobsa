@@ -34,6 +34,15 @@
         }
     });
     
+    // header scroll
+    $(window).on('scroll', function(){
+        if ($(this).scrollTop() > 0) {
+            $('body').addClass('scrolled');
+        } else {
+            $('body').removeClass('scrolled');
+        }
+    });
+    
     // global-search 관련
     $(document).on('click','.global-search', function(){
         $('.global-search').addClass('action');
