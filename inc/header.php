@@ -27,15 +27,15 @@
                     <div class="global-search">
                         <form action="#">
                             <div class="form-group d-none">
-                                <input type="text" id="global-search" class="form-control">
+                                <input type="text" id="global-search" class="form-control" placeholder="검색어를 입력하세요">
                                 <label for="global-search" class="sr-only">전체검색</label>
                             </div>
-                            <a href="#" class="btn btn-search" role="button">
+                            <a href="javascript:;" class="btn btn-search default-btn" role="button">
                                 <i class="icon-search-1">
                                     <span class="sr-only">검색하기</span>
                                 </i>
                             </a>
-                            <button type="submit" class="btn btn-search d-none">
+                            <button type="submit" class="btn btn-search event-btn">
                                 <i class="icon-search-1">
                                     <span class="sr-only">검색하기</span>
                                 </i>

@@ -248,7 +248,6 @@
                 </ul>
             </div>
         </article>
-        
     </main>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>

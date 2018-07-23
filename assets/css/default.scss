@@ -37,7 +37,6 @@ body {
     width: 100%;
     height: 56px;
     z-index: 100;
-    overflow: hidden;
     background-color: #fff;
     box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
     .header-wrap {
@@ -163,8 +162,10 @@ body {
             width: 100%;
             height: 70px;
             padding: 0 25px;
+            overflow: hidden;
             background-color: #fff;
             @include transition();
+            box-shadow: 4px 6px 7px 0px rgba(0, 0, 0, 0.06);
             &:before {
                 content: "";
                 display: block;
@@ -174,7 +175,6 @@ body {
                 width: 100%;
                 height: 70px;
                 background-color: #fff;
-                box-shadow: 4px 6px 7px 0px rgba(0, 0, 0, 0.06);
             }
             .logo {
                 position: relative;
@@ -236,14 +236,52 @@ body {
                         }
                     }
                     .global-search {
+                        position: relative;
                         float: left;
-                        margin-left: 20px;
+                        padding-right: 40px;
+                        .form-group {
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                            width: 300px;
+                            .form-control {
+                                height: 25px;
+                                font-size: 12px;
+                                padding: 5px;
+                                padding-right: 20px;
+                                border: 1px solid #fff;
+                            }
+                        }
                         .btn-search {
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                            height: 25px;
+                            width: 25px;
                             color: #fff;
                             font-size: 13px;
+                            z-index: 1;
                             .icon-search-1 {
-                                position: relative;
-                                top: -1px;
+                                &:before {
+                                    position: relative;
+                                    top: 2px;
+                                }
+                            }
+                            &.event-btn {
+                                display: none;
+                            }
+                            &.default-btn {
+                                display: block;
+                            }
+                        }
+                        &.action {
+                            .btn-search {
+                                display: none;
+                            }
+                            .event-btn {
+                                top: -2px;
+                                color: #333;
+                                display: block;
                             }
                         }
                     }
@@ -572,7 +610,11 @@ body {
         height: auto;
         .header-wrap {
             height: 430px;
+            box-shadow: none;
             background-color: #f5f5f5;
+            &:before {
+                box-shadow: 4px 6px 7px 0px rgba(0, 0, 0, 0.06);
+            }
         }
     }
     #gnb {

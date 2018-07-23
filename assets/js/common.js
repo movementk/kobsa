@@ -33,4 +33,16 @@
             $('body').removeClass("nav-extend");
         }
     });
+    
+    // global-search 관련
+    $(document).on('click','.global-search', function(){
+        $('.global-search').addClass('action');
+        $('.global-search .form-group').addClass('d-block');
+        $('.global-search .form-group').removeClass('d-none');
+    });
+    $(document).on('click','#content', function(){
+        $('.global-search').removeClass('action');
+        $('.global-search .form-group').removeClass('d-block');
+        $('.global-search .form-group').addClass('d-none');
+    });
 })(jQuery);
