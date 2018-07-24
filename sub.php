@@ -1,8 +1,14 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
 <link rel="stylesheet" href="/assets/css/sub.css">
 </head>
-<body>
+<body class="sub introduce">
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
+    
+    <!-- page-header -->
+    <div class="page-header">
+        <small>협회소개</small>
+        <h3 class="page-title">ASSOCIATION<br class="d-md-none"> INTRODUCE</h3>
+    </div>
     
     <!-- Sub Content Start -->
     <main id="content" class="">

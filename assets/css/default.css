@@ -538,8 +538,9 @@ body {
               padding-left: 15px; }
           #header .header-wrap .quick .top-menu {
             float: right;
-            margin-right: 15px;
-            padding-right: 2%;
+            /*margin-right: 15px;
+            padding-right: 2%;*/
+            margin-right: 3%;
             margin-top: 15px; }
             #header .header-wrap .quick .top-menu > ul {
               float: left; }
