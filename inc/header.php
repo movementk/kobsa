@@ -84,10 +84,10 @@
                     <li>
                         <a href="#">생물안전 전문기업소개</a>
                         <ul>
-                            <li><a href="#">국내외 동향<span></span></a></li>
+                            <li><a href="#">설계, 시공 전문<span></span></a></li>
                             <li><a href="#">시설 유지보수전문<span></span></a></li>
-                            <li><a href="#">장비 및 소모품전문<span></span></a></li>
-                            <li><a href="#">멸균 및 검증전문<span></span></a></li>
+                            <li><a href="#">장비 및 소모품 전문<span></span></a></li>
+                            <li><a href="#">멸균 및 검증 전문<span></span></a></li>
                         </ul>
                     </li>
                 </ul>
@@ -176,10 +176,10 @@
                 <li>
                     <a href="#">생물안전 전문기업소개</a>
                     <ul>
-                        <li><a href="#">국내외 동향</a></li>
+                        <li><a href="#">설계, 시공 전문</a></li>
                         <li><a href="#">시설 유지보수전문</a></li>
-                        <li><a href="#">장비 및 소모품전문</a></li>
-                        <li><a href="#">멸균 및 검증전문</a></li>
+                        <li><a href="#">장비 및 소모품 전문</a></li>
+                        <li><a href="#">멸균 및 검증 전문</a></li>
                     </ul>
                 </li>
                 <li class="ibc">
