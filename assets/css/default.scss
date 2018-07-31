@@ -550,6 +550,10 @@ body {
                 padding: 0 35px;
                 font-weight: 400;
                 line-height: 70px;
+                @include transition();
+                &:hover {
+                    color: #085eaa;
+                }
             }
             > ul {
                 margin: 40px 0;
@@ -592,6 +596,11 @@ body {
             &:last-child {
                 > ul {
                     border-right: 0;
+                }
+            }
+            &.active {
+                > a {
+                    color: #085eaa;
                 }
             }
         }

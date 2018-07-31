@@ -384,6 +384,11 @@ a {
     #content {
       padding: 50px 0 120px; } }
 
+.ex-title {
+  font-size: 15px;
+  color: cornflowerblue;
+  padding-bottom: 30px; }
+
 .page-header {
   width: 100%;
   padding: 40px 0;
@@ -431,5 +436,186 @@ a {
       padding: 70px 0 60px; }
       .section-header h4 {
         font-size: 34px; } }
+
+.search-form {
+  position: relative;
+  padding-left: 100px; }
+  .search-form .form-group select {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90px; }
+  .search-form .form-group input[type="text"] {
+    padding-right: 45px; }
+  .search-form .form-group .form-control {
+    font-size: 13px;
+    color: #999;
+    height: 40px !important;
+    padding: 0 10px;
+    border: 1px solid #fff;
+    border-bottom: 1px solid #a3a3a3; }
+    .search-form .form-group .form-control::-webkit-input-placeholder {
+      color: #999; }
+    .search-form .form-group .form-control::-moz-placeholder {
+      color: #999; }
+    .search-form .form-group .form-control:-ms-input-placeholder {
+      color: #999; }
+    .search-form .form-group .form-control:-moz-placeholder {
+      color: #999; }
+  .search-form .sub-search {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
+    color: #999; }
+  @media (min-width: 768px) {
+    .search-form {
+      width: 410px;
+      margin: 0 auto;
+      padding-left: 115px; }
+      .search-form .form-group select {
+        width: 100px; }
+      .search-form .form-group input[type="text"] {
+        padding-right: 45px; }
+      .search-form .form-group .form-control {
+        font-size: 14px; }
+      .search-form .sub-search {
+        font-size: 17px; }
+        .search-form .sub-search i {
+          position: relative;
+          top: -2px; } }
+
+.paging {
+  text-align: center; }
+  .paging .pagination {
+    overflow: hidden;
+    display: inline-block; }
+    .paging .pagination > li {
+      float: left; }
+      .paging .pagination > li > a {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        padding: 0;
+        border: 0;
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 17px;
+        color: #666;
+        font-weight: 400;
+        border-radius: 50%;
+        margin: 0 3px;
+        background: none; }
+      .paging .pagination > li.active > a {
+        background-color: #085eaa; }
+      .paging .pagination > li.first > a {
+        margin-left: 0; }
+      .paging .pagination > li.last > a {
+        margin-right: 0; }
+      .paging .pagination > li.prev > a {
+        margin-right: 8px; }
+        @media (min-width: 768px) {
+          .paging .pagination > li.prev > a {
+            margin-right: 20px; } }
+      .paging .pagination > li.next > a {
+        margin-left: 8px; }
+        @media (min-width: 768px) {
+          .paging .pagination > li.next > a {
+            margin-left: 20px; } }
+
+.board-list {
+  border-top: 2px solid #393939; }
+  .board-list .board-body > ol > li {
+    padding: 20px 10px;
+    border-bottom: 1px solid #ccc; }
+    .board-list .board-body > ol > li > ul > li {
+      font-size: 13px;
+      color: #999;
+      font-weight: 300; }
+      .board-list .board-body > ol > li > ul > li.num {
+        font-family: 'Titillium Web', sans-serif; }
+      .board-list .board-body > ol > li > ul > li.subject {
+        display: block;
+        margin-bottom: 20px; }
+        .board-list .board-body > ol > li > ul > li.subject > a {
+          font-size: 14px;
+          color: #666;
+          font-weight: 400;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          white-space: nowrap;
+          display: block; }
+      .board-list .board-body > ol > li > ul > li.date {
+        display: inline-block; }
+        .board-list .board-body > ol > li > ul > li.date:after {
+          position: relative;
+          top: -2px;
+          font-size: 10px;
+          display: inline-block;
+          content: "|";
+          margin: 0 10px; }
+      .board-list .board-body > ol > li > ul > li.hit {
+        display: inline-block; }
+      .board-list .board-body > ol > li > ul > li dl {
+        display: inline-block; }
+        .board-list .board-body > ol > li > ul > li dl dt {
+          display: inline-block;
+          font-weight: 300;
+          margin-right: 5px; }
+        .board-list .board-body > ol > li > ul > li dl dd {
+          display: inline-block;
+          font-weight: 300;
+          font-family: 'Titillium Web', sans-serif; }
+  @media (min-width: 1200px) {
+    .board-list .board-head {
+      border-bottom: 1px solid #dfdfdf; }
+      .board-list .board-head > ul {
+        display: table;
+        width: 100%; }
+        .board-list .board-head > ul > li {
+          display: table-cell;
+          font-size: 15px;
+          color: #333;
+          vertical-align: middle;
+          height: 52px;
+          text-align: center;
+          font-weight: 400; }
+          .board-list .board-head > ul > li.num {
+            width: 8%; }
+          .board-list .board-head > ul > li.subject {
+            width: 62%; }
+          .board-list .board-head > ul > li.attach {
+            width: 10%; }
+          .board-list .board-head > ul > li.date {
+            width: 10%; }
+          .board-list .board-head > ul > li.hit {
+            width: 8%; }
+    .board-list .board-body > ol > li {
+      padding: 0; }
+      .board-list .board-body > ol > li > ul {
+        display: table !important;
+        table-layout: fixed;
+        width: 100%; }
+        .board-list .board-body > ol > li > ul > li {
+          display: table-cell !important;
+          vertical-align: middle;
+          height: 52px;
+          text-align: center; }
+          .board-list .board-body > ol > li > ul > li.num {
+            width: 8%; }
+          .board-list .board-body > ol > li > ul > li.subject {
+            width: 64%; }
+            .board-list .board-body > ol > li > ul > li.subject a {
+              text-align: left; }
+          .board-list .board-body > ol > li > ul > li.attach {
+            width: 10%; }
+          .board-list .board-body > ol > li > ul > li.date {
+            width: 10%; }
+            .board-list .board-body > ol > li > ul > li.date:after {
+              display: none;
+              margin: 0; }
+          .board-list .board-body > ol > li > ul > li.hit {
+            width: 8%; } }
 
 /*# sourceMappingURL=sub.css.map */

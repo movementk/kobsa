@@ -794,7 +794,17 @@ body {
         display: block;
         padding: 0 35px;
         font-weight: 400;
-        line-height: 70px; }
+        line-height: 70px;
+        -webkit-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.15s;
+        transition-duration: 0.15s;
+        -webkit-transition-timing-function: linear;
+        transition-timing-function: linear;
+        -webkit-transition-delay: 0s;
+        transition-delay: 0s; }
+        #gnb > ul > li > a:hover {
+          color: #085eaa; }
       #gnb > ul > li > ul {
         margin: 40px 0;
         height: 0;
@@ -849,6 +859,8 @@ body {
             margin-bottom: 0; }
       #gnb > ul > li:last-child > ul {
         border-right: 0; }
+      #gnb > ul > li.active > a {
+        color: #085eaa; }
   #gnb .ibc {
     float: left;
     padding: 23px 0;

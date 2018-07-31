@@ -21,6 +21,12 @@
     }
 }
 
+.ex-title {
+    font-size: 15px;
+    color: cornflowerblue;
+    padding-bottom: 30px;
+}
+
 //page-header 
 .page-header {
     width: 100%;
@@ -79,3 +85,312 @@
         }
     }
 }
+
+// 검색영역
+.search-form {
+    position: relative;
+    padding-left: 100px;
+    .form-group {
+        select {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 90px;
+        }
+        input[type="text"] {
+            padding-right: 45px;
+        }
+        .form-control {
+            font-size: 13px;
+            color: #999;
+            height: 40px !important;
+            padding: 0 10px;
+            border: 1px solid #fff;
+            border-bottom: 1px solid #a3a3a3;
+            &::-webkit-input-placeholder {
+                color: #999;
+            }
+            &::-moz-placeholder {
+                color: #999;
+            }
+            &:-ms-input-placeholder {
+                color: #999;
+            }
+            &:-moz-placeholder {
+                color: #999;
+            }
+        }
+    }
+    .sub-search {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 40px;
+        height: 40px;
+        font-size: 14px;
+        color: #999;
+    }
+    @media(min-width: $md) {
+        width: 410px;
+        margin: 0 auto;
+        padding-left: 115px;
+        .form-group {
+            select {
+                width: 100px;
+            }
+            input[type="text"] {
+                padding-right: 45px;
+            }
+            .form-control {
+                font-size: 14px;
+            }
+        }
+        .sub-search {
+            font-size: 17px;
+            i {
+                position: relative;
+                top: -2px;
+            }
+        }
+    }
+}
+
+// paging
+.paging {
+    text-align: center;
+    .pagination {
+        overflow: hidden;
+        display: inline-block;
+        > li {
+            float: left;
+            > a {
+                width: 25px;
+                height: 25px;
+                line-height: 25px;
+                padding: 0;
+                border: 0;
+                @include titi();
+                font-size: 17px;
+                color: #666;
+                font-weight: 400;
+                border-radius: 50%;
+                margin: 0 3px;
+                background: none;
+            }
+            &.active {
+                > a {
+                    background-color: #085eaa;
+                }
+            }
+            &.first {
+                > a {
+                    margin-left: 0;
+                }
+            }
+            &.last {
+                > a {
+                    margin-right: 0;
+                }
+            }
+            &.prev {
+                > a {
+                    margin-right: 8px;
+                    @media(min-width: $md) {
+                        margin-right: 20px;
+                    }
+                }
+            }
+            &.next {
+                > a {
+                    margin-left: 8px;
+                    @media(min-width: $md) {
+                        margin-left: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 게시판 리스트
+.board-list {
+    border-top: 2px solid #393939;
+    .board-body {
+        > ol {
+            > li {
+                padding: 20px 10px;
+                border-bottom: 1px solid #ccc;
+                > ul {
+                    > li {
+                        font-size: 13px;
+                        color: #999;
+                        font-weight: 300;
+                        &.num {
+                            @include titi();
+                        }
+                        &.subject {
+                            display: block;
+                            margin-bottom: 20px;
+                            > a {
+                                font-size: 14px;
+                                color: #666;
+                                font-weight: 400;
+                                text-overflow: ellipsis;
+                                overflow: hidden;
+                                white-space: nowrap;
+                                display: block;
+                            }
+                        }
+                        &.date {
+                            display: inline-block;
+                            &:after {
+                                position: relative;
+                                top: -2px;
+                                font-size: 10px;
+                                display: inline-block;
+                                content: "|";
+                                margin: 0 10px;
+                            }
+                        }
+                        &.hit {
+                            display: inline-block;
+                        }
+                        dl {
+                            display: inline-block;
+                            dt {
+                                display: inline-block;
+                                font-weight: 300;
+                                margin-right: 5px;
+                            }
+                            dd {
+                                display: inline-block;
+                                font-weight: 300;
+                                @include titi();
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media(min-width: $xl) {
+        .board-head {
+            border-bottom: 1px solid #dfdfdf;
+            > ul {
+                display: table;
+                width: 100%;
+                > li {
+                    display: table-cell;
+                    font-size: 15px;
+                    color: #333;
+                    vertical-align: middle;
+                    height: 52px;
+                    text-align: center;
+                    font-weight: 400;
+                    &.num {
+                        width: 8%;
+                    }
+                    &.subject {
+                        width: 62%;
+                    }
+                    &.attach {
+                        width: 10%;
+                    }
+                    &.date {
+                        width: 10%;
+                    }
+                    &.hit {
+                        width: 8%;
+                    }
+                }
+            }
+        }
+        .board-body {
+            > ol {
+                > li {
+                    padding: 0;
+                    > ul {
+                        display: table !important;
+                        table-layout: fixed;
+                        width: 100%;
+                        > li {
+                            display: table-cell !important;
+                            vertical-align: middle;
+                            height: 52px;
+                            text-align: center;
+                            &.num {
+                                width: 8%;
+                            }
+                            &.subject {
+                                width: 64%;
+                                a {
+                                    text-align: left;
+                                }
+                            }
+                            &.attach {
+                                width: 10%;
+                            }
+                            &.date {
+                                width: 10%;
+                                &:after {
+                                    display: none;
+                                    margin: 0;
+                                }
+                            }
+                            &.hit {
+                                width: 8%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

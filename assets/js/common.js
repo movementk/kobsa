@@ -24,6 +24,15 @@
     $(document).on('mouseleave','#header .header-wrap', function(){
         $('body').removeClass('opened');
     });
+    $(document).on('mouseenter focus', '#gnb > ul > li', function() {
+		if ($(this).siblings().length > 0) {
+			$(this).siblings().removeClass('active');
+			$(this).addClass('active');
+		}
+	});
+    $(document).on('mouseleave', '#gnb > ul > li', function() {
+        $(this).removeClass('active');
+    });
 
     // 메인 화면 resize 1200 클레스 제거
     $(window).on('load resize', function() {
