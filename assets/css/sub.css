@@ -3,6 +3,21 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
 @import url(//cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
 @import url("https://fonts.googleapis.com/css?family=Titillium+Web:200,300,400,600,700");
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 300;
+  src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff) format("woff"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.otf) format("opentype"); }
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format("woff"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format("opentype"); }
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 500;
+  src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff) format("woff"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.otf) format("opentype"); }
 /*@mixin roboto() {
     font-family: 'Roboto', sans-serif;
 }*/
@@ -584,7 +599,7 @@ a {
           .board-list .board-head > ul > li.num {
             width: 8%; }
           .board-list .board-head > ul > li.subject {
-            width: 62%; }
+            width: 64%; }
           .board-list .board-head > ul > li.attach {
             width: 10%; }
           .board-list .board-head > ul > li.date {
@@ -617,5 +632,156 @@ a {
               margin: 0; }
           .board-list .board-body > ol > li > ul > li.hit {
             width: 8%; } }
+
+.board-view .view-head {
+  border-top: 2px solid #333; }
+  .board-view .view-head h5 {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    line-height: 24px;
+    padding: 10px 20px;
+    font-weight: 400;
+    word-break: keep-all;
+    border-bottom: 1px solid #d6d6d6; }
+  .board-view .view-head > ul {
+    padding: 10px 20px;
+    border-bottom: 1px solid #d6d6d6; }
+    .board-view .view-head > ul > li {
+      font-size: 13px;
+      color: #666;
+      display: inline-block; }
+      .board-view .view-head > ul > li:after {
+        position: relative;
+        top: -2px;
+        font-size: 10px;
+        color: #d6d6d6;
+        content: "|";
+        margin: 0 10px; }
+      .board-view .view-head > ul > li:last-child:after {
+        content: "";
+        margin: 0; }
+      .board-view .view-head > ul > li > dl {
+        display: inline-block; }
+        .board-view .view-head > ul > li > dl > dt {
+          font-weight: 300;
+          display: inline-block; }
+          .board-view .view-head > ul > li > dl > dt:after {
+            content: ":";
+            margin: 0 2px 0 4px; }
+        .board-view .view-head > ul > li > dl > dd {
+          font-weight: 300;
+          display: inline-block; }
+.board-view .view-content {
+  font-size: 13px;
+  color: #666;
+  line-height: 24px;
+  padding: 35px 10px 50px;
+  border-bottom: 1px solid #d6d6d6; }
+.board-view .attach {
+  position: relative;
+  overflow: hidden;
+  padding: 30px 10px;
+  border-bottom: 1px solid #333; }
+  .board-view .attach > dt {
+    position: relative;
+    height: 100%;
+    float: left;
+    font-size: 13px;
+    color: #666;
+    font-weight: 300; }
+    .board-view .attach > dt:after {
+      content: ":";
+      margin: 0 6px 0; }
+  .board-view .attach > dd {
+    font-size: 13px;
+    color: #666;
+    padding-left: 65px;
+    font-weight: 300; }
+    .board-view .attach > dd > ul > li ~ li {
+      margin-top: 20px; }
+    .board-view .attach > dd > ul > li > a {
+      padding-left: 30px;
+      background-repeat: no-repeat;
+      background-size: auto 19px;
+      background-image: url(/assets/images/sub/icon_attach.gif);
+      background-position: 0 50%; }
+.board-view .page-link {
+  padding: 0;
+  margin-top: 40px;
+  border: 0;
+  background: none;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333; }
+  .board-view .page-link > ul > li {
+    font-size: 13px;
+    color: #666; }
+    .board-view .page-link > ul > li ~ li {
+      border-top: 1px solid #d6d6d6; }
+    .board-view .page-link > ul > li > dl {
+      position: relative;
+      padding-left: 90px; }
+      .board-view .page-link > ul > li > dl > dt {
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-weight: 400;
+        line-height: 58px;
+        width: 90px;
+        padding: 0 20px 0 10px;
+        background-color: #fafafa; }
+        .board-view .page-link > ul > li > dl > dt:after {
+          content: "\F006";
+          font-size: 12px;
+          font-family: "fontello";
+          float: right; }
+      .board-view .page-link > ul > li > dl > dd > a {
+        display: block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        display: block;
+        font-weight: 400;
+        line-height: 58px;
+        padding: 0 10px 0 20px; }
+@media (min-width: 768px) {
+  .board-view .view-head h5 {
+    padding: 20px 15px;
+    font-size: 15px; }
+  .board-view .view-head > ul {
+    padding: 20px 15px; }
+    .board-view .view-head > ul > li {
+      font-size: 14px; }
+  .board-view .view-content {
+    font-size: 14px;
+    line-height: 32px;
+    padding: 40px 15px 50px; }
+  .board-view .attach {
+    padding: 30px 15px; }
+    .board-view .attach > dt {
+      font-size: 14px; }
+    .board-view .attach > dd {
+      font-size: 14px;
+      padding-left: 70px; }
+  .board-view .page-link {
+    margin-top: 70px; }
+    .board-view .page-link > ul > li {
+      font-size: 14px; }
+      .board-view .page-link > ul > li > dl {
+        padding-left: 125px; }
+        .board-view .page-link > ul > li > dl > dt {
+          width: 125px;
+          padding: 0 30px; }
+        .board-view .page-link > ul > li > dl > dd > a {
+          padding: 0 35px; } }
+@media (min-width: 1200px) {
+  .board-view .view-head h5 {
+    font-size: 15px; }
+  .board-view .view-content {
+    font-size: 15px;
+    line-height: 32px;
+    padding: 70px 15px 85px; }
+  .board-view .page-link {
+    margin-top: 65px; } }
 
 /*# sourceMappingURL=sub.css.map */

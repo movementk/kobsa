@@ -291,7 +291,7 @@
                         width: 8%;
                     }
                     &.subject {
-                        width: 62%;
+                        width: 64%;
                     }
                     &.attach {
                         width: 10%;
@@ -348,7 +348,221 @@
     }
 }
 
-
+// board-view
+.board-view {
+    .view-head {
+        border-top: 2px solid #333;
+        h5 {
+            display: block;
+            font-size: 14px;
+            color: #333;
+            line-height: 24px;
+            padding: 10px 20px;
+            font-weight: 400;
+            word-break: keep-all;
+            border-bottom: 1px solid #d6d6d6;
+        }
+        > ul {
+            padding: 10px 20px;
+            border-bottom: 1px solid #d6d6d6;
+            > li {
+                font-size: 13px;
+                color: #666;
+                display: inline-block;
+                &:after {
+                    position: relative;
+                    top: -2px;
+                    font-size: 10px;
+                    color: #d6d6d6;
+                    content: "|";
+                    margin: 0 10px;
+                }
+                &:last-child {
+                    &:after {
+                        content: "";
+                        margin: 0;
+                    }
+                }
+                > dl {
+                    display: inline-block;
+                    > dt {
+                        font-weight: 300;
+                        display: inline-block;
+                        &:after {
+                            content: ":";
+                            margin: 0 2px 0 4px;
+                        }
+                    }
+                    > dd {
+                        font-weight: 300;
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+    }
+    .view-content {
+        font-size: 13px;
+        color: #666;
+        line-height: 24px;
+        padding: 35px 10px 50px;
+        border-bottom: 1px solid #d6d6d6;
+    }
+    .attach {
+        position: relative;
+        overflow: hidden;
+        padding: 30px 10px;
+        border-bottom: 1px solid #333;
+        > dt {
+            position: relative;
+            height: 100%;
+            float: left;
+            font-size: 13px;
+            color: #666;
+            font-weight: 300;
+            &:after {
+                content: ":";
+                margin: 0 6px 0;
+            }
+        }
+        > dd {
+            font-size: 13px;
+            color: #666;
+            padding-left: 65px;
+            font-weight: 300;
+            > ul {
+                > li {
+                    & ~ li {
+                        margin-top: 20px;
+                    }
+                    > a {
+                        padding-left: 30px;
+                        background-repeat: no-repeat;
+                        background-size: auto 19px;
+                        background-image: url(/assets/images/sub/icon_attach.gif);
+                        background-position: 0 50%;
+                    }
+                }
+            }
+        }
+    }
+    .page-link {
+        padding: 0;
+        margin-top: 40px;
+        border: 0;
+        background: none;
+        border-top: 1px solid #333;
+        border-bottom: 1px solid #333;
+        > ul {
+            > li {
+                font-size: 13px;
+                color: #666;
+                & ~ li {
+                    border-top: 1px solid #d6d6d6;
+                }
+                > dl {
+                    position: relative;
+                    padding-left: 90px;
+                    > dt {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        font-weight: 400;
+                        line-height: 58px;
+                        width: 90px;
+                        padding: 0 20px 0 10px;
+                        background-color: #fafafa;
+                        &:after {
+                            content: "\F006";
+                            font-size: 12px;
+                            font-family: "fontello";
+                            float: right;
+                        }
+                    }
+                    > dd {
+                        > a {
+                            display: block;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            white-space: nowrap;
+                            display: block;
+                            font-weight: 400;
+                            line-height: 58px;
+                            padding: 0 10px 0 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media(min-width: $md) {
+        .view-head {
+            h5 {
+                padding: 20px 15px;
+                font-size: 15px;
+            }
+            > ul {
+                padding: 20px 15px;
+                > li {
+                    font-size: 14px;
+                }
+            }
+        }
+        .view-content {
+            font-size: 14px;
+            line-height: 32px;
+            padding: 40px 15px 50px;
+        }
+        .attach {
+            padding: 30px 15px;
+            > dt {
+                font-size: 14px;
+            }
+            > dd {
+                font-size: 14px;
+                padding-left: 70px;
+            }
+        }
+        .page-link {
+            margin-top: 70px;
+            > ul {
+                > li {
+                    font-size: 14px;
+                    > dl {
+                        padding-left: 125px;
+                        > dt {
+                            width: 125px;
+                            padding: 0 30px;
+                            &:after {
+                                
+                            }
+                        }
+                        > dd {
+                            > a {
+                                padding: 0 35px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media(min-width: $xl) {
+        .view-head {
+            h5 {
+                font-size: 15px;
+            }
+        }
+        .view-content {
+            font-size: 15px;
+            line-height: 32px;
+            padding: 70px 15px 85px;
+        }
+        .page-link {
+            margin-top: 65px;
+        }
+    }
+}
 
 
 

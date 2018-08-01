@@ -47,9 +47,9 @@
             <nav id="gnb" class="d-none d-xl-block">
                 <ul>
                     <li>
-                        <a href="#">협회소개</a>
+                        <a href="/introduce/greeting.php">협회소개</a>
                         <ul>
-                            <li><a href="#">협회장 인사말<span></span></a></li>
+                            <li><a href="/introduce/greeting.php">협회장 인사말<span></span></a></li>
                             <li><a href="#">협회소개<span></span></a></li>
                             <li><a href="#">회원사소개<span></span></a></li>
                             <li><a href="#">조직구성<span></span></a></li>
@@ -141,7 +141,7 @@
                 <li>
                     <a href="#">협회소개</a>
                     <ul>
-                        <li><a href="#">협회장 인사말</a></li>
+                        <li><a href="/introduce/greeting.php">협회장 인사말</a></li>
                         <li><a href="#">협회소개</a></li>
                         <li><a href="#">회원사소개</a></li>
                         <li><a href="#">조직구성</a></li>
