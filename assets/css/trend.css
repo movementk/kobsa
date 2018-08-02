@@ -380,11 +380,21 @@ a {
     .container {
       max-width: 1200px; } }
 
+.trend .page-header {
+  padding: 53px 0;
+  background-image: url(/assets/images/trend/bg_page_header.jpg); }
+  @media (min-width: 768px) {
+    .trend .page-header {
+      padding: 80px 0; } }
+  @media (min-width: 1200px) {
+    .trend .page-header {
+      padding: 200px 0 90px; } }
+
 .lnb-list > ul {
   font-size: 0; }
   .lnb-list > ul > li {
     display: inline-block;
-    width: 33.33%;
+    width: 50%;
     text-align: center;
     border: 1px solid #bababa;
     border-right: 0;
@@ -411,232 +421,27 @@ a {
       background-color: #085eaa; }
       .lnb-list > ul > li.active a:hover {
         opacity: 1; }
-    .lnb-list > ul > li:nth-of-type(3n + 3) {
+    .lnb-list > ul > li:nth-of-type(2), .lnb-list > ul > li:nth-of-type(3) {
       border-right: 1px solid #bababa; }
-    .lnb-list > ul > li:nth-of-type(1), .lnb-list > ul > li:nth-of-type(2), .lnb-list > ul > li:nth-of-type(3) {
+    .lnb-list > ul > li:nth-of-type(1), .lnb-list > ul > li:nth-of-type(2) {
       border-top: 1px solid #bababa; }
 @media (min-width: 768px) {
-  .lnb-list > ul > li a {
-    font-size: 15px;
-    line-height: 55px; } }
-@media (min-width: 1200px) {
   .lnb-list > ul {
     display: table;
     width: 100%; }
     .lnb-list > ul > li {
       display: table-cell;
-      width: 1%;
+      width: 33.33%;
       border-bottom: 1px solid #bababa;
       border-top: 1px solid #bababa;
       border-right: 0 !important; }
       .lnb-list > ul > li a {
-        font-size: 16px;
+        font-size: 15px;
         line-height: 55px; }
       .lnb-list > ul > li:last-child {
         border-right: 1px solid #bababa !important; } }
-
-.greeting .section-content .president > .article-header .president-greeting {
-  padding: 45px 10px 0;
-  background-image: url(/assets/images/introduce/bg_greeting.jpg);
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-size: cover; }
-  .greeting .section-content .president > .article-header .president-greeting .logo {
-    margin-bottom: 20px; }
-    .greeting .section-content .president > .article-header .president-greeting .logo img {
-      width: 82px; }
-  .greeting .section-content .president > .article-header .president-greeting h5 {
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 30px;
-    color: #fff; }
-  .greeting .section-content .president > .article-header .president-greeting p {
-    font-size: 13px;
-    color: #fff;
-    line-height: 26px;
-    margin-top: 25px; }
-  .greeting .section-content .president > .article-header .president-greeting .president-img {
-    margin-top: 30px;
-    padding: 0 50px; }
-    .greeting .section-content .president > .article-header .president-greeting .president-img img {
-      display: block;
-      margin: 0 auto; }
-  .greeting .section-content .president > .article-header .president-greeting dl {
-    text-align: right;
-    margin-top: 40px; }
-    .greeting .section-content .president > .article-header .president-greeting dl dt {
-      font-size: 12px;
-      color: #fff;
-      font-weight: 300;
-      line-height: 38px;
-      display: inline-block; }
-    .greeting .section-content .president > .article-header .president-greeting dl dd {
-      display: inline-block;
-      margin-left: 15px; }
-      .greeting .section-content .president > .article-header .president-greeting dl dd img {
-        width: 102px; }
-.greeting .section-content .president > .article-content {
-  margin-top: 35px; }
-  .greeting .section-content .president > .article-content p {
-    font-size: 13px;
-    color: #666;
-    line-height: 26px;
-    word-break: break-all; }
-    .greeting .section-content .president > .article-content p b {
-      color: #085eaa;
-      font-weight: 500; }
-.greeting .section-content hr {
-  display: block;
-  width: 100%;
-  margin: 50px 0;
-  border-top: 1px solid #dfdfdf; }
-.greeting .section-content .activity > .article-header h6 {
-  position: relative;
-  font-size: 20px;
-  color: #222;
-  font-weight: 400;
-  padding-top: 15px; }
-  .greeting .section-content .activity > .article-header h6:before {
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block;
-    content: "";
-    width: 40px;
-    height: 2px;
-    background-color: #085eaa; }
-.greeting .section-content .activity > .article-content {
-  margin-top: 30px; }
-  .greeting .section-content .activity > .article-content p {
-    font-size: 13px;
-    color: #666;
-    line-height: 26px;
-    word-break: break-all; }
-  .greeting .section-content .activity > .article-content ol {
-    margin-top: 30px;
-    padding: 30px 20px;
-    background-color: #f8f8f8; }
-    .greeting .section-content .activity > .article-content ol li {
-      position: relative;
-      line-height: 24px;
-      font-size: 14px;
-      color: #333;
-      padding-left: 30px; }
-      .greeting .section-content .activity > .article-content ol li ~ li {
-        margin-top: 20px; }
-      .greeting .section-content .activity > .article-content ol li i {
-        position: absolute;
-        top: 2px;
-        left: 0;
-        font-style: normal;
-        width: 22px;
-        height: 22px;
-        line-height: 22px;
-        display: block;
-        border-radius: 50%;
-        color: #fff;
-        font-weight: bold;
-        font-family: 'Titillium Web', sans-serif;
-        text-align: center;
-        background-color: #085eaa; }
-@media (min-width: 768px) {
-  .greeting .section-content .president > .article-header .president-greeting {
-    padding: 60px 0 0; }
-    .greeting .section-content .president > .article-header .president-greeting .summary {
-      margin-left: -20px; }
-    .greeting .section-content .president > .article-header .president-greeting .logo {
-      margin-bottom: 25px; }
-      .greeting .section-content .president > .article-header .president-greeting .logo img {
-        width: auto; }
-    .greeting .section-content .president > .article-header .president-greeting h5 {
-      font-size: 26px;
-      line-height: 38px;
-      letter-spacing: -.5px; }
-    .greeting .section-content .president > .article-header .president-greeting p {
-      font-size: 14px;
-      line-height: 26px;
-      text-align: justify;
-      margin-top: 35px; }
-    .greeting .section-content .president > .article-header .president-greeting .president-img {
-      padding: 0 30px;
-      margin-top: 40px; }
-    .greeting .section-content .president > .article-header .president-greeting dl {
-      text-align: left;
-      margin-top: 30px; }
-      .greeting .section-content .president > .article-header .president-greeting dl dt {
-        font-size: 13px;
-        line-height: 39px; }
-      .greeting .section-content .president > .article-header .president-greeting dl dd img {
-        width: auto; }
-  .greeting .section-content .president > .article-content {
-    margin-top: 25px; }
-    .greeting .section-content .president > .article-content p {
-      font-size: 14px;
-      line-height: 28px;
-      text-align: justify; }
-  .greeting .section-content hr {
-    margin: 80px 0 70px; }
-  .greeting .section-content .activity > .article-header h6 {
-    font-size: 24px; }
-  .greeting .section-content .activity > .article-content p {
-    font-size: 14px;
-    line-height: 28px;
-    text-align: justify; }
-  .greeting .section-content .activity > .article-content ol {
-    padding: 50px 0;
-    margin-top: 45px;
-    overflow: hidden; }
-    .greeting .section-content .activity > .article-content ol li {
-      float: left;
-      font-size: 15px;
-      font-weight: 400;
-      padding-right: 30px;
-      padding-left: 70px;
-      margin-bottom: 65px !important; }
-      .greeting .section-content .activity > .article-content ol li ~ li {
-        margin: 0; }
-      .greeting .section-content .activity > .article-content ol li i {
-        left: 40px; }
-      .greeting .section-content .activity > .article-content ol li:nth-of-type(2n + 1) {
-        clear: both; }
-      .greeting .section-content .activity > .article-content ol li:nth-of-type(4) ~ li {
-        margin-bottom: 0 !important; }
-      .greeting .section-content .activity > .article-content ol li:nth-of-type(odd) {
-        width: 45%; }
-      .greeting .section-content .activity > .article-content ol li:nth-of-type(even) {
-        width: 55%;
-        padding-right: 8.3333%; } }
 @media (min-width: 1200px) {
-  .greeting .section-content .president > .article-header .president-greeting {
-    padding: 80px 0 0; }
-    .greeting .section-content .president > .article-header .president-greeting .summary {
-      margin-left: 0; }
-    .greeting .section-content .president > .article-header .president-greeting h5 {
-      letter-spacing: 0; }
-    .greeting .section-content .president > .article-header .president-greeting p {
-      font-size: 15px;
-      line-height: 30px; }
-    .greeting .section-content .president > .article-header .president-greeting .president-img {
-      padding: 0;
-      margin-top: 0; }
-    .greeting .section-content .president > .article-header .president-greeting dl {
-      margin-top: 55px; }
-  .greeting .section-content .president > .article-content {
-    margin-top: 60px; }
-    .greeting .section-content .president > .article-content p {
-      font-size: 14px;
-      line-height: 28px;
-      text-align: justify; }
-      .greeting .section-content .president > .article-content p.space:first-child {
-        padding-right: 20px; }
-      .greeting .section-content .president > .article-content p.space:last-child {
-        padding-left: 20px; }
-  .greeting .section-content hr {
-    margin: 130px 0 90px; }
-  .greeting .section-content .activity > .article-content ol {
-    padding: 70px 0;
-    margin-top: 50px; }
-    .greeting .section-content .activity > .article-content ol li {
-      margin-bottom: 40px !important; } }
+  .lnb-list > ul > li a {
+    font-size: 16px; } }
 
-/*# sourceMappingURL=introduce.css.map */
+/*# sourceMappingURL=trend.css.map */

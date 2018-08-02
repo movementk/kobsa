@@ -224,7 +224,7 @@
                     > li {
                         font-size: 13px;
                         color: #999;
-                        font-weight: 300;
+                        font-weight: 400;
                         &.num {
                             @include titi();
                         }
@@ -564,47 +564,75 @@
     }
 }
 
+// 버튼종류
+.btn-area {
+    p {
+        font-size: 0;
+        .btn {
+            display: inline-block;
+            font-size: 13px;
+            @include transition();
+            &:hover {
+                opacity: .7;
+            }
+            &.btn-md {
+                width: 110px;
+                height: 36px;
+                line-height: 36px;
+            }
+            &.btn-blue {
+                color: #fff;
+                background-color: #085eaa;
+            }
+            @media(min-width: $md) {
+                font-size: 15px;
+                &.btn-md {
+                    width: 150px;
+                    height: 50px;
+                    line-height: 50px;
+                }
+            }
+        }
+    }
+}
 
+// 게시판 리스트 공통
+.common-list {
+    .board-list {
+        margin-top: 30px;
+    }
+    .paging {
+        margin-top: 45px;
+    }
+    @media(min-width: $md) {
+        .board-list {
+            margin-top: 40px;
+        }
+        .paging {
+            margin-top: 40px;
+        }
+    }
+    @media(min-width: $xl) {
+        .board-list {
+            margin-top: 50px;
+        }
+    }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// 게시판 뷰 공통
+.common-view {
+    .btn-area {
+        text-align: right;
+        margin-top: 20px;
+    }
+    @media(min-width: $md) {
+        .btn-area {
+            margin-top: 30px;
+        }
+    }
+    @media(min-width: $xl) {
+        .btn-area {
+            margin-top: 40px;
+        }
+    }
+}

@@ -4,18 +4,14 @@
 </head>
 <body class="sub introduce">
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
-    
     <!-- page-header -->
-    <div class="page-header">
-        <small>협회소개</small>
-        <h3 class="page-title">ASSOCIATION<br class="d-md-none"> INTRODUCE</h3>
-    </div>
+    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/introduce/_pageheader.php'); ?>
     
     <!-- Sub Content Start -->
     <main id="content">
         <div class="container">
-            <!-- tab-list -->
-            <div class="lnb">
+            <!-- lnb-list -->
+            <div class="lnb-list">
                 <ul>
                     <li class="active"><a href="/introduce/greeting.php">협회장 인사말</a></li>
                     <li><a href="#">협회소개</a></li>

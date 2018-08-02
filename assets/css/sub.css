@@ -547,7 +547,7 @@ a {
     .board-list .board-body > ol > li > ul > li {
       font-size: 13px;
       color: #999;
-      font-weight: 300; }
+      font-weight: 400; }
       .board-list .board-body > ol > li > ul > li.num {
         font-family: 'Titillium Web', sans-serif; }
       .board-list .board-body > ol > li > ul > li.subject {
@@ -783,5 +783,58 @@ a {
     padding: 70px 15px 85px; }
   .board-view .page-link {
     margin-top: 65px; } }
+
+.btn-area p {
+  font-size: 0; }
+  .btn-area p .btn {
+    display: inline-block;
+    font-size: 13px;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.15s;
+    transition-duration: 0.15s;
+    -webkit-transition-timing-function: linear;
+    transition-timing-function: linear;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s; }
+    .btn-area p .btn:hover {
+      opacity: .7; }
+    .btn-area p .btn.btn-md {
+      width: 110px;
+      height: 36px;
+      line-height: 36px; }
+    .btn-area p .btn.btn-blue {
+      color: #fff;
+      background-color: #085eaa; }
+    @media (min-width: 768px) {
+      .btn-area p .btn {
+        font-size: 15px; }
+        .btn-area p .btn.btn-md {
+          width: 150px;
+          height: 50px;
+          line-height: 50px; } }
+
+.common-list .board-list {
+  margin-top: 30px; }
+.common-list .paging {
+  margin-top: 45px; }
+@media (min-width: 768px) {
+  .common-list .board-list {
+    margin-top: 40px; }
+  .common-list .paging {
+    margin-top: 40px; } }
+@media (min-width: 1200px) {
+  .common-list .board-list {
+    margin-top: 50px; } }
+
+.common-view .btn-area {
+  text-align: right;
+  margin-top: 20px; }
+@media (min-width: 768px) {
+  .common-view .btn-area {
+    margin-top: 30px; } }
+@media (min-width: 1200px) {
+  .common-view .btn-area {
+    margin-top: 40px; } }
 
 /*# sourceMappingURL=sub.css.map */

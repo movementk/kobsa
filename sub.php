@@ -232,6 +232,15 @@
                 </div>
             </article>
             
+            <br><br><br>
+            
+            <!-- 버튼종류 -->
+            <h2 class="ex-title">버튼 종류</h2>
+            <div class="btn-area">
+                <p>
+                    <a href="#" class="btn btn-md btn-blue" role="button">버튼1</a>
+                </p>
+            </div>
         </div>
     </main>
     
