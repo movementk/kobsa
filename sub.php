@@ -94,7 +94,6 @@
                     <ul>
                         <li class="num">No.</li>
                         <li class="subject">제목</li>
-                        <li class="attach">첨부파일</li>
                         <li class="date">등록일</li>
                         <li class="hit">조회</li>
                     </ul>
@@ -108,11 +107,6 @@
                                     <a href="#">
                                         A-PBA(아시아-태평양생물안전협회) 13차 정기 생물안전컨퍼런스 안내
                                     </a>
-                                </li>
-                                <li class="d-none d-xl-block attach">
-                                    <p class="icon-attach">
-                                        <img src="/assets/images/sub/icon_attach.gif" alt="첨부파일 아이콘">
-                                    </p>
                                 </li>
                                 <li class="date">
                                     <dl>
@@ -135,11 +129,6 @@
                                     <a href="#">
                                         A-PBA(아시아-태평양생물안전협회) 13차 정기 생물안전컨퍼런스 안내
                                     </a>
-                                </li>
-                                <li class="d-none d-xl-block attach">
-                                    <p class="icon-attach">
-                                        <img src="/assets/images/sub/icon_attach.gif" alt="첨부파일 아이콘">
-                                    </p>
                                 </li>
                                 <li class="date">
                                     <dl>

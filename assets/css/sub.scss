@@ -288,19 +288,19 @@
                     text-align: center;
                     font-weight: 400;
                     &.num {
-                        width: 8%;
-                    }
-                    &.subject {
-                        width: 64%;
-                    }
-                    &.attach {
                         width: 10%;
                     }
+                    &.subject {
+                        width: 70%;
+                    }
+                    /*&.attach {
+                        width: 10%;
+                    }*/
                     &.date {
                         width: 10%;
                     }
                     &.hit {
-                        width: 8%;
+                        width: 10%;
                     }
                 }
             }
@@ -319,17 +319,17 @@
                             height: 52px;
                             text-align: center;
                             &.num {
-                                width: 8%;
+                                width: 10%;
                             }
                             &.subject {
-                                width: 64%;
+                                width: 70%;
                                 a {
                                     text-align: left;
                                 }
                             }
-                            &.attach {
+                            /*&.attach {
                                 width: 10%;
-                            }
+                            }*/
                             &.date {
                                 width: 10%;
                                 &:after {
@@ -338,7 +338,7 @@
                                 }
                             }
                             &.hit {
-                                width: 8%;
+                                width: 10%;
                             }
                         }
                     }

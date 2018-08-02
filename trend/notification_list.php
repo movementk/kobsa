@@ -45,7 +45,6 @@
                             <ul>
                                 <li class="num">No.</li>
                                 <li class="subject">제목</li>
-                                <li class="attach">첨부파일</li>
                                 <li class="date">등록일</li>
                                 <li class="hit">조회</li>
                             </ul>
@@ -60,10 +59,27 @@
                                                 A-PBA(아시아-태평양생물안전협회) 13차 정기 생물안전컨퍼런스 안내
                                             </a>
                                         </li>
-                                        <li class="d-none d-xl-block attach">
-                                            <p class="icon-attach">
-                                                <img src="/assets/images/sub/icon_attach.gif" alt="첨부파일 아이콘">
-                                            </p>
+                                        <li class="date">
+                                            <dl>
+                                                <dt class="d-xl-none">등록일</dt>
+                                                <dd>2017-08-01</dd>
+                                            </dl>
+                                        </li>
+                                        <li class="hit">
+                                            <dl>
+                                                <dt class="d-xl-none">조회수</dt>
+                                                <dd>123</dd>
+                                            </dl>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul>
+                                        <li class="d-none d-xl-block num">123</li>
+                                        <li class="subject">
+                                            <a href="/trend/notification_view.php">
+                                                A-PBA(아시아-태평양생물안전협회) 13차 정기 생물안전컨퍼런스 안내
+                                            </a>
                                         </li>
                                         <li class="date">
                                             <dl>
@@ -87,10 +103,27 @@
                                                 A-PBA(아시아-태평양생물안전협회) 13차 정기 생물안전컨퍼런스 안내
                                             </a>
                                         </li>
-                                        <li class="d-none d-xl-block attach">
-                                            <p class="icon-attach">
-                                                <img src="/assets/images/sub/icon_attach.gif" alt="첨부파일 아이콘">
-                                            </p>
+                                        <li class="date">
+                                            <dl>
+                                                <dt class="d-xl-none">등록일</dt>
+                                                <dd>2017-08-01</dd>
+                                            </dl>
+                                        </li>
+                                        <li class="hit">
+                                            <dl>
+                                                <dt class="d-xl-none">조회수</dt>
+                                                <dd>123</dd>
+                                            </dl>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul>
+                                        <li class="d-none d-xl-block num">123</li>
+                                        <li class="subject">
+                                            <a href="/trend/notification_view.php">
+                                                A-PBA(아시아-태평양생물안전협회) 13차 정기 생물안전컨퍼런스 안내
+                                            </a>
                                         </li>
                                         <li class="date">
                                             <dl>
@@ -114,10 +147,27 @@
                                                 A-PBA(아시아-태평양생물안전협회) 13차 정기 생물안전컨퍼런스 안내
                                             </a>
                                         </li>
-                                        <li class="d-none d-xl-block attach">
-                                            <p class="icon-attach">
-                                                <img src="/assets/images/sub/icon_attach.gif" alt="첨부파일 아이콘">
-                                            </p>
+                                        <li class="date">
+                                            <dl>
+                                                <dt class="d-xl-none">등록일</dt>
+                                                <dd>2017-08-01</dd>
+                                            </dl>
+                                        </li>
+                                        <li class="hit">
+                                            <dl>
+                                                <dt class="d-xl-none">조회수</dt>
+                                                <dd>123</dd>
+                                            </dl>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul>
+                                        <li class="d-none d-xl-block num">123</li>
+                                        <li class="subject">
+                                            <a href="/trend/notification_view.php">
+                                                A-PBA(아시아-태평양생물안전협회) 13차 정기 생물안전컨퍼런스 안내
+                                            </a>
                                         </li>
                                         <li class="date">
                                             <dl>
@@ -141,10 +191,27 @@
                                                 A-PBA(아시아-태평양생물안전협회) 13차 정기 생물안전컨퍼런스 안내
                                             </a>
                                         </li>
-                                        <li class="d-none d-xl-block attach">
-                                            <p class="icon-attach">
-                                                <img src="/assets/images/sub/icon_attach.gif" alt="첨부파일 아이콘">
-                                            </p>
+                                        <li class="date">
+                                            <dl>
+                                                <dt class="d-xl-none">등록일</dt>
+                                                <dd>2017-08-01</dd>
+                                            </dl>
+                                        </li>
+                                        <li class="hit">
+                                            <dl>
+                                                <dt class="d-xl-none">조회수</dt>
+                                                <dd>123</dd>
+                                            </dl>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul>
+                                        <li class="d-none d-xl-block num">123</li>
+                                        <li class="subject">
+                                            <a href="/trend/notification_view.php">
+                                                A-PBA(아시아-태평양생물안전협회) 13차 정기 생물안전컨퍼런스 안내
+                                            </a>
                                         </li>
                                         <li class="date">
                                             <dl>
@@ -168,11 +235,6 @@
                                                 A-PBA(아시아-태평양생물안전협회) 13차 정기 생물안전컨퍼런스 안내
                                             </a>
                                         </li>
-                                        <li class="d-none d-xl-block attach">
-                                            <p class="icon-attach">
-                                                <img src="/assets/images/sub/icon_attach.gif" alt="첨부파일 아이콘">
-                                            </p>
-                                        </li>
                                         <li class="date">
                                             <dl>
                                                 <dt class="d-xl-none">등록일</dt>
@@ -194,119 +256,6 @@
                                             <a href="/trend/notification_view.php">
                                                 A-PBA(아시아-태평양생물안전협회) 13차 정기 생물안전컨퍼런스 안내
                                             </a>
-                                        </li>
-                                        <li class="d-none d-xl-block attach">
-                                            <p class="icon-attach">
-                                                <img src="/assets/images/sub/icon_attach.gif" alt="첨부파일 아이콘">
-                                            </p>
-                                        </li>
-                                        <li class="date">
-                                            <dl>
-                                                <dt class="d-xl-none">등록일</dt>
-                                                <dd>2017-08-01</dd>
-                                            </dl>
-                                        </li>
-                                        <li class="hit">
-                                            <dl>
-                                                <dt class="d-xl-none">조회수</dt>
-                                                <dd>123</dd>
-                                            </dl>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <ul>
-                                        <li class="d-none d-xl-block num">123</li>
-                                        <li class="subject">
-                                            <a href="/trend/notification_view.php">
-                                                A-PBA(아시아-태평양생물안전협회) 13차 정기 생물안전컨퍼런스 안내
-                                            </a>
-                                        </li>
-                                        <li class="d-none d-xl-block attach">
-                                            <p class="icon-attach">
-                                                <img src="/assets/images/sub/icon_attach.gif" alt="첨부파일 아이콘">
-                                            </p>
-                                        </li>
-                                        <li class="date">
-                                            <dl>
-                                                <dt class="d-xl-none">등록일</dt>
-                                                <dd>2017-08-01</dd>
-                                            </dl>
-                                        </li>
-                                        <li class="hit">
-                                            <dl>
-                                                <dt class="d-xl-none">조회수</dt>
-                                                <dd>123</dd>
-                                            </dl>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <ul>
-                                        <li class="d-none d-xl-block num">123</li>
-                                        <li class="subject">
-                                            <a href="/trend/notification_view.php">
-                                                A-PBA(아시아-태평양생물안전협회) 13차 정기 생물안전컨퍼런스 안내
-                                            </a>
-                                        </li>
-                                        <li class="d-none d-xl-block attach">
-                                            <p class="icon-attach">
-                                                <img src="/assets/images/sub/icon_attach.gif" alt="첨부파일 아이콘">
-                                            </p>
-                                        </li>
-                                        <li class="date">
-                                            <dl>
-                                                <dt class="d-xl-none">등록일</dt>
-                                                <dd>2017-08-01</dd>
-                                            </dl>
-                                        </li>
-                                        <li class="hit">
-                                            <dl>
-                                                <dt class="d-xl-none">조회수</dt>
-                                                <dd>123</dd>
-                                            </dl>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <ul>
-                                        <li class="d-none d-xl-block num">123</li>
-                                        <li class="subject">
-                                            <a href="/trend/notification_view.php">
-                                                A-PBA(아시아-태평양생물안전협회) 13차 정기 생물안전컨퍼런스 안내
-                                            </a>
-                                        </li>
-                                        <li class="d-none d-xl-block attach">
-                                            <p class="icon-attach">
-                                                <img src="/assets/images/sub/icon_attach.gif" alt="첨부파일 아이콘">
-                                            </p>
-                                        </li>
-                                        <li class="date">
-                                            <dl>
-                                                <dt class="d-xl-none">등록일</dt>
-                                                <dd>2017-08-01</dd>
-                                            </dl>
-                                        </li>
-                                        <li class="hit">
-                                            <dl>
-                                                <dt class="d-xl-none">조회수</dt>
-                                                <dd>123</dd>
-                                            </dl>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <ul>
-                                        <li class="d-none d-xl-block num">123</li>
-                                        <li class="subject">
-                                            <a href="/trend/notification_view.php">
-                                                A-PBA(아시아-태평양생물안전협회) 13차 정기 생물안전컨퍼런스 안내
-                                            </a>
-                                        </li>
-                                        <li class="d-none d-xl-block attach">
-                                            <p class="icon-attach">
-                                                <img src="/assets/images/sub/icon_attach.gif" alt="첨부파일 아이콘">
-                                            </p>
                                         </li>
                                         <li class="date">
                                             <dl>

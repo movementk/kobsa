@@ -595,17 +595,18 @@ a {
           vertical-align: middle;
           height: 52px;
           text-align: center;
-          font-weight: 400; }
+          font-weight: 400;
+          /*&.attach {
+              width: 10%;
+          }*/ }
           .board-list .board-head > ul > li.num {
-            width: 8%; }
-          .board-list .board-head > ul > li.subject {
-            width: 64%; }
-          .board-list .board-head > ul > li.attach {
             width: 10%; }
+          .board-list .board-head > ul > li.subject {
+            width: 70%; }
           .board-list .board-head > ul > li.date {
             width: 10%; }
           .board-list .board-head > ul > li.hit {
-            width: 8%; }
+            width: 10%; }
     .board-list .board-body > ol > li {
       padding: 0; }
       .board-list .board-body > ol > li > ul {
@@ -616,22 +617,23 @@ a {
           display: table-cell !important;
           vertical-align: middle;
           height: 52px;
-          text-align: center; }
+          text-align: center;
+          /*&.attach {
+              width: 10%;
+          }*/ }
           .board-list .board-body > ol > li > ul > li.num {
-            width: 8%; }
+            width: 10%; }
           .board-list .board-body > ol > li > ul > li.subject {
-            width: 64%; }
+            width: 70%; }
             .board-list .board-body > ol > li > ul > li.subject a {
               text-align: left; }
-          .board-list .board-body > ol > li > ul > li.attach {
-            width: 10%; }
           .board-list .board-body > ol > li > ul > li.date {
             width: 10%; }
             .board-list .board-body > ol > li > ul > li.date:after {
               display: none;
               margin: 0; }
           .board-list .board-body > ol > li > ul > li.hit {
-            width: 8%; } }
+            width: 10%; } }
 
 .board-view .view-head {
   border-top: 2px solid #333; }
