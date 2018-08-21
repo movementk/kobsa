@@ -230,6 +230,123 @@
                     <a href="#" class="btn btn-md btn-blue" role="button">버튼1</a>
                 </p>
             </div>
+            
+            
+            <br><br><br>
+            
+            <!-- sub-title -->
+            <h2 class="ex-title">버튼 종류</h2>
+            <h3 class="sub-title">설립 배경</h3>
+            
+            <br><br><br>
+            
+            <!-- table type-1 -->
+            <h2 class="ex-title">테이블 type-1</h2>
+            <div class="table-wrap">
+				<table class="table-type-1">
+					<thead>
+						<tr>
+							<th>구분</th>
+							<th>성명</th>
+							<th>소속</th>
+							<th>직책</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>회장</td>
+							<td>장원종</td>
+							<td>건국대학교 의학전문대학원</td>
+							<td>교수</td>
+						</tr>
+						<tr>
+							<td>수석부회장</td>
+							<td>차형철</td>
+							<td>씨애치씨랩</td>
+							<td>대표이사</td>
+						</tr>
+						<tr>
+							<td rowspan="4">부회장</td>
+							<td>김영득</td>
+							<td>인덕대학교 </td>
+							<td>교수</td>
+						</tr>
+						<tr>
+							<td>김용학</td>
+							<td>㈜녹십자이엠</td>
+							<td>상무이사</td>
+						</tr>
+						<tr>
+							<td>이명식</td>
+							<td>㈜웃샘</td>
+							<td>대표이사</td>
+						</tr>
+						<tr>
+							<td>장경수</td>
+							<td>부산가톨릭대학교</td>
+							<td>교수</td>
+						</tr>
+						<tr>
+							<td rowspan="2">감사</td>
+							<td>김미나</td>
+							<td>울산대학교</td>
+							<td>교수</td>
+						</tr>
+						<tr>
+							<td>오태권</td>
+							<td>㈜셀리드</td>
+							<td>연구소장</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+       		
+       		<br><br><br>
+       		
+      		<!-- lnb-menu -->
+            <h2 class="ex-title">lnb-menu</h2>
+			<nav class="lnb-menu">
+				<ul>
+					<li class="active"><a href="#">생물안전교육</a></li>
+					<li><a href="#">생물안전관리</a></li>
+				</ul>
+			</nav>
+       
+       		<br><br><br>
+       		
+      		<!-- tab-menu -->
+            <h2 class="ex-title">tab-menu</h2>
+			<nav class="tab-menu">
+				<ul>
+					<li class="on"><a href="#">민간용역사업</a></li>
+					<li><a href="#">정부용역사업</a></li>
+					<li><a href="#">국제용역사업</a></li>
+					<li><a href="#">기업인증기준 제정</a></li>
+				</ul>
+			</nav>
+       
+       		<br><br><br>
+       		
+      		<!-- number-list -->
+            <h2 class="ex-title">숫자 리스트</h2>
+            <ol class="number-list">
+            	<li>
+            		<span>1</span>
+            		제1회 생물안전·생물보안을 위한 국제 컨퍼런스 및 제1차 한국생물안전협회 연계회의
+            		<small>(2009년 9월 14일)</small>
+            	<li>
+            		<span>2</span>
+            		WHO 필리핀 NTRL(National Tuberculosis Reference Laboratory) BL3 실험실 인증 용역
+            		<small>(2011년 10월 15일~2012년 4월 30일) </small>
+            	</li>
+            	<li>
+            		<span>3</span>
+            		International Biological Safety Workshop 국제 생물안전 워크숍
+            		<small>
+            			(실험실 생물안전 및 생물밀폐 엔지니어링, 생물안전 프로그램 개발을 포함하는 최신의 생물안전과 생물보안 기술 및 국제 동향) (2012년 7월 18일) 
+            		</small>
+            	</li>
+            </ol>
         </div>
     </main>
     

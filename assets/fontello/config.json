@@ -95,6 +95,24 @@
       "css": "right-open",
       "code": 61446,
       "src": "mfglabs"
+    },
+    {
+      "uid": "b6ef4443ecc502136135437837d9724b",
+      "css": "mail",
+      "code": 59400,
+      "src": "elusive"
+    },
+    {
+      "uid": "c91098f07ff0df45b3f8666b72b75801",
+      "css": "phone",
+      "code": 59401,
+      "src": "elusive"
+    },
+    {
+      "uid": "513ac180ff85bd275f2b736720cbbf5e",
+      "css": "home",
+      "code": 59402,
+      "src": "entypo"
     }
   ]
 }
