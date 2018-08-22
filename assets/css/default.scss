@@ -878,6 +878,7 @@ body {
                     overflow-y: scroll;
                     height: 200px;
                     padding: 20px;
+                    padding-bottom: 0;
                     @media(min-width: $md) {
                         height: 350px;
                     }
@@ -911,7 +912,7 @@ body {
                         }
                     }
                     .result-list {
-                        margin-top: 20px;
+                        margin: 20px 0;
                         li {
                             & ~ li {
                                 margin-top: 10px;

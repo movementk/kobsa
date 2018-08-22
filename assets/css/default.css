@@ -1079,7 +1079,8 @@ body {
         .pathogen-popup .modal-dialog .modal-content .modal-body .search-body {
           overflow-y: scroll;
           height: 200px;
-          padding: 20px; }
+          padding: 20px;
+          padding-bottom: 0; }
           @media (min-width: 768px) {
             .pathogen-popup .modal-dialog .modal-content .modal-body .search-body {
               height: 350px; } }
@@ -1108,7 +1109,7 @@ body {
               font-weight: 400;
               padding-left: 62px; }
           .pathogen-popup .modal-dialog .modal-content .modal-body .search-body .result-list {
-            margin-top: 20px; }
+            margin: 20px 0; }
             .pathogen-popup .modal-dialog .modal-content .modal-body .search-body .result-list li {
               border: 1px solid #e1e1e1;
               background-color: #fff; }
