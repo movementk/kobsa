@@ -41,3 +41,4 @@
         </div>
     </div>
 </footer>
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/pathogen_popup.php'); ?>

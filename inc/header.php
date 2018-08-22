@@ -7,17 +7,7 @@
             </h1>
             <div class="quick">
                 <div class="pathogen-search">
-                    <form action="#">
-                        <div class="form-group">
-                            <input type="text" id="pathogen-search" class="form-control" placeholder="병원체 검색">
-                            <label for="pathogen-search" class="sr-only">병원체 검색</label>
-                        </div>
-                        <button type="submit" class="btn pathogen-search">
-                            <i class="icon-search">
-                                <span class="sr-only">검색버튼</span>
-                            </i>
-                        </button>
-                    </form>
+                    <a href="#" class="btn btn-pathogen" data-toggle="modal" data-target="#pathogenModal" role="button">병원체 검색</a>
                 </div>
                 <div class="top-menu d-none d-xl-block">
                     <ul>

@@ -433,35 +433,26 @@ body {
     padding-right: 45px; }
     #header .header-wrap .quick .pathogen-search {
       display: inline-block;
-      position: relative;
       width: 105px; }
-      #header .header-wrap .quick .pathogen-search .form-group .form-control {
+      #header .header-wrap .quick .pathogen-search .btn-pathogen {
+        position: relative;
+        display: block;
         width: 100%;
+        line-height: 35px;
         height: 35px;
         color: #fff;
         font-size: 12px;
-        padding-left: 10px;
-        padding-right: 35px;
+        padding: 0 10px;
+        text-align: left;
         border-radius: 30px;
-        border: 1px solid #ed6a10;
         background-color: #ed6a10; }
-        #header .header-wrap .quick .pathogen-search .form-group .form-control::placeholder {
-          color: #fff; }
-        #header .header-wrap .quick .pathogen-search .form-group .form-control:-ms-input-placeholder {
-          color: #fff; }
-        #header .header-wrap .quick .pathogen-search .form-group .form-control::-ms-input-placeholder {
-          color: #fff; }
-      #header .header-wrap .quick .pathogen-search .pathogen-search {
-        position: absolute;
-        right: 0;
-        top: 0;
-        color: #fff;
-        font-size: 13px;
-        width: 35px;
-        height: 35px;
-        line-height: 35px; }
-        #header .header-wrap .quick .pathogen-search .pathogen-search .icon-search:before {
-          margin: 0; }
+        #header .header-wrap .quick .pathogen-search .btn-pathogen:after {
+          position: absolute;
+          top: 0;
+          right: 10px;
+          font-size: 11px;
+          font-family: "fontello";
+          content: "\E800"; }
   #header .header-wrap .btn-nav {
     position: absolute;
     top: 50%;
@@ -488,9 +479,11 @@ body {
         padding-right: 50px; }
         #header .header-wrap .quick .pathogen-search {
           width: 125px; }
-          #header .header-wrap .quick .pathogen-search .form-group .form-control {
+          #header .header-wrap .quick .pathogen-search .btn-pathogen {
             font-size: 14px;
             padding-left: 15px; }
+            #header .header-wrap .quick .pathogen-search .btn-pathogen:after {
+              right: 15px; }
       #header .header-wrap .btn-nav {
         right: 20px; }
         #header .header-wrap .btn-nav .bar {
@@ -548,9 +541,8 @@ body {
           #header .header-wrap .quick .pathogen-search {
             float: left;
             padding-top: 7px; }
-            #header .header-wrap .quick .pathogen-search .form-group .form-control {
-              font-size: 14px;
-              padding-left: 15px; }
+            #header .header-wrap .quick .pathogen-search .btn-pathogen {
+              font-size: 14px; }
           #header .header-wrap .quick .top-menu {
             float: right;
             /*margin-right: 15px;
@@ -1005,5 +997,159 @@ body {
         top: 50%;
         left: 15px;
         margin-top: -21px; } }
+
+.pathogen-popup {
+  padding: 0 10px; }
+  .pathogen-popup .modal-dialog {
+    margin: 100px auto;
+    max-width: 370px; }
+    @media (min-width: 1200px) {
+      .pathogen-popup .modal-dialog {
+        margin-top: 150px; } }
+    .pathogen-popup .modal-dialog .modal-content {
+      border: 0;
+      border-radius: 0;
+      background: none; }
+      .pathogen-popup .modal-dialog .modal-content .modal-header {
+        position: relative;
+        border: 0;
+        padding: 10px;
+        border-radius: 0;
+        background-color: #ed6a10; }
+        .pathogen-popup .modal-dialog .modal-content .modal-header .modal-title {
+          display: inline-block;
+          font-size: 15px;
+          color: #fff;
+          font-weight: 300; }
+          .pathogen-popup .modal-dialog .modal-content .modal-header .modal-title:after {
+            position: relative;
+            top: -2px;
+            font-size: 12px;
+            font-family: "fontello";
+            content: "\E800";
+            margin-left: 5px; }
+        .pathogen-popup .modal-dialog .modal-content .modal-header .close {
+          position: absolute;
+          top: 0;
+          right: 0;
+          font-size: 18px;
+          width: 42px;
+          height: 42px;
+          padding: 0;
+          color: #fff;
+          margin: 0;
+          text-shadow: none !important;
+          opacity: 1 !important; }
+      .pathogen-popup .modal-dialog .modal-content .modal-body {
+        border: 0;
+        padding: 0;
+        border-radius: 0;
+        background-color: #f6f6f6; }
+        .pathogen-popup .modal-dialog .modal-content .modal-body .search-header {
+          padding: 20px;
+          border-bottom: 1px solid #ddd;
+          background-color: #fff; }
+          .pathogen-popup .modal-dialog .modal-content .modal-body .search-header .form-group {
+            position: relative; }
+            .pathogen-popup .modal-dialog .modal-content .modal-body .search-header .form-group .form-control {
+              width: 100%;
+              height: 52px;
+              font-size: 12px;
+              padding-left: 20px;
+              padding-right: 55px;
+              border: 1px solid #e1e1e1; }
+              .pathogen-popup .modal-dialog .modal-content .modal-body .search-header .form-group .form-control::placeholder {
+                color: rgba(34, 34, 34, 0.5);
+                opacity: 1; }
+              .pathogen-popup .modal-dialog .modal-content .modal-body .search-header .form-group .form-control:-ms-input-placeholder {
+                color: rgba(34, 34, 34, 0.5); }
+              .pathogen-popup .modal-dialog .modal-content .modal-body .search-header .form-group .form-control::-ms-input-placeholder {
+                color: rgba(34, 34, 34, 0.5); }
+              @media (min-width: 768px) {
+                .pathogen-popup .modal-dialog .modal-content .modal-body .search-header .form-group .form-control {
+                  font-size: 14px; } }
+            .pathogen-popup .modal-dialog .modal-content .modal-body .search-header .form-group .btn-search {
+              position: absolute;
+              top: 0;
+              right: 0;
+              width: 52px;
+              height: 52px;
+              font-size: 16px;
+              color: #222; }
+        .pathogen-popup .modal-dialog .modal-content .modal-body .search-body {
+          overflow-y: scroll;
+          height: 200px;
+          padding: 20px; }
+          @media (min-width: 768px) {
+            .pathogen-popup .modal-dialog .modal-content .modal-body .search-body {
+              height: 350px; } }
+          @media (min-width: 1200px) {
+            .pathogen-popup .modal-dialog .modal-content .modal-body .search-body {
+              height: 425px; } }
+          .pathogen-popup .modal-dialog .modal-content .modal-body .search-body .no-resultant {
+            font-size: 15px;
+            color: rgba(51, 51, 51, 0.5);
+            text-align: center; }
+          .pathogen-popup .modal-dialog .modal-content .modal-body .search-body dl {
+            font-size: 14px;
+            color: #333;
+            overflow: hidden; }
+            .pathogen-popup .modal-dialog .modal-content .modal-body .search-body dl dt {
+              float: left;
+              width: 62px;
+              display: inline-block;
+              font-weight: 400; }
+              .pathogen-popup .modal-dialog .modal-content .modal-body .search-body dl dt:after {
+                position: relative;
+                top: -1px;
+                content: ":";
+                margin: 0 3px; }
+            .pathogen-popup .modal-dialog .modal-content .modal-body .search-body dl dd {
+              font-weight: 400;
+              padding-left: 62px; }
+          .pathogen-popup .modal-dialog .modal-content .modal-body .search-body .result-list {
+            margin-top: 20px; }
+            .pathogen-popup .modal-dialog .modal-content .modal-body .search-body .result-list li {
+              border: 1px solid #e1e1e1;
+              background-color: #fff; }
+              .pathogen-popup .modal-dialog .modal-content .modal-body .search-body .result-list li ~ li {
+                margin-top: 10px; }
+              .pathogen-popup .modal-dialog .modal-content .modal-body .search-body .result-list li a {
+                display: table;
+                width: 100%;
+                font-size: 13px;
+                table-layout: fixed; }
+                .pathogen-popup .modal-dialog .modal-content .modal-body .search-body .result-list li a h5 {
+                  display: table-cell;
+                  height: 58px;
+                  font-size: 10px;
+                  color: #333;
+                  font-weight: 300;
+                  line-height: 20px;
+                  padding-left: 15px;
+                  word-break: keep-all;
+                  vertical-align: middle; }
+                  @media (min-width: 768px) {
+                    .pathogen-popup .modal-dialog .modal-content .modal-body .search-body .result-list li a h5 {
+                      font-size: 13px; } }
+                .pathogen-popup .modal-dialog .modal-content .modal-body .search-body .result-list li a .risk-person {
+                  display: table-cell;
+                  width: 100px;
+                  vertical-align: middle; }
+                  .pathogen-popup .modal-dialog .modal-content .modal-body .search-body .result-list li a .risk-person p {
+                    display: block;
+                    color: #fff;
+                    width: 85px;
+                    height: 30px;
+                    font-size: 11px;
+                    margin: 0 auto;
+                    text-align: center;
+                    line-height: 30px;
+                    font-weight: 300;
+                    border-radius: 30px;
+                    background-color: #ed6a10; }
+                    @media (min-width: 768px) {
+                      .pathogen-popup .modal-dialog .modal-content .modal-body .search-body .result-list li a .risk-person p {
+                        font-size: 12px; } }
 
 /*# sourceMappingURL=default.css.map */
