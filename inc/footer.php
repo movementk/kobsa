@@ -11,7 +11,7 @@
                 <div class="company-info">
                     <ul>
                         <li>
-                            <address>(04704) 서울시 성동구 청계천로 12가길 75-7 대영빌딩 2층 205호</address>
+                            <address>(05510) 서울시 송파구 오금로 58, 918호 (신천동, 잠실 I-SPACE) </address>
                         </li>
                         <li>
                             <dl>
