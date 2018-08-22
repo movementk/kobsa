@@ -795,7 +795,7 @@
 	}
 }
 
-//주요 산업 생물안전교육 전문자격제도
+//전문자격제도
 .professional {
 	.section-header{
 		padding: 70px 0 50px;
@@ -827,6 +827,7 @@
 							margin-top: 15px;
 							word-break: break-all;
 						}
+						// 2. 교육내용
 						.table-wrap {
 							margin-top: 25px;
 							.table {
@@ -858,6 +859,79 @@
 										}
 									}
 								}	
+							}
+						}
+						// 3. 자격과정
+						.process {
+							margin-top: 30px;
+							.row {
+								> li {
+									& ~ li {
+										> h4 {
+											margin-top: 40px;
+										}
+									}
+									> h4 {
+										width: 100%;
+										height: 55px;
+										font-size: 14px;
+										color: #fff;
+										line-height: 55px;
+										font-weight: 400;
+										border-radius: 10px;
+										text-align: center;
+										margin-bottom: 25px;
+										&.bl {
+											background-color: #0b60ab;
+										}
+										&.rd {
+											background-color: #9f3627;
+										}
+										&.gr {
+											background-color: #84c469;
+										}
+									}
+									.process-step {
+										> li {
+											position: relative;
+											padding-top: 20px;
+											padding-bottom: 35px;
+											> div {
+												text-align: center;
+												padding: 15px 0;
+												border: 1px solid #dedfe0;
+												> h5 {
+													font-size: 13px;
+													color: #666;
+													font-weight: 300;
+												}
+												> p {
+													font-size: 12px;
+													color: #999;
+													line-height: 22px;
+													margin-top: 20px;
+												}
+											}
+											&:after {
+												position: absolute;
+												bottom: 0;
+												left: 50%;
+												content: "\E80B";
+												font-family: "fontello";
+												font-size: 13px;
+											}
+											&:first-child {
+												padding-top: 0;
+											}
+											&:last-child {
+												padding-bottom: 0;
+												&:after {
+													display: none;
+												}
+											}
+										}
+									}
+								}
 							}
 						}
 					}
