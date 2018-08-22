@@ -938,5 +938,55 @@ a {
       line-height: 22px;
       padding: 15px 10px 20px 10px;
       border-top: 1px solid #e1e1e1; }
+  .professional .section-content article .article-content .number-list > li .process {
+    margin-top: 30px; }
+    .professional .section-content article .article-content .number-list > li .process .row > li ~ li > h4 {
+      margin-top: 40px; }
+    .professional .section-content article .article-content .number-list > li .process .row > li > h4 {
+      width: 100%;
+      height: 55px;
+      font-size: 14px;
+      color: #fff;
+      line-height: 55px;
+      font-weight: 400;
+      border-radius: 10px;
+      text-align: center;
+      margin-bottom: 25px; }
+      .professional .section-content article .article-content .number-list > li .process .row > li > h4.bl {
+        background-color: #0b60ab; }
+      .professional .section-content article .article-content .number-list > li .process .row > li > h4.rd {
+        background-color: #9f3627; }
+      .professional .section-content article .article-content .number-list > li .process .row > li > h4.gr {
+        background-color: #84c469; }
+    .professional .section-content article .article-content .number-list > li .process .row > li .process-step > li {
+      position: relative;
+      padding-top: 20px;
+      padding-bottom: 35px; }
+      .professional .section-content article .article-content .number-list > li .process .row > li .process-step > li > div {
+        text-align: center;
+        padding: 15px 0;
+        border: 1px solid #dedfe0; }
+        .professional .section-content article .article-content .number-list > li .process .row > li .process-step > li > div > h5 {
+          font-size: 13px;
+          color: #666;
+          font-weight: 300; }
+        .professional .section-content article .article-content .number-list > li .process .row > li .process-step > li > div > p {
+          font-size: 12px;
+          color: #999;
+          line-height: 22px;
+          margin-top: 20px; }
+      .professional .section-content article .article-content .number-list > li .process .row > li .process-step > li:after {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        content: "\E80B";
+        font-family: "fontello";
+        font-size: 13px; }
+      .professional .section-content article .article-content .number-list > li .process .row > li .process-step > li:first-child {
+        padding-top: 0; }
+      .professional .section-content article .article-content .number-list > li .process .row > li .process-step > li:last-child {
+        padding-bottom: 0; }
+        .professional .section-content article .article-content .number-list > li .process .row > li .process-step > li:last-child:after {
+          display: none; }
 
 /*# sourceMappingURL=introduce.css.map */

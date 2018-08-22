@@ -104,8 +104,71 @@
 									<div class="process">
 										<ol class="row">
 											<li class="col-12 col-md-4">
-												<h4></h4>
-												<p></p>
+												<h4 class="bl">생물안전관리자 수료증</h4>
+												<ol class="process-step">
+													<li>
+														<div>
+															<h5>기본교육과정이수</h5>
+														</div>
+													</li>
+													<li>
+														<div>
+															<h5>생물안전관리자  수료증 발급</h5>
+														</div>
+													</li>
+												</ol>
+											</li>
+											<li class="col-12 col-md-4">
+												<h4 class="rd">생물안전관리자 자격증</h4>
+												<ol class="process-step">
+													<li>
+														<div>
+															<h5>기본교육과정이수</h5>
+														</div>
+													</li>
+													<li>
+														<div>
+															<h5>심화교육 전과정 이수</h5>
+															<p>
+																해당년도 3일간 시행되는 심화교육 전체 과정을 의미. 2013년도 이전에 심화교육을 일부 이수한 경우, 협회에서별 도로 정하는 심화교육을 이수하여야 함.
+															</p>
+														</div>
+													</li>
+													<li>
+														<div>
+															<h5>생물안전관리자 수료증 발급 </h5>
+														</div>
+													</li>
+												</ol>
+											</li>
+											<li class="col-12 col-md-4">
+												<h4 class="gr">생물안전 전문가 자격증</h4>
+												<ol class="process-step">
+													<li>
+														<div>
+															<h5>생물안전관리자 자격증 소유자</h5>
+														</div>
+													</li>
+													<li>
+														<div>
+															<h5>전문가 교육과정 이수</h5>
+															<p>
+																해당년도 신청자가 10명 이상인 경우에 한해 개설.
+															</p>
+															<dl class="attention">
+																<dt>생물관련 비전공자</dt>
+																<dd>
+																	생물안전관리자 자격증(생물안전 전문가  폼함) 과정 이수 시 기초생물학 (해당년도신청자 10명 이상인 경우에 한해 개설) 수강 필수
+																</dd>
+															</dl>
+														</div>
+													</li>
+													<li>
+														<div>
+															<h5>생물안전 전문3가 자격증 발급</h5>
+														</div>
+													</li>
+												</ol>
 											</li>
 										</ol>
 									</div>
