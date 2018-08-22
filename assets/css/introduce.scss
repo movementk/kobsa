@@ -54,6 +54,7 @@
         > ul {
             display: table;
             width: 100%;
+			table-layout: fixed;
             > li {
                 display: table-cell;
                 width: 1%;
@@ -794,8 +795,77 @@
 	}
 }
 
-
-
+//주요 산업 생물안전교육 전문자격제도
+.professional {
+	.section-header{
+		padding: 70px 0 50px;
+	}
+	.section-content {
+		article {
+			.article-header {
+				margin-top: 55px;
+				.sub-title {
+					margin-bottom: 30px;
+				}
+				> p {
+					font-size: 13px;
+					color: #666;
+					line-height: 24px;
+				}
+				.s-attention {
+					margin-top: 20px;
+				}
+			}
+			.article-content {
+				margin-top: 55px;
+				.number-list {
+					> li {
+						> p {
+							margin-top: 20px;
+						}
+						> .attention {
+							margin-top: 15px;
+							word-break: break-all;
+						}
+						.table-wrap {
+							margin-top: 25px;
+							.table {
+								tbody {
+									tr {
+										th {
+											font-size: 13px;
+											color: #fff;
+											font-weight: 400;
+											line-height: 22px;
+											padding: 15px 30px 0 10px;
+											border-top: 1px solid #e1e1e1;
+											background-color: #626969;
+										}
+										&:last-child {
+											th {
+												border-bottom: 1px solid #e1e1e1;
+											}
+											td {
+												border-bottom: 1px solid #e1e1e1;
+											}
+										}
+										td {
+											font-size: 12px;
+											color: #666;
+											line-height: 22px;
+											padding: 15px 10px 20px 10px;
+											border-top: 1px solid #e1e1e1;
+										}
+									}
+								}	
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
 
 
 
