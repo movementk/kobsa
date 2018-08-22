@@ -422,7 +422,8 @@ a {
 @media (min-width: 1200px) {
   .lnb-list > ul {
     display: table;
-    width: 100%; }
+    width: 100%;
+    table-layout: fixed; }
     .lnb-list > ul > li {
       display: table-cell;
       width: 1%;
@@ -897,5 +898,45 @@ a {
     padding-bottom: 100px; }
   .organization .section-content .table-wrap {
     margin-top: 100px; } }
+
+.professional .section-header {
+  padding: 70px 0 50px; }
+.professional .section-content article .article-header {
+  margin-top: 55px; }
+  .professional .section-content article .article-header .sub-title {
+    margin-bottom: 30px; }
+  .professional .section-content article .article-header > p {
+    font-size: 13px;
+    color: #666;
+    line-height: 24px; }
+  .professional .section-content article .article-header .s-attention {
+    margin-top: 20px; }
+.professional .section-content article .article-content {
+  margin-top: 55px; }
+  .professional .section-content article .article-content .number-list > li > p {
+    margin-top: 20px; }
+  .professional .section-content article .article-content .number-list > li > .attention {
+    margin-top: 15px;
+    word-break: break-all; }
+  .professional .section-content article .article-content .number-list > li .table-wrap {
+    margin-top: 25px; }
+    .professional .section-content article .article-content .number-list > li .table-wrap .table tbody tr th {
+      font-size: 13px;
+      color: #fff;
+      font-weight: 400;
+      line-height: 22px;
+      padding: 15px 30px 0 10px;
+      border-top: 1px solid #e1e1e1;
+      background-color: #626969; }
+    .professional .section-content article .article-content .number-list > li .table-wrap .table tbody tr:last-child th {
+      border-bottom: 1px solid #e1e1e1; }
+    .professional .section-content article .article-content .number-list > li .table-wrap .table tbody tr:last-child td {
+      border-bottom: 1px solid #e1e1e1; }
+    .professional .section-content article .article-content .number-list > li .table-wrap .table tbody tr td {
+      font-size: 12px;
+      color: #666;
+      line-height: 22px;
+      padding: 15px 10px 20px 10px;
+      border-top: 1px solid #e1e1e1; }
 
 /*# sourceMappingURL=introduce.css.map */

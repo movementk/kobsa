@@ -235,7 +235,7 @@
             <br><br><br>
             
             <!-- sub-title -->
-            <h2 class="ex-title">버튼 종류</h2>
+            <h2 class="ex-title">제목</h2>
             <h3 class="sub-title">설립 배경</h3>
             
             <br><br><br>
@@ -303,28 +303,25 @@
        		
        		<br><br><br>
        		
-      		<!-- lnb-menu -->
-            <h2 class="ex-title">lnb-menu</h2>
-			<nav class="lnb-menu">
-				<ul>
-					<li class="active"><a href="#">생물안전교육</a></li>
-					<li><a href="#">생물안전관리</a></li>
-				</ul>
-			</nav>
-       
-       		<br><br><br>
-       		
       		<!-- tab-menu -->
-            <h2 class="ex-title">tab-menu</h2>
-			<nav class="tab-menu">
-				<ul>
-					<li class="on"><a href="#">민간용역사업</a></li>
-					<li><a href="#">정부용역사업</a></li>
-					<li><a href="#">국제용역사업</a></li>
-					<li><a href="#">기업인증기준 제정</a></li>
-				</ul>
+            <h2 class="ex-title">텝메뉴</h2>
+			<nav class="tab-wrap">
+				<div class="tab-menu">
+					<ul>
+						<li class="active"><a href="#">생물안전교육</a></li>
+						<li><a href="#">생물안전관리</a></li>
+					</ul>
+				</div>
+				<div class="sub-menu">
+					<ul>
+						<li class="on"><a href="#">민간용역사업</a></li>
+						<li><a href="#">정부용역사업</a></li>
+						<li><a href="#">국제용역사업</a></li>
+						<li><a href="#">기업인증기준 제정</a></li>
+					</ul>
+				</div>
 			</nav>
-       
+       		
        		<br><br><br>
        		
       		<!-- number-list -->
@@ -332,21 +329,37 @@
             <ol class="number-list">
             	<li>
             		<span>1</span>
-            		제1회 생물안전·생물보안을 위한 국제 컨퍼런스 및 제1차 한국생물안전협회 연계회의
+            		<h3>제1회 생물안전·생물보안을 위한 국제 컨퍼런스 및 제1차 한국생물안전협회 연계회의</h3>
+            		<p>
+            			관련 공무원, 관련 분야 교수, 의생명과학 연구기관 연구원 및 생물안전관리 담당자, 시설 및 장비 엔지니어, 생물안전연구시설 컨설팅 및 관련 업계 종사자.
+            		</p>
             		<small>(2009년 9월 14일)</small>
             	<li>
             		<span>2</span>
-            		WHO 필리핀 NTRL(National Tuberculosis Reference Laboratory) BL3 실험실 인증 용역
+            		<h3>WHO 필리핀 NTRL(National Tuberculosis Reference Laboratory) BL3 실험실 인증 용역</h3>
             		<small>(2011년 10월 15일~2012년 4월 30일) </small>
             	</li>
             	<li>
             		<span>3</span>
-            		International Biological Safety Workshop 국제 생물안전 워크숍
+            		<h3>International Biological Safety Workshop 국제 생물안전 워크숍</h3>
             		<small>
             			(실험실 생물안전 및 생물밀폐 엔지니어링, 생물안전 프로그램 개발을 포함하는 최신의 생물안전과 생물보안 기술 및 국제 동향) (2012년 7월 18일) 
             		</small>
             	</li>
             </ol>
+            
+            <br><br><br>
+       		
+      		<!-- attention -->
+            <h2 class="ex-title">주의</h2>
+            <dl class="s-attention">
+            	<dt>관련법률</dt>
+            	<dd>유전자변형생물체의 국가간 이동 등에 관한 법률 및 통합고시</dd>
+            </dl>
+            <dl class="attention">
+            	<dt>생물관련 비전공자</dt>
+            	<dd>생물안전관리자 자격증</dd>
+            </dl>
         </div>
     </main>
     

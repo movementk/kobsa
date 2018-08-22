@@ -17,7 +17,7 @@
 					<li><a href="/introduce/association.php">협회소개</a></li>
 					<li><a href="/introduce/member.php">회원사소개</a></li>
 					<li class="active"><a href="/introduce/organization.php">조직구성</a></li>
-					<li><a href="#">주요사업</a></li>
+					<li><a href="/introduce/professional.php">주요사업</a></li>
 					<li><a href="#">찾아오시는길</a></li>
 				</ul>
 			</div>
