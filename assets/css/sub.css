@@ -996,29 +996,32 @@ a {
 
 .number-list > li {
   position: relative;
+  padding-left: 30px;
   /*line-height: 22px;*/ }
   .number-list > li ~ li {
     margin-top: 25px; }
   .number-list > li > h3 {
     font-size: 14px;
     color: #333;
-    font-weight: 400;
-    padding-left: 30px; }
+    line-height: 24px;
+    font-weight: 400; }
   .number-list > li > p {
     font-size: 13px;
     color: #666;
     line-height: 26px;
-    margin-top: 20px; }
+    margin-top: 20px;
+    margin-left: -30px; }
   .number-list > li > span {
     position: absolute;
     top: 0;
     left: 0;
     display: inline-block;
-    width: 23px;
-    height: 23px;
+    width: 24px;
+    height: 24px;
     font-size: 14px;
     color: #fff;
     line-height: 23px;
+    font-weight: 400;
     text-align: center;
     border-radius: 50%;
     background-color: #ed6a10;
@@ -1028,38 +1031,26 @@ a {
     font-size: 12px;
     color: #999;
     line-height: 26px;
-    margin-top: 15px;
-    padding-left: 30px; }
+    margin-top: 15px; }
 @media (min-width: 768px) {
   .number-list > li {
-    position: relative;
-    font-size: 14px;
-    color: #333;
-    font-weight: 400;
-    line-height: 22px;
-    padding-left: 30px; }
+    padding-left: 35px; }
     .number-list > li ~ li {
-      margin-top: 25px; }
-    .number-list > li > span {
-      position: absolute;
-      top: 0;
-      left: 0;
-      display: inline-block;
-      width: 23px;
-      height: 23px;
-      font-size: 14px;
-      color: #fff;
-      line-height: 23px;
-      text-align: center;
-      border-radius: 50%;
-      background-color: #ed6a10;
-      font-family: 'Lato', sans-serif; }
-    .number-list > li > small {
-      display: block;
-      font-size: 12px;
-      color: #999;
+      margin-top: 55px; }
+    .number-list > li > h3 {
+      font-size: 18px;
       line-height: 26px;
-      margin-top: 15px; } }
+      margin-right: 10px; }
+    .number-list > li > p {
+      font-size: 14px;
+      margin-left: -35px; }
+    .number-list > li > span {
+      width: 26px;
+      height: 26px;
+      font-size: 16px;
+      line-height: 23px; }
+    .number-list > li > small {
+      font-size: 13px; } }
 
 .s-attention {
   font-size: 0; }
