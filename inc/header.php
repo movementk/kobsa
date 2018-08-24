@@ -82,7 +82,7 @@
                     </li>
                 </ul>
                 <div class="ibc">
-                    <a href="#">IBC</a>
+                    <a href="/ibc/ibc_member.php" class="btn btn-ibc" role="button">IBC네트워크</a>
                 </div>
             </nav>
             <button type="button" class="btn btn-nav d-xl-none">
@@ -173,7 +173,7 @@
                     </ul>
                 </li>
                 <li class="ibc">
-                    <a href="#">IBC</a>
+                    <a href="/ibc/ibc_member.php">IBC네트워크</a>
                 </li>
             </ul>
         </div>

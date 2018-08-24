@@ -870,12 +870,25 @@ body {
         color: #085eaa; }
   #gnb .ibc {
     float: left;
-    padding: 23px 0;
+    padding: 15px 0;
     margin-right: 15px; }
     #gnb .ibc > a {
       font-size: 16px;
-      color: #eb6100;
-      font-weight: 400; }
+      color: #fff;
+      padding: 0 10px;
+      font-weight: 400;
+      line-height: 40px;
+      background-color: #0c7ade;
+      -webkit-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.15s;
+      transition-duration: 0.15s;
+      -webkit-transition-timing-function: linear;
+      transition-timing-function: linear;
+      -webkit-transition-delay: 0s;
+      transition-delay: 0s; }
+      #gnb .ibc > a:hover {
+        opacity: .7; }
 
 .opened #header {
   height: auto; }

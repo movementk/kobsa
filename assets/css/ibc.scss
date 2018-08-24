@@ -1,0 +1,195 @@
+@import 'common';
+
+.ibc {
+    .page-header {
+        padding: 53px 0;
+        /*background-image: url(/assets/images/ibc/bg_page_header.jpg);*/
+        @media(min-width: $md) {
+            padding: 80px 0;
+        }
+        @media(min-width: $xl) {
+            padding: 200px 0 90px;
+        }
+    }
+}
+
+.lnb-list {
+    > ul {
+        font-size: 0;
+        > li {
+            display: inline-block;
+            width: 50%;
+            text-align: center;
+            border: 1px solid #bababa;
+            border-right: 0;
+            border-top: 0;
+            a {
+                font-size: 13px;
+                display: block;
+                color: #999;
+                line-height: 45px;
+                @include transition();
+                &:hover {
+                    color: #fff;
+                    background-color: #085eaa;
+                    opacity: .8;
+                }
+            }
+            &.active {
+                a {
+                    color: #fff;
+                    background-color: #085eaa;
+                    &:hover {
+                        opacity: 1;
+                    }
+                }
+            }
+            &:nth-of-type(2),&:nth-of-type(4) {
+                border-right: 1px solid #bababa;
+            }
+            &:nth-of-type(1),&:nth-of-type(2) {
+                border-top: 1px solid #bababa;
+            }
+        }
+    }
+    @media(min-width: $md) {
+        > ul {
+            display: table;
+            width: 100%;
+            > li {
+                display: table-cell;
+                width: 25%;
+                border-bottom: 1px solid #bababa;
+                border-top: 1px solid #bababa;
+                border-right: 0 !important;
+                a {
+                    font-size: 15px;
+                    line-height: 55px;
+                }
+                &:last-child {
+                    border-right: 1px solid #bababa !important;
+                }
+            }
+        }
+    }
+    @media(min-width: $xl) {
+        > ul {
+            > li {
+                a {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+// ibc 위원회
+.ibc-member {
+    .section-content {
+        border-top: 2px solid #333;
+        > ul {
+            > li {
+                padding: 10px 0 10px 20px;
+                border-bottom: 1px solid #e5e5e5;
+                > div {
+                    > h5 {
+                        font-size: 16px;
+                        color: #333;
+                        font-weight: 400;
+                        small {
+                            font-size: 13px;
+                            color: #666;
+                            display: inline-block;
+                            margin: 0 8px;
+                        }
+                    }
+                    > p {
+                        font-size: 13px;
+                        color: #999;
+                        display: inline-block;
+                        font-weight: 400;
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+    }
+    @media(min-width: $md) {
+        .section-content {
+            > ul {
+                position: relative;
+                overflow: hidden;
+                > li {
+                    float: left;
+                    width: 50%;
+                    padding: 30px 0 30px 20px;
+                    &:nth-of-type(2n + 1) {
+                        clear: both;
+                    }
+                    &:nth-of-type(2n + 2) {
+                        > div {
+                            border-right: 0;
+                        }
+                    }
+                    &:last-child {
+                        > div {
+                            border-right: 0 !important;
+                        }
+                        &:after {
+                            position: absolute;
+                            bottom: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 1px;
+                            content: "";
+                            display: block;
+                            background-color: #e5e5e5;
+                        }
+                    }
+                    > div {
+                        min-height: 62px;
+                        border-right: 1px solid #e5e5e5;
+                        h5 {
+                            font-size: 18px;
+                            small {
+                                font-size: 14px;
+                            }
+                            .ico-facebook {
+                                font-size: 14px;
+                            }
+                        }
+                        > p {
+                            font-size: 14px;
+                            margin-top: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media(min-width: $xl) {
+        .section-content {
+            > ul {
+                > li {
+                    width: 25%;
+                    &:nth-of-type(2n + 1) {
+                        clear: none;
+                    }
+                    &:nth-of-type(2n + 2) {
+                        > div {
+                            border-right: 1px solid #e5e5e5;
+                        }
+                    }
+                    &:nth-of-type(4n + 1) {
+                        clear: both;
+                    }
+                    &:nth-of-type(4n + 4) {
+                        > div {
+                            border-right: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

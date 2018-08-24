@@ -588,12 +588,19 @@ body {
     }
     .ibc {
         float: left;
-        padding: 23px 0;
+        padding: 15px 0;
         margin-right: 15px;
         > a {
             font-size: 16px;
-            color: #eb6100;
+            color: #fff;
+            padding: 0 10px;
             font-weight: 400;
+            line-height: 40px;
+            background-color: #0c7ade;
+            @include transition();
+            &:hover {
+                opacity: .7;
+            }
         }
     }
 }
