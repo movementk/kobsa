@@ -488,6 +488,7 @@
 							width: 69%; 
 							margin-top: 0;
 							margin-left: 20px;
+							padding-right: 20px;
 							text-align: left;
 							dd {
 								margin-top: 25px;
@@ -681,11 +682,8 @@
 							line-height: 43px;
 							text-align: center;
 							border: 1px solid #eb6100;
-							&:hover {
-								color: #fff;
-								opacity: 1;
-								background-color: #eb6100;
-							}
+							background-color: #eb6100;
+							color: #fff;
 						}
 					}
 				}
@@ -728,6 +726,21 @@
 					margin: 50px auto 0;
 					li {
 						line-height: 30px;
+					}
+				}
+				.btn-area {
+					p {
+						.btn {
+							&.btn-going {
+								color: #eb6100;
+								background-color: #fff;
+								&:hover {
+									background-color: #eb6100;
+									color: #fff;
+									opacity: 1;
+								}
+							}
+						}
 					}
 				}
 			}
@@ -841,6 +854,9 @@
 				.number-list {
 					> li {
 						padding-left: 0;
+						& ~ li {
+							margin-top: 45px;
+						}
 						> p {
 							margin-left: 0;
 						}
@@ -965,12 +981,12 @@
 											padding-bottom: 35px;
 											> div {
 												text-align: center;
-												padding: 15px 0;
+												padding: 15px 10px;
 												border: 1px solid #dedfe0;
 												> h5 {
 													font-size: 13px;
 													color: #666;
-													font-weight: 300;
+													font-weight: 400;
 												}
 												> p {
 													font-size: 12px;
@@ -1016,7 +1032,7 @@
 										.process-step {
 											> li {
 												> div {
-													padding: 22px 0;
+													padding: 22px 10px;
 													> h5 {
 														font-size: 15px;
 													}
@@ -1040,7 +1056,7 @@
 										.process-step {
 											> li {
 												> div {
-													padding: 20px 0;
+													padding: 20px 10px;
 												}
 											}
 										}
@@ -1054,6 +1070,7 @@
 								thead {
 									tr {
 										th {
+											min-width: 100px;
 											&.education-date {
 												min-width: 200px;
 											}
@@ -1112,6 +1129,9 @@
 				@media ( min-width: $md ) {
 					.number-list {
 						> li {
+							& ~ li {
+								margin-top: 55px; 
+							}
 							&:first-child {
 								> h3 {
 									display: inline-block;
@@ -1256,6 +1276,7 @@
 							thead {
 								tr {
 									th {
+										min-width: 100px;
 										&:first-child {
 											min-width: 110px;
 										}
@@ -1273,7 +1294,7 @@
 							thead {
 								tr {
 									th {
-										min-width: 50px;
+										min-width: 100px;
 										&:first-child {
 											min-width: 200px;
 										}
@@ -1291,7 +1312,7 @@
 							thead {
 								tr {
 									th {
-										min-width: 50px;
+										min-width: 100px;
 										&:first-child {
 											min-width: 200px;
 										}
@@ -1328,9 +1349,8 @@
 								thead {
 									tr {
 										th {
-											min-width: 100px;
 											&:first-child {
-												min-width: 240px;
+												width: 240px;
 											}
 											&.education-date {
 												min-width: 200px;
@@ -1348,7 +1368,7 @@
 										th {
 											min-width: 100px;
 											&:first-child {
-												min-width: 240px;
+												width: 240px;
 											}
 											&.education-date {
 												min-width: 200px;
@@ -1757,6 +1777,7 @@
 									float: left;
 									font-size: 13px;
 									color: #666;
+									font-weight: 400; 
 									line-height: 30px;
 									@include lato();
 									& ~ dd {

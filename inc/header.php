@@ -40,11 +40,11 @@
                         <a href="/introduce/greeting.php">협회소개</a>
                         <ul>
                             <li><a href="/introduce/greeting.php">협회장 인사말<span></span></a></li>
-                            <li><a href="#">협회소개<span></span></a></li>
-                            <li><a href="#">회원사소개<span></span></a></li>
-                            <li><a href="#">조직구성<span></span></a></li>
-                            <li><a href="#">주요사업<span></span></a></li>
-                            <li><a href="#">찾아오시는길<span></span></a></li>
+                            <li><a href="/introduce/association.php">협회소개<span></span></a></li>
+                            <li><a href="/introduce/member.php">회원사소개<span></span></a></li>
+                            <li><a href="/introduce/organization.php">조직구성<span></span></a></li>
+                            <li><a href="/introduce/professional.php">주요사업<span></span></a></li>
+                            <li><a href="/introduce/location.php">찾아오시는길<span></span></a></li>
                         </ul>
                     </li>
                     <li>

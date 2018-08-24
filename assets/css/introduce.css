@@ -720,6 +720,7 @@ a {
             width: 69%;
             margin-top: 0;
             margin-left: 20px;
+            padding-right: 20px;
             text-align: left; }
             .association .section-content .activity ol > li dl dd {
               margin-top: 25px; }
@@ -840,11 +841,9 @@ a {
       color: #eb6100;
       line-height: 43px;
       text-align: center;
-      border: 1px solid #eb6100; }
-      .member .section-content .details .btn-area p .btn.btn-going:hover {
-        color: #fff;
-        opacity: 1;
-        background-color: #eb6100; }
+      border: 1px solid #eb6100;
+      background-color: #eb6100;
+      color: #fff; }
 @media (min-width: 768px) {
   .member .section-content .row > li ~ li .details {
     margin-top: 0; }
@@ -864,7 +863,14 @@ a {
     .member .section-content .details ul {
       margin: 50px auto 0; }
       .member .section-content .details ul li {
-        line-height: 30px; } }
+        line-height: 30px; }
+    .member .section-content .details .btn-area p .btn.btn-going {
+      color: #eb6100;
+      background-color: #fff; }
+      .member .section-content .details .btn-area p .btn.btn-going:hover {
+        background-color: #eb6100;
+        color: #fff;
+        opacity: 1; } }
 .member .section-content .paging {
   margin-top: 60px; }
   @media (min-width: 1200px) {
@@ -932,6 +938,8 @@ a {
   margin-top: 55px; }
   .professional .section-content article .article-content .number-list > li {
     padding-left: 0; }
+    .professional .section-content article .article-content .number-list > li ~ li {
+      margin-top: 45px; }
     .professional .section-content article .article-content .number-list > li > p {
       margin-left: 0; }
     .professional .section-content article .article-content .number-list > li > h3 {
@@ -1007,12 +1015,12 @@ a {
         padding-bottom: 35px; }
         .professional .section-content article .article-content .number-list > li .process .row > li .process-step > li > div {
           text-align: center;
-          padding: 15px 0;
+          padding: 15px 10px;
           border: 1px solid #dedfe0; }
           .professional .section-content article .article-content .number-list > li .process .row > li .process-step > li > div > h5 {
             font-size: 13px;
             color: #666;
-            font-weight: 300; }
+            font-weight: 400; }
           .professional .section-content article .article-content .number-list > li .process .row > li .process-step > li > div > p {
             font-size: 12px;
             color: #999;
@@ -1039,7 +1047,7 @@ a {
           font-size: 16px;
           line-height: 70px; }
         .professional .section-content article .article-content .number-list > li .process .row > li .process-step > li > div {
-          padding: 22px 0; }
+          padding: 22px 10px; }
           .professional .section-content article .article-content .number-list > li .process .row > li .process-step > li > div > h5 {
             font-size: 15px; }
           .professional .section-content article .article-content .number-list > li .process .row > li .process-step > li > div > p {
@@ -1050,13 +1058,15 @@ a {
           font-size: 15px; } }
       @media (min-width: 1200px) {
         .professional .section-content article .article-content .number-list > li .process .row > li .process-step > li > div {
-          padding: 20px 0; } }
-    .professional .section-content article .article-content .number-list > li .table-responsive .table-type-1 thead tr th.education-date {
-      min-width: 200px; }
-    .professional .section-content article .article-content .number-list > li .table-responsive .table-type-1 thead tr th.period {
-      min-width: 150px; }
-    .professional .section-content article .article-content .number-list > li .table-responsive .table-type-1 thead tr th.price {
+          padding: 20px 10px; } }
+    .professional .section-content article .article-content .number-list > li .table-responsive .table-type-1 thead tr th {
       min-width: 100px; }
+      .professional .section-content article .article-content .number-list > li .table-responsive .table-type-1 thead tr th.education-date {
+        min-width: 200px; }
+      .professional .section-content article .article-content .number-list > li .table-responsive .table-type-1 thead tr th.period {
+        min-width: 150px; }
+      .professional .section-content article .article-content .number-list > li .table-responsive .table-type-1 thead tr th.price {
+        min-width: 100px; }
     @media (min-width: 768px) {
       .professional .section-content article .article-content .number-list > li .table-responsive .table-type-1 thead tr th:first-child {
         width: 200px; }
@@ -1079,6 +1089,8 @@ a {
         .professional .section-content article .article-content .number-list > li .caution > li {
           font-size: 13px; } }
   @media (min-width: 768px) {
+    .professional .section-content article .article-content .number-list > li ~ li {
+      margin-top: 55px; }
     .professional .section-content article .article-content .number-list > li:first-child > h3 {
       display: inline-block;
       margin-right: 0; }
@@ -1159,14 +1171,16 @@ a {
         margin-top: 10px; } }
     .lmo article .article-content .number-list > li .table-wrap {
       margin-top: 20px; }
-      .lmo article .article-content .number-list > li .table-wrap .table-1 thead tr th:first-child {
-        min-width: 110px; }
-      .lmo article .article-content .number-list > li .table-wrap .table-1 thead tr th.grade-3 {
-        min-width: 190px; }
-      .lmo article .article-content .number-list > li .table-wrap .table-1 thead tr th:last-child {
-        min-width: 150px; }
+      .lmo article .article-content .number-list > li .table-wrap .table-1 thead tr th {
+        min-width: 100px; }
+        .lmo article .article-content .number-list > li .table-wrap .table-1 thead tr th:first-child {
+          min-width: 110px; }
+        .lmo article .article-content .number-list > li .table-wrap .table-1 thead tr th.grade-3 {
+          min-width: 190px; }
+        .lmo article .article-content .number-list > li .table-wrap .table-1 thead tr th:last-child {
+          min-width: 150px; }
       .lmo article .article-content .number-list > li .table-wrap .table-2 thead tr th {
-        min-width: 50px; }
+        min-width: 100px; }
         .lmo article .article-content .number-list > li .table-wrap .table-2 thead tr th:first-child {
           min-width: 200px; }
         .lmo article .article-content .number-list > li .table-wrap .table-2 thead tr th.education-date {
@@ -1174,7 +1188,7 @@ a {
         .lmo article .article-content .number-list > li .table-wrap .table-2 thead tr th.requisition {
           min-width: 150px; }
       .lmo article .article-content .number-list > li .table-wrap .table-3 thead tr th {
-        min-width: 50px; }
+        min-width: 100px; }
         .lmo article .article-content .number-list > li .table-wrap .table-3 thead tr th:first-child {
           min-width: 200px; }
         .lmo article .article-content .number-list > li .table-wrap .table-3 thead tr th.education-date {
@@ -1190,18 +1204,16 @@ a {
             min-width: 240px; }
           .lmo article .article-content .number-list > li .table-wrap .table-1 thead tr th:last-child {
             min-width: 200px; }
-          .lmo article .article-content .number-list > li .table-wrap .table-2 thead tr th {
-            min-width: 100px; }
-            .lmo article .article-content .number-list > li .table-wrap .table-2 thead tr th:first-child {
-              min-width: 240px; }
-            .lmo article .article-content .number-list > li .table-wrap .table-2 thead tr th.education-date {
-              min-width: 200px; }
-            .lmo article .article-content .number-list > li .table-wrap .table-2 thead tr th.requisition {
-              min-width: 180px; }
+          .lmo article .article-content .number-list > li .table-wrap .table-2 thead tr th:first-child {
+            width: 240px; }
+          .lmo article .article-content .number-list > li .table-wrap .table-2 thead tr th.education-date {
+            min-width: 200px; }
+          .lmo article .article-content .number-list > li .table-wrap .table-2 thead tr th.requisition {
+            min-width: 180px; }
           .lmo article .article-content .number-list > li .table-wrap .table-3 thead tr th {
             min-width: 100px; }
             .lmo article .article-content .number-list > li .table-wrap .table-3 thead tr th:first-child {
-              min-width: 240px; }
+              width: 240px; }
             .lmo article .article-content .number-list > li .table-wrap .table-3 thead tr th.education-date {
               min-width: 200px; }
             .lmo article .article-content .number-list > li .table-wrap .table-3 thead tr th.price {
@@ -1468,6 +1480,7 @@ a {
           float: left;
           font-size: 13px;
           color: #666;
+          font-weight: 400;
           line-height: 30px;
           font-family: 'Lato', sans-serif; }
           .location .section-content .public-transpor article.bus > ul > li dl dd ~ dd {
