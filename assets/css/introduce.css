@@ -1336,6 +1336,32 @@ a {
             display: inline-block;
             font-size: 13px;
             color: #666; }
+  @media (min-width: 768px) {
+    .location .section-content .info {
+      padding-bottom: 75px; }
+      .location .section-content .info .details {
+        padding: 40px 0 40px 40px; }
+        .location .section-content .info .details > h5 {
+          font-size: 24px;
+          line-height: 36px; }
+        .location .section-content .info .details > p {
+          font-size: 15px;
+          margin-top: 5px; }
+        .location .section-content .info .details > ul {
+          margin-top: 30px; }
+          .location .section-content .info .details > ul > li {
+            display: inline-block; }
+            .location .section-content .info .details > ul > li ~ li {
+              margin-left: 35px; }
+            .location .section-content .info .details > ul > li dl dt {
+              font-size: 15px; }
+            .location .section-content .info .details > ul > li dl dd {
+              font-size: 15px; } }
+  @media (min-width: 1200px) {
+    .location .section-content .info .details {
+      padding: 40px 0 40px 65px; }
+      .location .section-content .info .details > ul > li ~ li {
+        margin-left: 40px; } }
 .location .section-content .public-transpor {
   padding-top: 50px; }
   .location .section-content .public-transpor .sub-title {
@@ -1346,34 +1372,160 @@ a {
     .location .section-content .public-transpor article > h4 {
       font-size: 16px;
       color: #666;
-      font-weight: 400;
-      line-height: 26px;
-      padding-left: 30px; }
+      font-weight: 400; }
     .location .section-content .public-transpor article ~ article {
       margin-top: 20px; }
     .location .section-content .public-transpor article.subway > h4 {
+      padding-left: 30px;
+      line-height: 26px;
       background-image: url(/assets/images/introduce/icon_subway.png);
       background-repeat: no-repeat;
       background-position: left;
       background-size: 20px 26px; }
-    .location .section-content .public-transpor article.subway > ul > li {
-      line-height: 24px;
-      font-size: 13px;
-      color: #666; }
-      .location .section-content .public-transpor article.subway > ul > li span {
-        display: inline-block;
-        width: 24px;
-        height: 24px;
-        line-height: 24px;
-        border-radius: 50%;
+    .location .section-content .public-transpor article.subway > ul {
+      margin-top: 30px; }
+      .location .section-content .public-transpor article.subway > ul > li {
+        position: relative;
         font-size: 13px;
-        color: #fff;
-        font-weight: 500;
-        text-align: center;
-        font-family: 'Lato', sans-serif; }
-        .location .section-content .public-transpor article.subway > ul > li span.line-2 {
-          background-color: #3ab348; }
-        .location .section-content .public-transpor article.subway > ul > li span.line-8 {
+        color: #666;
+        line-height: 24px;
+        padding-left: 35px; }
+        .location .section-content .public-transpor article.subway > ul > li span {
+          position: absolute;
+          top: 0;
+          left: 0;
+          display: inline-block;
+          width: 24px;
+          height: 24px;
+          line-height: 24px;
+          border-radius: 50%;
+          font-size: 13px;
+          color: #fff;
+          font-weight: 500;
+          text-align: center;
+          font-family: 'Lato', sans-serif; }
+        .location .section-content .public-transpor article.subway > ul > li > i {
+          font-style: normal;
+          color: #ed6a10;
+          font-weight: 300; }
+      .location .section-content .public-transpor article.subway > ul.line-2 > li span {
+        background-color: #3ab348; }
+      .location .section-content .public-transpor article.subway > ul.line-8 {
+        margin-top: 30px; }
+        .location .section-content .public-transpor article.subway > ul.line-8 > li span {
           background-color: #ee4a95; }
+    .location .section-content .public-transpor article.bus > h4 {
+      padding-left: 40px;
+      line-height: 20px;
+      background-image: url(/assets/images/introduce/icon_bus.png);
+      background-repeat: no-repeat;
+      background-position: left;
+      background-size: 29px 20px; }
+    .location .section-content .public-transpor article.bus > ul {
+      margin-top: 30px; }
+      .location .section-content .public-transpor article.bus > ul > li ~ li {
+        margin-top: 35px; }
+      .location .section-content .public-transpor article.bus > ul > li h5 {
+        display: inline-block;
+        font-size: 15px;
+        color: #666;
+        font-weight: 400; }
+        .location .section-content .public-transpor article.bus > ul > li h5:before {
+          content: "\E804";
+          font-family: "fontello";
+          margin-right: 5px; }
+      .location .section-content .public-transpor article.bus > ul > li i {
+        display: inline-block;
+        font-size: 15px;
+        color: #999;
+        font-weight: 300;
+        font-style: normal; }
+      .location .section-content .public-transpor article.bus > ul > li dl {
+        overflow: hidden;
+        margin-top: 25px; }
+        .location .section-content .public-transpor article.bus > ul > li dl dt {
+          float: left;
+          clear: both;
+          width: 50px;
+          height: 30px;
+          line-height: 30px;
+          font-size: 13px;
+          color: #fff;
+          font-weight: 400;
+          text-align: center;
+          margin-right: 15px; }
+          .location .section-content .public-transpor article.bus > ul > li dl dt ~ dt {
+            margin-top: 10px; }
+          .location .section-content .public-transpor article.bus > ul > li dl dt.bl {
+            background-color: #3d5bab; }
+          .location .section-content .public-transpor article.bus > ul > li dl dt.gr {
+            background-color: #5bb025; }
+          .location .section-content .public-transpor article.bus > ul > li dl dt.dk-gr {
+            background-color: #4ea031; }
+          .location .section-content .public-transpor article.bus > ul > li dl dt.rd {
+            background-color: #e70000; }
+        .location .section-content .public-transpor article.bus > ul > li dl dd {
+          float: left;
+          font-size: 13px;
+          color: #666;
+          line-height: 30px;
+          font-family: 'Lato', sans-serif; }
+          .location .section-content .public-transpor article.bus > ul > li dl dd ~ dd {
+            margin-top: 10px; }
+  @media (min-width: 768px) {
+    .location .section-content .public-transpor {
+      padding-top: 70px; }
+      .location .section-content .public-transpor article {
+        padding: 40px 20px 40px 40px; }
+        .location .section-content .public-transpor article > h4 {
+          font-size: 18px; }
+        .location .section-content .public-transpor article.subway {
+          overflow: hidden; }
+          .location .section-content .public-transpor article.subway > ul > li {
+            font-size: 16px;
+            line-height: 26px;
+            padding-left: 40px; }
+          .location .section-content .public-transpor article.subway > ul.line-2 {
+            float: left;
+            clear: both;
+            width: 50%; }
+          .location .section-content .public-transpor article.subway > ul.line-8 {
+            float: left;
+            width: 50%; }
+        .location .section-content .public-transpor article.bus > ul {
+          overflow: hidden; }
+          .location .section-content .public-transpor article.bus > ul > li {
+            float: left;
+            width: 50%; }
+            .location .section-content .public-transpor article.bus > ul > li ~ li {
+              margin-top: 0; }
+            .location .section-content .public-transpor article.bus > ul > li:nth-of-type(2) ~ li {
+              margin-top: 75px; }
+            .location .section-content .public-transpor article.bus > ul > li h5 {
+              font-size: 18px; }
+            .location .section-content .public-transpor article.bus > ul > li i {
+              font-size: 14px; }
+            .location .section-content .public-transpor article.bus > ul > li dl {
+              margin-top: 20px; }
+              .location .section-content .public-transpor article.bus > ul > li dl dt {
+                font-size: 14px; }
+              .location .section-content .public-transpor article.bus > ul > li dl dd {
+                font-size: 16px; } }
+  @media (min-width: 1200px) {
+    .location .section-content .public-transpor article.subway {
+      padding: 40px 20px 50px 55px; }
+      .location .section-content .public-transpor article.subway > ul.line-2 {
+        width: 35%; }
+      .location .section-content .public-transpor article.subway > ul.line-8 {
+        width: 65%; }
+    .location .section-content .public-transpor article.bus {
+      padding: 45px 20px 70px 55px; }
+      .location .section-content .public-transpor article.bus > ul > li {
+        width: 32%;
+        margin--right: 2%; }
+        .location .section-content .public-transpor article.bus > ul > li:last-child {
+          margin-right: 0; }
+        .location .section-content .public-transpor article.bus > ul > li:nth-of-type(2) ~ li {
+          margin-top: 0; } }
 
 /*# sourceMappingURL=introduce.css.map */
