@@ -132,11 +132,11 @@
                     <a href="#">협회소개</a>
                     <ul>
                         <li><a href="/introduce/greeting.php">협회장 인사말</a></li>
-                        <li><a href="#">협회소개</a></li>
-                        <li><a href="#">회원사소개</a></li>
-                        <li><a href="#">조직구성</a></li>
-                        <li><a href="#">주요사업</a></li>
-                        <li><a href="#">찾아오시는길</a></li>
+                        <li><a href="/introduce/association.php">협회소개</a></li>
+                        <li><a href="/introduce/member.php">회원사소개</a></li>
+                        <li><a href="/introduce/organization.php">조직구성</a></li>
+                        <li><a href="/introduce/professional.php">주요사업</a></li>
+                        <li><a href="/introduce/location.php">찾아오시는길</a></li>
                     </ul>
                 </li>
                 <li>
