@@ -18,7 +18,7 @@
 					<li><a href="/introduce/member.php">회원사소개</a></li>
 					<li><a href="/introduce/organization.php">조직구성</a></li>
 					<li class="active"><a href="/introduce/professional.php">주요사업</a></li>
-					<li><a href="#">찾아오시는길</a></li>
+					<li><a href="/introduce/location.php">찾아오시는길</a></li>
 				</ul>
 			</div>
 		</div>
@@ -31,14 +31,14 @@
 					<nav class="tab-wrap">
 						<div class="tab-menu">
 							<ul>
-								<li class="active"><a href="#">생물안전교육</a></li>
-								<li><a href="#">생물안전관리</a></li>
+								<li class="active"><a href="/introduce/professional.php">생물안전교육</a></li>
+								<li><a href="/introduce/private.php">생물안전관리</a></li>
 							</ul>
 						</div>
 						<div class="sub-menu">
 							<ul>
-								<li class="on"><a href="#">전문자격제도</a></li>
-								<li><a href="#">LMO법 전문교육</a></li>
+								<li class="on"><a href="/introduce/professional.php">전문자격제도</a></li>
+								<li><a href="/introduce/lmo.php">LMO법 전문교육</a></li>
 							</ul>
 						</div>
 					</nav>
