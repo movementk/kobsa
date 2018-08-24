@@ -1574,6 +1574,49 @@
 					}
 				}
 			}
+			@media ( min-width: $md ) {
+				padding-bottom: 75px;
+				.details {
+					padding: 40px 0 40px 40px;
+					> h5 {
+						font-size: 24px; 
+						line-height: 36px;
+					}
+					> p {
+						font-size: 15px;
+						margin-top: 5px;
+					}
+					> ul {
+						margin-top: 30px;
+						> li {
+							display: inline-block;
+							& ~ li {
+								margin-left: 35px;
+							}
+							dl {
+								dt {
+									font-size: 15px;
+								}
+								dd {
+									font-size: 15px;
+								}
+							}
+						}
+					}
+				}
+			}
+			@media ( min-width: $xl ) {
+				.details {
+					padding: 40px 0 40px 65px;
+					> ul {
+						> li {
+							& ~ li {
+								margin-left: 40px;
+							}
+						}
+					}
+				}
+			}
 		}
 		.public-transpor {
 			padding-top: 50px;
@@ -1587,25 +1630,32 @@
 					font-size: 16px;
 					color: #666;
 					font-weight: 400;
-					line-height: 26px;
-					padding-left: 30px;
+					
 				}
 				& ~ article {
 					margin-top: 20px;
 				}
 				&.subway {
 					> h4 {
+						padding-left: 30px;
+						line-height: 26px;
 						background-image: url(/assets/images/introduce/icon_subway.png);
 						background-repeat: no-repeat;
 						background-position: left;
 						background-size: 20px 26px;
 					}
 					> ul {
+						margin-top: 30px;
 						> li {
-							line-height: 24px;
+							position: relative;
 							font-size: 13px;
 							color: #666;
+							line-height: 24px;
+							padding-left: 35px;
 							span {
+								position: absolute;
+								top: 0;
+								left: 0;
 								display: inline-block;
 								width: 24px;
 								height: 24px;
@@ -1616,15 +1666,192 @@
 								font-weight: 500;
 								text-align: center;
 								@include lato();
-								&.line-2 {
+							}
+							> i {
+								font-style: normal;
+								color: #ed6a10;
+								font-weight: 300;
+							}
+						}
+						&.line-2 {
+							> li {
+								span {
 									background-color: #3ab348;
 								}
-								&.line-8 {
+							}
+						}
+						&.line-8 {
+							margin-top: 30px;
+							> li {
+								span {
 									background-color: #ee4a95;
 								}
 							}
-							> i {}
-						} 
+						}
+					}
+				}
+				&.bus {
+					> h4 {
+						padding-left: 40px;
+						line-height: 20px;
+						background-image: url(/assets/images/introduce/icon_bus.png);
+						background-repeat: no-repeat;
+						background-position: left;
+						background-size: 29px 20px;
+					}
+					> ul {
+						margin-top: 30px;
+						> li {
+							& ~ li {
+								margin-top: 35px;	
+							}
+							h5 {
+								display: inline-block;
+								font-size: 15px;
+								color: #666;
+								font-weight: 400;
+								&:before {
+									content: "\E804";
+									font-family: "fontello";
+									margin-right: 5px;
+								}
+							}
+							i {
+								display: inline-block;
+								font-size: 15px;
+								color: #999;
+								font-weight: 300;
+								font-style: normal;
+							}
+							dl {
+								overflow: hidden;
+								margin-top: 25px;
+								dt {
+									float: left;
+									clear: both;
+									width: 50px;
+									height: 30px;
+									line-height: 30px;
+									font-size: 13px;
+									color: #fff;
+									font-weight: 400;
+									text-align: center;
+									margin-right: 15px;
+									& ~ dt {
+										margin-top: 10px;
+									}
+									&.bl {
+										background-color: #3d5bab;
+									}
+									&.gr {
+										background-color: #5bb025;
+									}
+									&.dk-gr {
+										background-color: #4ea031;
+									}
+									&.rd {
+										background-color: #e70000;
+									}
+								}
+								dd {
+									float: left;
+									font-size: 13px;
+									color: #666;
+									line-height: 30px;
+									@include lato();
+									& ~ dd {
+										margin-top: 10px;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			@media ( min-width: $md ) {
+				padding-top: 70px;
+				article {
+					padding: 40px 20px 40px 40px;
+					> h4 {
+						font-size: 18px;
+					}
+					&.subway {
+						overflow: hidden;
+						> ul {
+							> li {
+								font-size: 16px;
+								line-height: 26px;
+								padding-left: 40px;					
+							}
+							&.line-2 {
+								float: left;
+								clear: both;
+								width: 50%;
+							}
+							&.line-8 {										float: left;
+								width: 50%;
+							}
+						}
+					}
+					&.bus {
+						> ul {
+							overflow: hidden;
+							> li {
+								float: left;
+								width: 50%;
+								& ~ li {
+									margin-top: 0;	
+								}
+								&:nth-of-type(2) ~ li {
+									margin-top: 75px;
+								}
+								h5 {
+									font-size: 18px;
+								}
+								i {
+									font-size: 14px;
+								}
+								dl {
+									margin-top: 20px; 
+									dt {
+										font-size: 14px;
+									}
+									dd {
+										font-size: 16px;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			@media ( min-width: $xl ) {
+				article {
+					&.subway {
+						padding: 40px 20px 50px 55px;
+						> ul {
+							&.line-2 {
+								width: 35%;
+							}
+							&.line-8 {							
+								width: 65%;
+							}
+						}
+					}
+					&.bus {
+						padding: 45px 20px 70px 55px;
+						> ul {
+							> li {
+								width: 32%;
+								margin--right: 2%;
+								&:last-child {
+									margin-right: 0;
+								}
+								&:nth-of-type(2) ~ li {
+									margin-top: 0;
+								}
+							}
+						}
 					}
 				}
 			}

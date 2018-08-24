@@ -65,17 +65,19 @@
 						<h3 class="sub-title">대중교통</h3>
 						<article class="subway">
 							<h4>지하철</h4>
-							<ul>
+							<ul class="line-2">
 								<li>
-									<span class="line-2">2</span>
+									<span>2</span>
 									잠실역 9번 출구 <i>&#40;도보 6분&#41;</i>
 								</li>
 								<li>
 									잠실나루역 3번출구<i>&#40;도보 8분&#41;</i>
 								</li>
+							</ul>
+							<ul class="line-8">
 								<li>
-									<span class="line-8">8</span>
-									뭉촌토성역 4번출구 <i>&#40;도보 6분&#41;</i>
+									<span>8</span>
+									뭉촌토성역 4번출구 <i>&#40;도보 12분&#41;</i>
 								</li>
 							</ul>
 						</article>
@@ -84,14 +86,38 @@
 							<ul>
 								<li>
 									<h5>잠실나루역 하자</h5>
-									<small>&#40;24129&#41; 196m</small>
+									<i>&#40;24129&#41; 196m</i>
 									<dl>
 										<dt class="bl">간선</dt>
 										<dd>342</dd>
 										<dt class="gr">지선</dt>
 										<dd>3318, 3319, 3412, 4318</dd>
-										<dt class="dk-gr"></dt>
+										<dt class="dk-gr">일반</dt>
 										<dd>16, 30-3, 30-5</dd>
+									</dl>
+								</li>
+								<li>
+									<h5>잠실역9번 출구 하차</h5>
+									<i>&#40;24135&#41; 238m</i>
+									<dl>
+										<dt class="gr">지선</dt>
+										<dd>3319, 3413, 4319</dd>
+										<dt class="rd">광역</dt>
+										<dd>M5333</dd>
+										<dt class="dk-gr">일반</dt>
+										<dd>30-1, 70</dd>
+									</dl>
+								</li>
+								<li>
+									<h5>잠실나루역 하차</h5>
+									<i>&#40;24125&#41; 250m</i>
+									<dl>
+										<dt class="bl">간선</dt>
+										<dd>342</dd>
+										<dt class="gr">지선</dt>
+										<dd>3318, 3412, 4318</dd>
+										<dt class="dk-gr">일반</dt>
+										<dd>16</dd>
 									</dl>
 								</li>
 							</ul>
