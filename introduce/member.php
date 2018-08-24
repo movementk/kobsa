@@ -47,7 +47,7 @@
 								</ul>
 								<div class="btn-area">
 									<p>
-										<a href="http://www.naver.com" class="btn btn-going" role="button" target="_black">홈페이지 바로가기</a>
+										<a href="http://www.naver.com" class="btn btn-going" role="button" target="_blank">홈페이지 바로가기</a>
 									</p>
 								</div>
 							</div>
@@ -70,7 +70,7 @@
 								</ul>
 								<div class="btn-area">
 									<p>
-										<a href="http://www.naver.com" class="btn btn-going" role="button" target="_black">홈페이지 바로가기</a>
+										<a href="http://www.naver.com" class="btn btn-going" role="button" target="_blank">홈페이지 바로가기</a>
 									</p>
 								</div>
 							</div>
@@ -93,7 +93,7 @@
 								</ul>
 								<div class="btn-area">
 									<p>
-										<a href="http://www.naver.com" class="btn btn-going" role="button" target="_black">홈페이지 바로가기</a>
+										<a href="http://www.naver.com" class="btn btn-going" role="button" target="_blank">홈페이지 바로가기</a>
 									</p>
 								</div>
 							</div>
@@ -116,7 +116,7 @@
 								</ul>
 								<div class="btn-area">
 									<p>
-										<a href="http://www.naver.com" class="btn btn-going" role="button" target="_black">홈페이지 바로가기</a>
+										<a href="http://www.naver.com" class="btn btn-going" role="button" target="_blank">홈페이지 바로가기</a>
 									</p>
 								</div>
 							</div>
@@ -139,7 +139,7 @@
 								</ul>
 								<div class="btn-area">
 									<p>
-										<a href="http://www.naver.com" class="btn btn-going" role="button" target="_black">홈페이지 바로가기</a>
+										<a href="http://www.naver.com" class="btn btn-going" role="button" target="_blank">홈페이지 바로가기</a>
 									</p>
 								</div>
 							</div>
@@ -162,7 +162,7 @@
 								</ul>
 								<div class="btn-area">
 									<p>
-										<a href="http://www.naver.com" class="btn btn-going" role="button" target="_black">홈페이지 바로가기</a>
+										<a href="http://www.naver.com" class="btn btn-going" role="button" target="_blank">홈페이지 바로가기</a>
 									</p>
 								</div>
 							</div>
@@ -185,7 +185,7 @@
 								</ul>
 								<div class="btn-area">
 									<p>
-										<a href="http://www.naver.com" class="btn btn-going" role="button" target="_black">홈페이지 바로가기</a>
+										<a href="http://www.naver.com" class="btn btn-going" role="button" target="_blank">홈페이지 바로가기</a>
 									</p>
 								</div>
 							</div>
@@ -208,7 +208,7 @@
 								</ul>
 								<div class="btn-area">
 									<p>
-										<a href="http://www.naver.com" class="btn btn-going" role="button" target="_black">홈페이지 바로가기</a>
+										<a href="http://www.naver.com" class="btn btn-going" role="button" target="_blank">홈페이지 바로가기</a>
 									</p>
 								</div>
 							</div>
