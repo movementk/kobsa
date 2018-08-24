@@ -139,7 +139,7 @@
 				</article>
 				<article class="history">
 					<div class="container">
-						<h3 class="sub-title">주요활동</h3>
+						<h3 class="sub-title">주요연혁</h3>
 						<div class="row">
 							<div class="d-none d-md-block col-md-5 col-xl-4">
 								<div class="img-years">
