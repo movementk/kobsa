@@ -1211,13 +1211,426 @@
 	}
 }
 
+//LMO 
+.lmo {
+	article {
+		.article-header {
+			margin-top: 35px;
+			@media ( min-width: $md ) {
+				margin-top: 55px;
+			}
+			@media ( min-width: $xl ) {
+				margin-top: 80px;
+			}
+		}
+		.article-content {
+			margin-top: 40px;
+			.number-list {
+				> li {
+					padding-left: 0;
+					& ~ li {
+						margin-top: 55px;
+					}
+					> p {
+						margin-left: 0;
+					}
+					> h3 {
+						font-size: 16px;
+						padding-left: 35px;
+					}
+					dl {
+						margin-top: 10px;
+					}
+					@media ( min-width: $md ) {
+						> h3 {
+							font-size: 18px;
+							padding-left: 35px;
+						}
+						dl {
+							margin-top: 10px;
+						}
+					}
+					.table-wrap {
+						margin-top: 20px;
+						.table-1 {
+							thead {
+								tr {
+									th {
+										&:first-child {
+											min-width: 110px;
+										}
+										&.grade-3 {
+											min-width: 190px;
+										}
+										&:last-child {
+											min-width: 150px;
+										}
+									}
+								}
+							}
+						}
+						.table-2 {
+							thead {
+								tr {
+									th {
+										min-width: 50px;
+										&:first-child {
+											min-width: 200px;
+										}
+										&.education-date {
+											min-width: 150px;
+										}
+										&.requisition {
+											min-width: 150px;
+										}
+									}
+								}
+							}
+						}
+						.table-3 {
+							thead {
+								tr {
+									th {
+										min-width: 50px;
+										&:first-child {
+											min-width: 200px;
+										}
+										&.education-date {
+											min-width: 150px;
+										}
+										&.price {
+											min-width: 110px;
+										}
+									}
+								}
+							}
+						}
+						@media ( min-width: $md ) {
+							margin-top: 30px;
+							.table-1 {
+								thead {
+									tr {
+										th {
+											&:first-child {
+												min-width: 200px;
+											}
+											&.grade-3 {
+												min-width: 240px;
+											}
+											&:last-child {
+												min-width: 200px;
+											}
+										}
+									}
+								}
+							}
+							.table-2 {
+								thead {
+									tr {
+										th {
+											min-width: 100px;
+											&:first-child {
+												min-width: 240px;
+											}
+											&.education-date {
+												min-width: 200px;
+											}
+											&.requisition {
+												min-width: 180px;
+											}
+										}
+									}
+								}
+							}
+							.table-3 {								
+								thead {
+									tr {
+										th {
+											min-width: 100px;
+											&:first-child {
+												min-width: 240px;
+											}
+											&.education-date {
+												min-width: 200px;
+											}
+											&.price {
+												min-width: 170px;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					.caution {
+						margin-top: 35px;
+						> li {
+							font-size: 12px;
+							color: #999;
+							line-height: 22px;	
+							&:before {
+								content: "※";
+								margin-right: 3px;
+							}
+						}
+						@media ( min-width: $md ) {
+							> li {
+								font-size: 13px;	
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
 
+//국제용역사업
+.international {
+	article {
+		.article-header {
+			margin-top: 35px;
+		}
+		.article-content {
+			margin-top: 40px;
+		}
+		@media ( min-width: $md ) {
+			.article-header {
+				margin-top: 60px; 
+			}
+			.article-content {
+				margin-top: 40px;
+				.number-list {
+					> li {
+						& ~ li {
+							margin-top: 30px;
+						}
+						> h3 {
+							display: inline-block;
+							font-size: 15px;
+						}	
+						> small {
+							display: inline-block;
+							margin-top: 0;
+						}
+					}
+				}
+			}
+		}
+		@media ( min-width: $md ) {
+			.article-header {
+				margin-top: 80px; 
+			}
+			.article-content {
+				margin-top: 60px;
+			}
+		}
+	}
+}
 
+//기업인증기준 제정
+.company-confirm {
+	.article-header {
+		margin-top: 35px;	
+	}
+	.article-content {
+		margin-top: 35px;
+		.summary {
+			> h4 {
+				font-size: 15px;
+				color: #333;
+				font-weight: 400;
+				margin-bottom: 15px;
+			}
+			> p {
+				font-size: 13px;
+				color: #666;
+				line-height: 26px;
+			}
+			> h5 {
+				font-size: 15px;
+				color: #333;
+				font-weight: 400;
+				margin-top: 55px;
+				margin-bottom: 15px;
+			}
+			> .link {
+				a {
+					&:before {
+						position: relative;
+						top: 2px;
+						content: "\F08E";
+						font-family: "fontello";
+						font-size: 16px;
+						color: #333;
+						margin-right: 5px;
+					}
+				}
+			}
+		}
+	}
+	@media ( min-width: $md ) {
+		.article-header {
+			margin-top: 55px;	
+		}
+		.article-content {
+			margin-top: 40px;
+			.summary {
+				> h4 {
+					font-size: 16px;
+					margin-bottom: 20px;
+				}
+				> p {
+					font-size: 14px;
+				}
+				> h5 {
+					font-size: 16px;
+					margin-top: 65px;
+				}
+			}
+		}
+	}
+	@media ( min-width: $xl ) {
+		.article-header {
+			margin-top: 80px;	
+		}
+		.article-content {
+			.summary {
+				> h5 {
+					margin-top: 80px;
+				}
+			}
+		}
+	}
+}
 
-
-
-
-
+//찾아오시는길 
+.location {
+	.section-content {
+		.info {
+			padding-bottom: 50px;
+			border-bottom: 1px solid #e7e7e7;
+			.details {
+				border: 1px solid #e7e7e7;
+				padding: 35px 0 35px 20px;
+				> h5 {
+					font-size: 20px;
+					color: #222;
+					font-weight: 400;
+					line-height: 34px;
+				}
+				> p {
+					font-size: 13px;
+					color: #666;
+					line-height: 20px;
+					margin-top: 15px;
+				}
+				> ul {
+					margin-top: 25px;
+					> li {
+						line-height: 24px;
+						&:before {
+							font-family: "fontello";
+							font-size: 15px;
+							color: #666;
+							margin-right: 5px;
+						}
+						&.call {
+							&:before {
+								content: "\E809";
+							}
+						}
+						&.fax {
+							&:before {
+								content: "\F1AC";
+							}
+						}
+						&.mail {
+							&:before {
+								content: "\E808"; 
+							}
+						}
+						dl {
+							font-size: 0;
+							display: inline-block;
+							dt {
+								display: inline-block;
+								font-size: 13px;
+								color: #666;
+								font-weight: 400;
+								&:after {
+									position: relative;
+									top: -1px;
+									content: ":";
+									margin: 0 2px;
+								}
+							}
+							dd {
+								display: inline-block;
+								font-size: 13px;
+								color: #666;
+							}
+						}
+					}
+				}
+			}
+		}
+		.public-transpor {
+			padding-top: 50px;
+			.sub-title {
+				margin-bottom: 40px;				
+			}
+			article {
+				background-color: #f7f7f7;
+				padding: 40px 10px 40px;
+				> h4 {
+					font-size: 16px;
+					color: #666;
+					font-weight: 400;
+					line-height: 26px;
+					padding-left: 30px;
+				}
+				& ~ article {
+					margin-top: 20px;
+				}
+				&.subway {
+					> h4 {
+						background-image: url(/assets/images/introduce/icon_subway.png);
+						background-repeat: no-repeat;
+						background-position: left;
+						background-size: 20px 26px;
+					}
+					> ul {
+						> li {
+							line-height: 24px;
+							font-size: 13px;
+							color: #666;
+							span {
+								display: inline-block;
+								width: 24px;
+								height: 24px;
+								line-height: 24px;
+								border-radius: 50%;
+								font-size: 13px;
+								color: #fff;
+								font-weight: 500;
+								text-align: center;
+								@include lato();
+								&.line-2 {
+									background-color: #3ab348;
+								}
+								&.line-8 {
+									background-color: #ee4a95;
+								}
+							}
+							> i {}
+						} 
+					}
+				}
+			}
+		}
+	}
+}
 
 
 

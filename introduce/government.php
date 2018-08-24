@@ -18,7 +18,7 @@
 					<li><a href="/introduce/member.php">회원사소개</a></li>
 					<li><a href="/introduce/organization.php">조직구성</a></li>
 					<li class="active"><a href="/introduce/professional.php">주요사업</a></li>
-					<li><a href="#">찾아오시는길</a></li>
+					<li><a href="/introduce/location.php">찾아오시는길</a></li>
 				</ul>
 			</div>
 		</div>
@@ -32,15 +32,15 @@
 						<div class="tab-menu">
 							<ul>
 								<li><a href="/introduce/professional.php">생물안전교육</a></li>
-								<li class="active"><a href="#">생물안전관리</a></li>
+								<li class="active"><a href="/introduce/private.php">생물안전관리</a></li>
 							</ul>
 						</div>
 						<div class="sub-menu">
 							<ul>
 								<li><a href="/introduce/private.php">민간용역사업</a></li>
 								<li class="on"><a href="/introduce/government.php">정부용역사업</a></li>
-								<li><a href="#">국제용역사업</a></li>
-								<li><a href="#">기업인증기준 제정</a></li>
+								<li><a href="/introduce/international.php">국제용역사업</a></li>
+								<li><a href="/introduce/company_confirm.php">기업인증기준 제정</a></li>
 							</ul>
 						</div>
 					</nav>
