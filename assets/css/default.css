@@ -718,49 +718,54 @@ body {
                   background-color: #666; }
     #nav .nav-wrap .nav-body {
       width: 100%; }
-      #nav .nav-wrap .nav-body > ul > li > a {
-        display: block;
-        font-size: 15px;
-        font-weight: 400;
-        line-height: 60px;
-        padding: 0 20px 0 30px;
-        border-bottom: 1px solid #ccc; }
-        #nav .nav-wrap .nav-body > ul > li > a:after {
-          color: #9b9b9b;
-          font-family: "fontello";
-          content: "\F004";
-          float: right; }
-      #nav .nav-wrap .nav-body > ul > li > ul {
-        display: none;
-        padding: 15px 0 15px 40px;
-        border-bottom: 1px solid #ccc;
-        background-color: #f4f5fa; }
-        #nav .nav-wrap .nav-body > ul > li > ul > li {
-          line-height: 40px; }
-          #nav .nav-wrap .nav-body > ul > li > ul > li > a {
-            display: inline-block;
-            font-size: 14px;
-            font-weight: 400;
-            color: #444; }
-            #nav .nav-wrap .nav-body > ul > li > ul > li > a:before {
+      #nav .nav-wrap .nav-body > ul > li {
+        /*&.ibc {
+            a {
+                color: #eb6100;
+                &:after {
+                    content: "" !important;
+                }
+            }
+        }*/ }
+        #nav .nav-wrap .nav-body > ul > li > a {
+          display: block;
+          font-size: 15px;
+          font-weight: 400;
+          line-height: 60px;
+          padding: 0 20px 0 30px;
+          border-bottom: 1px solid #ccc; }
+          #nav .nav-wrap .nav-body > ul > li > a:after {
+            color: #9b9b9b;
+            font-family: "fontello";
+            content: "\F004";
+            float: right; }
+        #nav .nav-wrap .nav-body > ul > li > ul {
+          display: none;
+          padding: 15px 0 15px 40px;
+          border-bottom: 1px solid #ccc;
+          background-color: #f4f5fa; }
+          #nav .nav-wrap .nav-body > ul > li > ul > li {
+            line-height: 40px; }
+            #nav .nav-wrap .nav-body > ul > li > ul > li > a {
               display: inline-block;
-              content: "- ";
-              margin-right: 5px; }
-            #nav .nav-wrap .nav-body > ul > li > ul > li > a:hover, #nav .nav-wrap .nav-body > ul > li > ul > li > a:focus {
-              color: #0b60ae; }
-      #nav .nav-wrap .nav-body > ul > li.ibc a {
-        color: #eb6100; }
-        #nav .nav-wrap .nav-body > ul > li.ibc a:after {
-          content: "" !important; }
-      #nav .nav-wrap .nav-body > ul > li.active > a {
-        color: #fff;
-        border-color: #0b60ae;
-        background-color: #0b60ae; }
-        #nav .nav-wrap .nav-body > ul > li.active > a:after {
-          color: #acc9e3;
-          content: "\F005"; }
-      #nav .nav-wrap .nav-body > ul > li.active > ul {
-        display: block; }
+              font-size: 14px;
+              font-weight: 400;
+              color: #444; }
+              #nav .nav-wrap .nav-body > ul > li > ul > li > a:before {
+                display: inline-block;
+                content: "- ";
+                margin-right: 5px; }
+              #nav .nav-wrap .nav-body > ul > li > ul > li > a:hover, #nav .nav-wrap .nav-body > ul > li > ul > li > a:focus {
+                color: #0b60ae; }
+        #nav .nav-wrap .nav-body > ul > li.active > a {
+          color: #fff;
+          border-color: #0b60ae;
+          background-color: #0b60ae; }
+          #nav .nav-wrap .nav-body > ul > li.active > a:after {
+            color: #acc9e3;
+            content: "\F005"; }
+        #nav .nav-wrap .nav-body > ul > li.active > ul {
+          display: block; }
   @media (min-width: 768px) {
     #nav .nav-wrap {
       width: 580px;
@@ -787,7 +792,25 @@ body {
 #gnb {
   position: relative;
   z-index: 100;
-  float: right; }
+  float: right;
+  padding-right: 124px;
+  /*.ibc {
+      float: left;
+      padding: 15px 0;
+      margin-right: 15px;
+      > a {
+          font-size: 16px;
+          color: #fff;
+          padding: 0 10px;
+          font-weight: 400;
+          line-height: 40px;
+          background-color: #0c7ade;
+          @include transition();
+          &:hover {
+              opacity: .7;
+          }
+      }
+  }*/ }
   #gnb > ul {
     float: left;
     font-size: 0; }
@@ -799,7 +822,7 @@ body {
         font-size: 17px;
         color: #333;
         display: block;
-        padding: 0 35px;
+        padding: 0 30px;
         font-weight: 400;
         line-height: 70px;
         -webkit-transition-property: all;
@@ -868,27 +891,27 @@ body {
         border-right: 0; }
       #gnb > ul > li.active > a {
         color: #085eaa; }
-  #gnb .ibc {
-    float: left;
-    padding: 15px 0;
-    margin-right: 15px; }
-    #gnb .ibc > a {
-      font-size: 16px;
-      color: #fff;
-      padding: 0 10px;
-      font-weight: 400;
-      line-height: 40px;
-      background-color: #0c7ade;
-      -webkit-transition-property: all;
-      transition-property: all;
-      -webkit-transition-duration: 0.15s;
-      transition-duration: 0.15s;
-      -webkit-transition-timing-function: linear;
-      transition-timing-function: linear;
-      -webkit-transition-delay: 0s;
-      transition-delay: 0s; }
-      #gnb .ibc > a:hover {
-        opacity: .7; }
+      #gnb > ul > li.ibc {
+        position: absolute;
+        top: 0;
+        right: -25px;
+        padding: 0; }
+        #gnb > ul > li.ibc > a {
+          padding: 0 30px;
+          font-weight: 300;
+          color: #fff;
+          line-height: 70px;
+          background-color: #0c7ade;
+          -webkit-transition-property: all;
+          transition-property: all;
+          -webkit-transition-duration: 0.15s;
+          transition-duration: 0.15s;
+          -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+          -webkit-transition-delay: 0s;
+          transition-delay: 0s; }
+          #gnb > ul > li.ibc > a:hover {
+            opacity: .7; }
 
 .opened #header {
   height: auto; }
