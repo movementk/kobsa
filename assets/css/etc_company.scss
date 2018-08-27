@@ -1,0 +1,226 @@
+@import 'common';
+
+//공통
+.etc-company {
+    .page-header {
+        padding: 53px 0;
+        background-image: url(/assets/images/etc_company/bg_page_header.jpg);
+        @media(min-width: $md) {
+            padding: 80px 0;
+        }
+        @media(min-width: $xl) {
+            padding: 200px 0 90px;
+        }
+    }
+}
+
+
+// lnb-list
+.lnb-list {
+    > ul {
+        font-size: 0;
+        > li {
+            display: inline-block;
+            text-align: center;
+            border: 1px solid #bababa;
+            border-left: 0;
+            border-top: 0;
+            width: 33.33%;
+            a {
+                font-size: 13px;
+                display: block;
+                color: #999;
+				width: 100%;
+                line-height: 45px;
+                @include transition();
+                &:hover {
+                    color: #fff;
+                    background-color: #085eaa;
+                    opacity: .8;
+                }
+            }
+            &.active {
+                a {
+                    color: #fff;
+                    background-color: #085eaa;
+                    &:hover {
+                        opacity: 1;
+                    }
+                }
+            }
+            &:nth-of-type(3n + 1) {
+                border-left: 1px solid #bababa;
+            }
+            &:nth-of-type(1),&:nth-of-type(2),&:nth-of-type(3) {
+                border-top: 1px solid #bababa;
+            }
+        }
+    }
+    @media(min-width: $md) {
+        > ul {
+            > li {
+                a {
+                    font-size: 15px;
+                    line-height: 55px;
+                }
+            }
+        } 
+    }
+    @media(min-width: $xl) {
+        > ul {
+            display: table;
+            width: 100%;
+			table-layout: fixed;
+            > li {
+                display: table-cell;
+                width: 1%;
+                border-bottom: 1px solid #bababa;
+                border-top: 1px solid #bababa;
+				border-left: 0 !important;
+                a {
+                    font-size: 16px;
+                    line-height: 55px;
+                }
+                &:first-child {
+                    border-left: 1px solid #bababa !important;
+                }
+            }
+        }
+    }
+}
+
+// 설계, 시공 리스트
+.construct-list {
+	.news-list {
+		border-top: 2px solid #030303;
+		> li {
+			padding-bottom: 20px;
+			border-bottom: 1px solid #dfdfdf;
+			& ~ li {
+				padding-top: 30px;
+			}
+			&:first-child {
+				padding-top: 10px;
+			}
+			.items {
+				border: 1px solid #e1e1e1;
+				img {
+					width: 100%;
+				}
+			}
+			.details {
+				padding-top: 25px;
+				h5 {
+					font-size: 16px;
+					color: #333;
+					line-height: 24px;
+					font-weight: 400;
+				}
+				.info {
+					font-size: 0;
+					margin-top: 20px;
+					li {
+						display: inline-block;
+						font-size: 13px;
+						color: #999;
+						line-height: 24px;
+						&:after {
+							position: relative;
+							top: -2px;
+							font-size: 10px;
+							content: "|";
+							margin: 0 5px;
+						}
+						&.call {
+							&:before {
+								content: "\E809";
+								font-family: "fontello";
+								font-size: 12px;
+								margin-right: 3px;
+							}
+						}
+						&.mail {
+							&:before {
+								content: "\E808";
+								font-family: "fontello";
+								font-size: 12px;
+								margin-right: 3px;
+							}
+						}
+						&:last-child {
+							&:after {
+								display: none;
+							}
+						}
+					}
+				}
+				p {
+					font-size: 13px;
+					color: #666;
+					line-height: 22px;
+					margin-top: 25px;
+				}
+			}
+			.bottom-logo {
+				text-align: right;
+				height: 36px;
+				margin-top: 35px;
+				padding-right: 50px;
+				background-image: url(/assets/images/etc_company/img_logo_lavel.jpg);
+				background-repeat: no-repeat;
+				background-position: top right;
+			}
+		}
+	}
+	.paging {
+		margin-top: 40px;
+	}
+	@media ( min-width: $md ) {
+		.news-list {
+			> li {
+				width: 100%;
+				font-size: 0;
+				overflow: hidden;
+				padding-bottom: 30px;
+				&:first-child {
+					padding-top: 20px;
+				}
+				.items {
+					float: left;
+					clear: both;
+					width: 250px;
+					height: 100%;
+				}
+				.details {
+					float: left;
+					padding-top: 0;
+					h5 {
+						font-size: 20px;
+					}
+					.info {
+						margin-top: 25px;
+					}
+					p {
+						font-size: 14px;
+					}
+				}
+				.bottom-logo {
+					display: inline-block;
+					text-align: left;
+					margin-top: 50px;
+				}
+			}
+		}
+		.paging {
+			margin-top: 50px;
+		}
+	}
+}
+ 
+
+
+
+
+
+
+
