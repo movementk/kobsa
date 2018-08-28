@@ -511,4 +511,103 @@ a {
     .ibc-member .section-content > ul > li:nth-of-type(4n + 4) > div {
       border-right: 0; } }
 
+.member-popup {
+  padding-left: 10px !important;
+  padding-bottom: 150px;
+  padding-right: 10px !important;
+  background-color: rgba(0, 0, 0, 0.6); }
+  .member-popup .modal-dialog {
+    max-width: 300px;
+    margin: 50px auto 0; }
+    .member-popup .modal-dialog .modal-content {
+      border: 0;
+      border-radius: 0; }
+      .member-popup .modal-dialog .modal-content .modal-header {
+        position: relative;
+        padding: 0;
+        border: 0;
+        border-radius: 0;
+        height: 50px;
+        padding-top: 15px;
+        padding-left: 10px;
+        background-color: #ed6a10; }
+        .member-popup .modal-dialog .modal-content .modal-header .modal-title {
+          font-size: 14px;
+          color: #fff;
+          font-weight: 400; }
+          .member-popup .modal-dialog .modal-content .modal-header .modal-title:before {
+            content: "\E80D";
+            font-family: "fontello";
+            font-size: 14px;
+            margin-right: 10px; }
+        .member-popup .modal-dialog .modal-content .modal-header .close {
+          position: absolute;
+          top: 0;
+          right: 0;
+          padding: 0;
+          margin: 0;
+          font-size: 35px;
+          line-height: 50px;
+          text-shadow: none;
+          opacity: 1;
+          width: 50px;
+          height: 50px;
+          color: #fff; }
+          .member-popup .modal-dialog .modal-content .modal-header .close span {
+            position: relative;
+            top: -3px; }
+      .member-popup .modal-dialog .modal-content .modal-body {
+        padding: 0;
+        padding: 40px 10px 50px; }
+        .member-popup .modal-dialog .modal-content .modal-body .table-wrap {
+          width: 100%;
+          overflow: hidden;
+          word-break: normal;
+          border-top: 3px solid #ed6a10;
+          border-bottom: 1px solid #000; }
+          .member-popup .modal-dialog .modal-content .modal-body .table-wrap .table {
+            margin: 0; }
+            .member-popup .modal-dialog .modal-content .modal-body .table-wrap .table tr th {
+              width: 120px;
+              font-size: 13px;
+              color: #444;
+              font-weight: 300;
+              padding: 17px 0 17px 10px;
+              border-bottom: 1px solid #d6d6d6;
+              background-color: #f5f5f5; }
+            .member-popup .modal-dialog .modal-content .modal-body .table-wrap .table tr td {
+              padding: 0;
+              padding-left: 15px;
+              padding-right: 15px;
+              font-size: 13px;
+              color: #999;
+              font-weight: 300;
+              vertical-align: middle;
+              border-bottom: 1px solid #d6d6d6; }
+  @media (min-width: 768px) {
+    .member-popup .modal-dialog {
+      max-width: 720px;
+      margin: 100px auto 0; }
+      .member-popup .modal-dialog .modal-content .modal-header {
+        padding-left: 20px; }
+        .member-popup .modal-dialog .modal-content .modal-header .modal-title {
+          font-size: 15px; }
+          .member-popup .modal-dialog .modal-content .modal-header .modal-title:before {
+            font-size: 15px; }
+      .member-popup .modal-dialog .modal-content .modal-body {
+        padding: 40px 20px 50px; }
+        .member-popup .modal-dialog .modal-content .modal-body .table-wrap .table tr th {
+          width: 160px;
+          font-size: 14px;
+          padding: 17px 0 17px 25px; }
+        .member-popup .modal-dialog .modal-content .modal-body .table-wrap .table tr td {
+          padding-left: 30px;
+          padding-right: 30px;
+          font-size: 14px; } }
+  @media (min-width: 1200px) {
+    .member-popup .modal-dialog {
+      max-width: 850px; }
+      .member-popup .modal-dialog .modal-content .modal-body {
+        padding: 40px 20px 50px; } }
+
 /*# sourceMappingURL=ibc.css.map */

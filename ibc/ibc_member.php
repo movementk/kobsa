@@ -87,17 +87,58 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="memberPopupTitle">Modal title</h5>
+                    <h5 class="modal-title" id="memberPopupTitle">IBC위원목록</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    ...
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <div class="table-wrap">
+                    	<table class="table">
+                    		<tbody>
+                    			<tr>
+                    				<th>아이디(닉네임)</th>
+                    				<td>홍길동</td>
+                    			</tr>
+                    			<tr>
+                    				<th>성명</th>
+                    				<td>홍길동</td>
+                    			</tr>
+                    			<tr>
+                    				<th>생물안전위원회<br> 소속 기관명</th>
+                    				<td>생물안전관리책임자 </td>
+                    			</tr>
+                    			<tr>
+                    				<th>역할</th>
+                    				<td>생물안전관리책임자생물안전관리책임자 </td>
+                    			</tr>
+                    			<tr>
+                    				<th>소속기관</th>
+                    				<td>우정바이오</td>
+                    			</tr>
+                    			<tr>
+                    				<th>직책</th>
+                    				<td>과장</td>
+                    			</tr>
+                    			<tr>
+                    				<th>전화번호(핸드폰)</th>
+                    				<td><a href="tel:01012134567">010-1213-4567</a></td>
+                    			</tr>
+                    			<tr>
+                    				<th>전화번호(사무실)</th>
+                    				<td><a href="tel:021234567">02-123-4567</a></td>
+                    			</tr>
+                    			<tr>
+                    				<th>전자메일</th>
+                    				<td><a href="mailto:bbb123@naver.com">bbb123@naver.com</a></td>
+                    			</tr>
+                    			<tr>
+                    				<th>전문분야</th>
+                    				<td>환경과학, 시설분야</td>
+                    			</tr>
+                    		</tbody>
+                    	</table>
+                    </div>
                 </div>
             </div>
         </div>

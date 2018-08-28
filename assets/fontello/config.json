@@ -137,6 +137,12 @@
       "css": "fax",
       "code": 61868,
       "src": "fontawesome"
+    },
+    {
+      "uid": "ecf8edb95c3f45eb433b4cce7ba9f740",
+      "css": "users",
+      "code": 59405,
+      "src": "entypo"
     }
   ]
 }
