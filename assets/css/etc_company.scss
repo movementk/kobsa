@@ -115,6 +115,13 @@
 					color: #333;
 					line-height: 24px;
 					font-weight: 400;
+					a {
+						display: block;
+						width: 100%;
+						overflow: hidden;
+						text-overflow: ellipsis;
+						white-space: nowrap;
+					}
 				}
 				.info {
 					font-size: 0;
@@ -160,15 +167,15 @@
 					line-height: 22px;
 					margin-top: 25px;
 				}
-			}
-			.bottom-logo {
-				text-align: right;
-				height: 36px;
-				margin-top: 35px;
-				padding-right: 50px;
-				background-image: url(/assets/images/etc_company/img_logo_lavel.jpg);
-				background-repeat: no-repeat;
-				background-position: top right;
+				.bottom-logo {
+					text-align: right;
+					height: 36px;
+					margin-top: 35px;
+					padding-right: 50px;
+					background-image: url(/assets/images/etc_company/img_logo_lavel.jpg);
+					background-repeat: no-repeat;
+					background-position: top right;
+				}
 			}
 		}
 	}
@@ -178,36 +185,45 @@
 	@media ( min-width: $md ) {
 		.news-list {
 			> li {
-				width: 100%;
-				font-size: 0;
-				overflow: hidden;
+				position: relative;
+				padding-left: 290px;
 				padding-bottom: 30px;
 				&:first-child {
-					padding-top: 20px;
+					padding-top: 30px;
 				}
 				.items {
-					float: left;
-					clear: both;
+					position: absolute;
+					top: 30px;
+					left: 0;
 					width: 250px;
-					height: 100%;
+					height: 215px;
+					img {
+						height: 100%;
+					}
 				}
 				.details {
-					float: left;
 					padding-top: 0;
 					h5 {
 						font-size: 20px;
+						line-height: 30px;
+						padding-top: 15px;
 					}
 					.info {
 						margin-top: 25px;
+						li {
+							&:after {
+								margin: 0 10px;
+							} 
+						}
 					}
 					p {
 						font-size: 14px;
 					}
-				}
-				.bottom-logo {
-					display: inline-block;
-					text-align: left;
-					margin-top: 50px;
+					.bottom-logo {
+						display: inline-block;
+						text-align: left;
+						margin-top: 50px;
+					}
 				}
 			}
 		}
@@ -215,9 +231,173 @@
 			margin-top: 50px;
 		}
 	}
+	@media ( min-width: $xl ) {
+		.news-list {
+			> li {
+				overflow: hidden;
+				min-height: 230px;
+				padding-left: 370px;
+				padding-bottom: 25px;
+				&:first-child {
+					padding-top: 25px;
+				}
+				.items {
+					top: 20px;
+					width: 300px;
+					height: 185px;
+				}
+				.details {
+					width: 600px;
+					.bottom-logo {
+						position: absolute;
+						top: 50%;
+						right: 0;
+						margin-top: -18px;
+					}
+				}
+			}
+		}
+	}
 }
  
-
+//설계, 시공 페이지 view
+.construct-view {
+	.section-content {
+		article {
+			.article-header {
+				padding: 20px 10px;
+				border-top: 2px solid #030303;
+				border-bottom: 1px solid #d6d6d6;
+				h5 {
+					font-size: 15px;
+					color: #333;
+					line-height: 24px;
+					font-weight: 400;
+				}
+			}
+			.article-content {
+				padding-top: 30px;
+				figure {
+					/*height: 215px;*/
+					text-align: center;
+					padding-bottom: 30px;
+					img {
+						margin: 0 auto;
+						border: 1px solid #e1e1e1;
+					}
+				}
+				.table-wrap {
+					border-top: 1px solid #333; 
+					.table {
+						tr {
+							th {
+								min-width: 110px;
+								font-size: 12px;
+								color: #666;
+								line-height: 18px;
+								font-weight: 400;
+								padding: 20px 10px;
+								vertical-align: middle;
+								border-bottom: 1px solid #d6d6d6;
+								background-color: #fafafa;
+							}
+							td {
+								font-size: 13px;
+								color: #666;
+								font-weight: 300;
+								vertical-align: middle;
+								padding: 0;  
+								padding-left: 30px;
+								border-bottom: 1px solid #d6d6d6;
+							}
+						}
+					}
+					.btn-area {
+						text-align: right;
+						margin-top: 20px;
+						p {
+							.btn-default {
+								width: 110px;
+								font-size: 13px;
+								color: #fff;
+								text-align: center;
+								line-height: 40px;
+								background-color: #085eaa;
+							}
+						}
+					}
+				}
+			}
+		}
+		@media ( min-width: $md ) {
+			article {
+				.article-header {
+					padding: 20px 15px;
+				}
+				.article-content {
+					padding-top: 50px;
+					figure {
+						padding-bottom: 60px;
+					}
+					.table-wrap {
+						.table {
+							tr {
+								th {
+									width: 185px;
+									font-size: 13px;
+									padding: 20px 20px;
+								}
+								td {
+									padding-left: 35px;
+								}
+							}
+						}
+						.btn-area {
+							margin-top: 30px;
+							p {
+								.btn-default {
+									width: 150px;
+									font-size: 15px;
+									line-height: 50px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		@media ( min-width: $xl ) {
+			article {
+				.article-header {
+					border-top: 3px solid #030303;
+				}
+				.article-content {
+					figure {
+						padding-bottom: 70px;
+					}
+					.table-wrap {
+						.table {
+							tr {
+								th {
+									width: 215px;
+									font-size: 14px;
+									padding-left: 30px;
+									padding-right: 0; 
+								}
+								td {
+									padding-left: 40px;
+								}
+							}
+						}
+						.btn-area {
+							margin-top: 40px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
 
 
 
