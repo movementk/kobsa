@@ -15,14 +15,14 @@
                 <ul>
                     <li><a href="/ibc/ibc_member.php">IBC위원목록</a></li>
                     <li><a href="/ibc/notice_list.php">공지사항</a></li>
-					<li class="active"><a href="/ibc/faq_list.php">FAQ</a></li>
+					<li class="active"><a href="/ibc/faq_list.php">질의응답</a></li>
 					<li><a href="/ibc/reference_list.php">자료실</a></li>
                 </ul>
             </div>
             
             <section class="faq-view">
                 <div class="section-header">
-                    <h4>FAQ</h4>
+                    <h4>질의응답</h4>
                 </div>
                 <div class="section-content">
                     <article class="board-view">

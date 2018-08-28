@@ -162,7 +162,7 @@
                     <ul>
                         <li><a href="/trend/notification_list.php">공지사항</a></li>
                         <li><a href="/trend/bulletin_list.php">게시판</a></li>
-                        <li><a href="/trend/faq_list.php">FAQ</a></li>
+                        <li><a href="/trend/faq_list.php">질의응답</a></li>
                     </ul>
                 </li>
                 <li>
