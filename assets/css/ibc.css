@@ -517,7 +517,7 @@ a {
   padding-right: 10px !important;
   background-color: rgba(0, 0, 0, 0.6); }
   .member-popup .modal-dialog {
-    max-width: 300px;
+    max-width: 100%;
     margin: 50px auto 0; }
     .member-popup .modal-dialog .modal-content {
       border: 0;
