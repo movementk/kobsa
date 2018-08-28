@@ -420,7 +420,8 @@ a {
         border-radius: 50%;
         border: 0;
         text-indent: -99999px;
-        margin: 0 3px; }
+        margin: 0 3px;
+        cursor: pointer; }
       .jumbotron .slick-dots > li.slick-active > button {
         width: 20px;
         border-radius: 10px;
