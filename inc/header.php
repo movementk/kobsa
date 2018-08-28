@@ -175,7 +175,7 @@
                 <li>
                     <a href="#">생물안전 전문기업소개</a>
                     <ul>
-                        <li><a href="#">설계, 시공 전문</a></li>
+                        <li><a href="/etc_company/construct_list.php">설계, 시공 전문</a></li>
                         <li><a href="#">시설 유지보수전문</a></li>
                         <li><a href="#">장비 및 소모품 전문</a></li>
                         <li><a href="#">멸균 및 검증 전문</a></li>
