@@ -13,8 +13,8 @@
             <!-- lnb-list -->
             <div class="lnb-list">
                 <ul>
-                    <li><a href="#">설계,시공</a></li>
-                    <li class="active"><a href="#">유지보수</a></li>
+                    <li class="active"><a href="/etc_company/construct_list.php">설계,시공</a></li>
+                    <li><a href="#">유지보수</a></li>
 					<li><a href="#">장비,소모품</a></li>
 					<li><a href="#">멸균</a></li>
                     <li><a href="#">기타</a></li>
@@ -28,11 +28,34 @@
                 <div class="section-content">
                     <ul class="news-list">
                     	<li>
+							<div class="items">
+								<img src="/assets/images/etc_company/img_construct_list01.jpg" class="img-fluid" alt="">
+							</div>
+							<div class="details">
+								<h5><a href="/etc_company/construct_view.php">우정바이오 구제역센터 실험동물실 공간 멸균 검증우정바이오 구제역센터 실험동물실 공간 멸균 검증</a></h5>
+								<ul class="info">
+									<li>담당자 홍길동</li>
+									<li class="call">
+										<a href="tel:01000001122">
+											010-0000-1122
+										</a>
+									</li>
+									<li class="mail">
+										<a href="mailto:admin@sharehub.kr">admin@sharehub.kr</a>
+									</li>
+								</ul>
+								<p>기업소개 설명 영역기업소개 설명 영역기업소개 설명 영역기업소개 설명 영역기업소개 설명 영역기업소개 설명 영역기업소개 설명 영역기업소개 설명 영역기업소개 설명 영역기업소개 설명 영역기업소개 설명 영역기업소개 설명 영역기업소개 설명 영역기업소개 설명 영역기업소개 설명 영역기업소개 설명 영역기업소개 설명 영역기업소개 설명 영역</p>
+								<div class="bottom-logo">
+									<img src="/assets/images/etc_company/img_bt_logo01.jpg" alt="">
+								</div>
+							</div>
+                    	</li>
+                    	<li>
                     		<div class="items">
-                    			<img src="/assets/images/etc_company/img_construct_list01.jpg" class="img-fluid" alt="">
+                    			<img src="/assets/images/etc_company/img_construct_list02.jpg" class="img-fluid" alt="">
                     		</div>
                     		<div class="details">
-                    			<h5>우정바이오 구제역센터 실험동물실 공간 멸균 검증</h5>
+                    			<h5><a href="/etc_company/construct_view.php">우정바이오 구제역센터 실험동물실 공간 멸균 검증</a></h5>
                     			<ul class="info">
                     				<li>담당자 홍길동</li>
                     				<li class="call">
@@ -45,32 +68,9 @@
                     				</li>
                     			</ul>
                     			<p>기업소개 설명 영역기업소개 설명 영역기업소개 설명 영역기업소개 설명 영역기업소개 설명 영역기업소개 설명 영역기업소개 설명 영역기업소개 설명 영역기업소개 설명 영역기업소개 설명 영역기업소개 설명 영역기업소개 설명 영역기업소개 설명 영역기업소개 설명 영역기업소개 설명 영역기업소개 설명 영역기업소개 설명 영역기업소개 설명 영역</p>
-                    		</div>
-                    		<div class="bottom-logo">
-                    			<img src="/assets/images/etc_company/img_bt_logo01.jpg" alt="">
-                    		</div>
-                    	</li>
-                    	<li>
-                    		<div class="items">
-                    			<img src="/assets/images/etc_company/img_construct_list02.jpg" class="img-fluid" alt="">
-                    		</div>
-                    		<div class="details">
-                    			<h5>우정바이오 구제역센터 실험동물실 공간 멸균 검증</h5>
-                    			<ul class="info">
-                    				<li>담당자 홍길동</li>
-                    				<li class="call">
-                    					<a href="tel:01000001122">
-                    						010-0000-1122
-                    					</a>
-                    				</li>
-                    				<li class="mail">
-                    					<a href="mailto:admin@sharehub.kr">admin@sharehub.kr</a>
-                    				</li>
-                    			</ul>
-                    			<p>기업소개 설명</p>
-                    		</div>
-                    		<div class="bottom-logo">
-                    			<img src="/assets/images/etc_company/img_bt_logo02.jpg" alt="">
+								<div class="bottom-logo">
+									<img src="/assets/images/etc_company/img_bt_logo02.jpg" alt="">
+								</div>
                     		</div>
                     	</li>
                     	<li>
@@ -78,7 +78,7 @@
                     			<img src="/assets/images/etc_company/img_construct_list03.jpg" class="img-fluid" alt="">
                     		</div>
                     		<div class="details">
-                    			<h5>우정바이오 구제역센터 실험동물실 공간 멸균 검증</h5>
+                    			<h5><a href="/etc_company/construct_view.php">우정바이오 구제역센터 실험동물실 공간 멸균 검증</a></h5>
                     			<ul class="info">
                     				<li>담당자 홍길동</li>
                     				<li class="call">
@@ -91,9 +91,32 @@
                     				</li>
                     			</ul>
                     			<p>기업소개 설명</p>
+								<div class="bottom-logo">
+									<img src="/assets/images/etc_company/img_bt_logo03.jpg" alt="">
+								</div>
                     		</div>
-                    		<div class="bottom-logo">
-                    			<img src="/assets/images/etc_company/img_bt_logo03.jpg" alt="">
+                    	</li>
+                    	<li class="d-none d-md-block">
+                    		<div class="items">
+                    			<img src="/assets/images/etc_company/img_construct_list04.jpg" class="img-fluid" alt="">
+                    		</div>
+                    		<div class="details">
+                    			<h5><a href="/etc_company/construct_view.php">우정바이오 구제역센터 실험동물실 공간 멸균 검증</a></h5>
+                    			<ul class="info">
+                    				<li>담당자 홍길동</li>
+                    				<li class="call">
+                    					<a href="tel:01000001122">
+                    						010-0000-1122
+                    					</a>
+                    				</li>
+                    				<li class="mail">
+                    					<a href="mailto:admin@sharehub.kr">admin@sharehub.kr</a>
+                    				</li>
+                    			</ul>
+                    			<p>기업소개 설명</p>
+								<div class="bottom-logo">
+									<img src="/assets/images/etc_company/img_bt_logo04.jpg" alt="">
+								</div>
                     		</div>
                     	</li>
                     </ul>

@@ -467,6 +467,12 @@ a {
         color: #333;
         line-height: 24px;
         font-weight: 400; }
+        .construct-list .news-list > li .details h5 a {
+          display: block;
+          width: 100%;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap; }
       .construct-list .news-list > li .details .info {
         font-size: 0;
         margin-top: 20px; }
@@ -498,43 +504,149 @@ a {
         color: #666;
         line-height: 22px;
         margin-top: 25px; }
-    .construct-list .news-list > li .bottom-logo {
-      text-align: right;
-      height: 36px;
-      margin-top: 35px;
-      padding-right: 50px;
-      background-image: url(/assets/images/etc_company/img_logo_lavel.jpg);
-      background-repeat: no-repeat;
-      background-position: top right; }
+      .construct-list .news-list > li .details .bottom-logo {
+        text-align: right;
+        height: 36px;
+        margin-top: 35px;
+        padding-right: 50px;
+        background-image: url(/assets/images/etc_company/img_logo_lavel.jpg);
+        background-repeat: no-repeat;
+        background-position: top right; }
 .construct-list .paging {
   margin-top: 40px; }
 @media (min-width: 768px) {
   .construct-list .news-list > li {
-    width: 100%;
-    font-size: 0;
-    overflow: hidden;
+    position: relative;
+    padding-left: 290px;
     padding-bottom: 30px; }
     .construct-list .news-list > li:first-child {
-      padding-top: 20px; }
+      padding-top: 30px; }
     .construct-list .news-list > li .items {
-      float: left;
-      clear: both;
+      position: absolute;
+      top: 30px;
+      left: 0;
       width: 250px;
-      height: 100%; }
+      height: 215px; }
+      .construct-list .news-list > li .items img {
+        height: 100%; }
     .construct-list .news-list > li .details {
-      float: left;
       padding-top: 0; }
       .construct-list .news-list > li .details h5 {
-        font-size: 20px; }
+        font-size: 20px;
+        line-height: 30px;
+        padding-top: 15px; }
       .construct-list .news-list > li .details .info {
         margin-top: 25px; }
+        .construct-list .news-list > li .details .info li:after {
+          margin: 0 10px; }
       .construct-list .news-list > li .details p {
         font-size: 14px; }
-    .construct-list .news-list > li .bottom-logo {
-      display: inline-block;
-      text-align: left;
-      margin-top: 50px; }
+      .construct-list .news-list > li .details .bottom-logo {
+        display: inline-block;
+        text-align: left;
+        margin-top: 50px; }
   .construct-list .paging {
     margin-top: 50px; } }
+@media (min-width: 1200px) {
+  .construct-list .news-list > li {
+    overflow: hidden;
+    min-height: 230px;
+    padding-left: 370px;
+    padding-bottom: 25px; }
+    .construct-list .news-list > li:first-child {
+      padding-top: 25px; }
+    .construct-list .news-list > li .items {
+      top: 20px;
+      width: 300px;
+      height: 185px; }
+    .construct-list .news-list > li .details {
+      width: 600px; }
+      .construct-list .news-list > li .details .bottom-logo {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        margin-top: -18px; } }
+
+.construct-view .section-content article .article-header {
+  padding: 20px 10px;
+  border-top: 2px solid #030303;
+  border-bottom: 1px solid #d6d6d6; }
+  .construct-view .section-content article .article-header h5 {
+    font-size: 15px;
+    color: #333;
+    line-height: 24px;
+    font-weight: 400; }
+.construct-view .section-content article .article-content {
+  padding-top: 30px; }
+  .construct-view .section-content article .article-content figure {
+    /*height: 215px;*/
+    text-align: center;
+    padding-bottom: 30px; }
+    .construct-view .section-content article .article-content figure img {
+      margin: 0 auto;
+      border: 1px solid #e1e1e1; }
+  .construct-view .section-content article .article-content .table-wrap {
+    border-top: 1px solid #333; }
+    .construct-view .section-content article .article-content .table-wrap .table tr th {
+      min-width: 110px;
+      font-size: 12px;
+      color: #666;
+      line-height: 18px;
+      font-weight: 400;
+      padding: 20px 10px;
+      vertical-align: middle;
+      border-bottom: 1px solid #d6d6d6;
+      background-color: #fafafa; }
+    .construct-view .section-content article .article-content .table-wrap .table tr td {
+      font-size: 13px;
+      color: #666;
+      font-weight: 300;
+      vertical-align: middle;
+      padding: 0;
+      padding-left: 30px;
+      border-bottom: 1px solid #d6d6d6; }
+    .construct-view .section-content article .article-content .table-wrap .btn-area {
+      text-align: right;
+      margin-top: 20px; }
+      .construct-view .section-content article .article-content .table-wrap .btn-area p .btn-default {
+        width: 110px;
+        font-size: 13px;
+        color: #fff;
+        text-align: center;
+        line-height: 40px;
+        background-color: #085eaa; }
+@media (min-width: 768px) {
+  .construct-view .section-content article .article-header {
+    padding: 20px 15px; }
+  .construct-view .section-content article .article-content {
+    padding-top: 50px; }
+    .construct-view .section-content article .article-content figure {
+      padding-bottom: 60px; }
+    .construct-view .section-content article .article-content .table-wrap .table tr th {
+      width: 185px;
+      font-size: 13px;
+      padding: 20px 20px; }
+    .construct-view .section-content article .article-content .table-wrap .table tr td {
+      padding-left: 35px; }
+    .construct-view .section-content article .article-content .table-wrap .btn-area {
+      margin-top: 30px; }
+      .construct-view .section-content article .article-content .table-wrap .btn-area p .btn-default {
+        width: 150px;
+        font-size: 15px;
+        line-height: 50px; } }
+@media (min-width: 1200px) {
+  .construct-view .section-content article .article-header {
+    border-top: 3px solid #030303; }
+  .construct-view .section-content article .article-content figure {
+    padding-bottom: 70px; }
+  .construct-view .section-content article .article-content .table-wrap .table tr th {
+    width: 215px;
+    font-size: 14px;
+    padding-left: 30px;
+    padding-right: 0; }
+  .construct-view .section-content article .article-content .table-wrap .table tr td {
+    padding-left: 40px; }
+  .construct-view .section-content article .article-content .table-wrap .btn-area {
+    margin-top: 40px; } }
 
 /*# sourceMappingURL=etc_company.css.map */
