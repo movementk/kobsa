@@ -65,11 +65,11 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="#">관련기관</a>
+                        <a href="/organizations/national_organization.php">관련기관</a>
                         <ul>
-							<li><a href="#">국가 기관<span></span></a></li>
-                       		<li><a href="#">국내 기관<span></span></a></li>
-                       		<li><a href="#">국외 기관<span></span></a></li>
+							<li><a href="/organizations/national_organization.php">국가 기관<span></span></a></li>
+                       		<li><a href="/organizations/domestic_organization.php">국내 기관<span></span></a></li>
+                       		<li><a href="/organizations/foreign_organization.php">국외 기관<span></span></a></li>
                         </ul>
                     </li>
                     <li>
@@ -169,9 +169,9 @@
                 <li>
                     <a href="#">관련기관</a>
                     <ul>
-						<li><a href="#">국가 기관</a></li>
-						<li><a href="#">국내 기관</a></li>
-						<li><a href="#">국외 기관</a></li>
+						<li><a href="/organizations/national_organization.php">국가 기관</a></li>
+						<li><a href="/organizations/domestic_organization.php">국내 기관</a></li>
+						<li><a href="/organizations/foreign_organization.php">국외 기관</a></li>
                     </ul>
                 </li>
                 <li>

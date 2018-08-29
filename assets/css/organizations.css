@@ -490,12 +490,13 @@ a {
             margin-top: 15px; }
           .organization .section-content .organization-list > li .details .dot-list > li:before {
             position: absolute;
-            top: 3px;
+            top: -1px;
             left: 0;
             display: inline-block;
             content: "\E804";
             font-family: "fontello";
-            color: #eb6100; }
+            color: #eb6100;
+            font-size: 20px; }
           .organization .section-content .organization-list > li .details .dot-list > li dl {
             display: inline-block;
             vertical-align: top; }
@@ -520,7 +521,8 @@ a {
       .organization .section-content .organization-list > li {
         position: relative;
         min-height: 230px;
-        padding-left: 365px; }
+        padding-left: 365px;
+        padding-bottom: 25px; }
         .organization .section-content .organization-list > li .items {
           position: absolute;
           top: 0;
@@ -528,7 +530,8 @@ a {
           width: 300px;
           height: 185px; }
         .organization .section-content .organization-list > li .details {
-          padding: 5px 0 25px; }
+          padding: 0;
+          padding-top: 5px; }
           .organization .section-content .organization-list > li .details h5 {
             font-size: 22px; }
             .organization .section-content .organization-list > li .details h5 > a .icon-home {
@@ -546,8 +549,9 @@ a {
     .organization .section-content .organization-list {
       padding-top: 20px; }
       .organization .section-content .organization-list > li {
-        padding-left: 370px; }
+        padding-left: 370px;
+        padding-bottom: 25px; }
         .organization .section-content .organization-list > li .details {
-          padding: 10px 0 25px; } }
+          padding-top: 10px; } }
 
 /*# sourceMappingURL=organizations.css.map */
