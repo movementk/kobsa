@@ -1,0 +1,282 @@
+@import 'common';
+
+//공통
+.organizations {
+    .page-header {
+        padding: 53px 0;
+        background-image: url(/assets/images/organizations/bg_page_header.jpg);
+        @media(min-width: $md) {
+            padding: 80px 0;  
+        }
+        @media(min-width: $xl) {
+            padding: 200px 0 90px;  
+        } 
+    }
+}
+
+
+// lnb-list
+.lnb-list {
+    > ul {
+        font-size: 0;
+        > li {
+            display: inline-block;
+            text-align: center;
+            border: 1px solid #bababa;
+            border-left: 0;
+            border-top: 0;
+            width: 33.33%;
+            a {
+                font-size: 13px;
+                display: block;
+                color: #999;
+				width: 100%;
+                line-height: 45px;
+                @include transition();
+                &:hover {
+                    color: #fff;
+                    background-color: #085eaa;
+                    opacity: .8;
+                }
+            }
+            &.active {
+                a {
+                    color: #fff;
+                    background-color: #085eaa;
+                    &:hover {
+                        opacity: 1;
+                    }
+                }
+            }
+            &:nth-of-type(3n + 1) {
+                border-left: 1px solid #bababa;
+            }
+            &:nth-of-type(1),&:nth-of-type(2),&:nth-of-type(3) {
+                border-top: 1px solid #bababa;
+            }
+        }
+    }
+    @media(min-width: $md) {
+        > ul {
+            > li {
+                a {
+                    font-size: 15px;
+                    line-height: 55px;
+                }
+            }
+        } 
+    }
+    @media(min-width: $xl) {
+        > ul {
+            display: table;
+            width: 100%;
+			table-layout: fixed;
+            > li {
+                display: table-cell;
+                width: 1%;
+                border-bottom: 1px solid #bababa;
+                border-top: 1px solid #bababa;
+				border-left: 0 !important;
+                a {
+                    font-size: 16px;
+                    line-height: 55px;
+                }
+                &:first-child {
+                    border-left: 1px solid #bababa !important;
+                }
+            }
+        }
+    }
+}
+
+//관련기관 공통
+.organization {
+	.section-content {
+		.organization-list {
+			border-top: 2px solid #030303;
+			padding-top: 20px;
+			> li {
+				border-bottom: 1px solid #dfdfdf;
+				& ~ li {
+					margin-top: 20px;
+				}
+				.items {
+					display: table;
+					width: 100%;
+					height: 160px;
+					border: 1px solid #e1e1e1;
+					figure {
+						display: table-cell;
+						vertical-align: middle;
+						img {
+							display: block;
+							margin: 0 auto;
+							vertical-align: middle;
+						}
+					}
+				}
+				.details {
+					padding: 20px 0;
+					h5 {
+						font-size: 18px;
+						color: #333;
+						font-weight: 400;
+						> a {
+							.icon-home {
+								font-size: 16px;
+								color: #666;
+							}	
+						}
+					}
+					small {
+						display: block;
+						font-size: 12px;
+						color: #999;
+						margin-top: 10px;
+						@include lato();
+					}
+					.dot-list {
+						margin-top: 20px;
+						> li {
+							position: relative;
+							padding-left: 10px;
+							& ~ li {
+								margin-top: 15px;
+							}
+							&:before {
+								position: absolute;
+								top: 3px;
+								left: 0;
+								display: inline-block;
+								content: "\E804";
+								font-family: "fontello";
+								color: #eb6100;
+							}
+							dl {
+								display: inline-block;
+								vertical-align: top;
+								dt {
+									display: inline-block;
+									font-size: 13px;
+									color: #666;
+									line-height: 24px; 
+									font-weight: 400;
+									> a {
+										.icon-export {
+											margin-left: 5px;
+											font-size: 12px;
+										}	
+									}
+								}
+								dd {
+									font-size: 12px;
+									color: #999;
+									font-weight: 300;
+									line-height: 20px;
+									margin-top: 5px;
+								}
+							}
+						}
+					}
+				}
+			}
+			@media ( min-width: $md ) {
+				padding-top: 25px;
+				> li {
+					position: relative;
+					min-height: 230px;
+					padding-left: 365px;
+					.items {
+						position: absolute;
+						top: 0;
+						left: 0;
+						width: 300px;
+						height: 185px;
+					}
+					.details {
+						padding: 5px 0 25px;
+						h5 {
+							font-size: 22px;
+							> a {
+								.icon-home {
+									font-size: 20px;
+								}	
+							}
+						}
+						small {
+							font-size: 13px;
+						}
+						.dot-list {
+							> li {
+								dl {
+									dt {
+										font-size: 14px;
+										> a {
+											.icon-export {
+												font-size: 13px;
+											}	
+										}
+									}
+									dd {
+										font-size: 13px;
+										line-height: 22px;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			@media ( min-width: $xl ) {
+				padding-top: 20px;
+				> li {
+					padding-left: 370px;
+					.details {
+						padding: 10px 0 25px;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

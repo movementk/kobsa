@@ -67,8 +67,9 @@
                     <li>
                         <a href="#">관련기관</a>
                         <ul>
-                            <li><a href="#">정부기관, 협회 등<span></span></a></li>
-                            <li><a href="#">국내외 동향<span></span></a></li>
+							<li><a href="#">국가 기관<span></span></a></li>
+                       		<li><a href="#">국내 기관<span></span></a></li>
+                       		<li><a href="#">국외 기관<span></span></a></li>
                         </ul>
                     </li>
                     <li>
@@ -168,8 +169,9 @@
                 <li>
                     <a href="#">관련기관</a>
                     <ul>
-                        <li><a href="#">정부기관, 협회 등</a></li>
-                            <li><a href="#">국내외 동향</a></li>
+						<li><a href="#">국가 기관</a></li>
+						<li><a href="#">국내 기관</a></li>
+						<li><a href="#">국외 기관</a></li>
                     </ul>
                 </li>
                 <li>

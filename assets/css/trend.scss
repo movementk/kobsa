@@ -20,15 +20,16 @@
         font-size: 0;
         > li {
             display: inline-block;
-            width: 50%;
             text-align: center;
             border: 1px solid #bababa;
-            border-right: 0;
+            border-left: 0;
             border-top: 0;
+            width: 33.33%;
             a {
                 font-size: 13px;
                 display: block;
                 color: #999;
+				width: 100%;
                 line-height: 45px;
                 @include transition();
                 &:hover {
@@ -46,39 +47,41 @@
                     }
                 }
             }
-            &:nth-of-type(2),&:nth-of-type(3) {
-                border-right: 1px solid #bababa;
+            &:nth-of-type(3n + 1) {
+                border-left: 1px solid #bababa;
             }
-            &:nth-of-type(1),&:nth-of-type(2) {
+            &:nth-of-type(1),&:nth-of-type(2),&:nth-of-type(3) {
                 border-top: 1px solid #bababa;
             }
         }
     }
     @media(min-width: $md) {
         > ul {
-            display: table;
-            width: 100%;
             > li {
-                display: table-cell;
-                width: 33.33%;
-                border-bottom: 1px solid #bababa;
-                border-top: 1px solid #bababa;
-                border-right: 0 !important;
                 a {
                     font-size: 15px;
                     line-height: 55px;
                 }
-                &:last-child {
-                    border-right: 1px solid #bababa !important;
-                }
             }
-        }
+        } 
     }
     @media(min-width: $xl) {
         > ul {
+            display: table;
+            width: 100%;
+			table-layout: fixed;
             > li {
+                display: table-cell;
+                width: 1%;
+                border-bottom: 1px solid #bababa;
+                border-top: 1px solid #bababa;
+				border-left: 0 !important;
                 a {
                     font-size: 16px;
+                    line-height: 55px;
+                }
+                &:first-child {
+                    border-left: 1px solid #bababa !important;
                 }
             }
         }
