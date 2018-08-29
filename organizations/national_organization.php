@@ -33,7 +33,7 @@
 							<div class="details">
 								<h5>
 									질병관리본부
-									<a href="#"><i class="icon-home"></i></a>
+									<a href="http://www.cdc.go.kr" target="_blank"><i class="icon-home"></i></a>
 								</h5>
 								<small>(Korea Centers for  Disease Control  &amp; Prevention) </small>
 								<ul class="dot-list">
@@ -41,7 +41,7 @@
 										<dl>
 											<dt>
 												질병관리본부_NewsLetter
-												<a href="#"><i class="icon-export"></i></a>
+												<a href="http://www.cdc.go.kr/CDC/info/CdcKrInfo0102.jsp?menuIds=HOME001-MNU0719-MNU0720-MNU0024" target="_blank"><i class="icon-export"></i></a>
 											</dt>
 											<dd>
 												질병관리본부내 추진사업, 질병정보 소개
@@ -52,7 +52,7 @@
 										<dl>
 											<dt>
 												자료실
-												<a href="#"><i class="icon-export"></i></a>
+												<a href="http://www.cdc.go.kr/CDC/info/CdcKrInfo0301.jsp?menuIds=HOME001-MNU0004-MNU0036-MNU0037" target="_blank"><i class="icon-export"></i></a>
 											</dt>
 											<dd>
 												주간건강과질병, 홍보자료,  간행물(질병관리 백서), 일반자료,  혈액통계.
@@ -71,7 +71,7 @@
 							<div class="details">
 								<h5>
 									국립보건연구원
-									<a href="#"><i class="icon-home"></i></a>
+									<a href="http://www.nih.go.kr" target="_blank"><i class="icon-home"></i></a>
 								</h5>
 								<small>(Korea National Institute of Health) </small>
 								<ul class="dot-list">
@@ -79,7 +79,7 @@
 										<dl>
 											<dt>
 												생물안전소식지
-												<a href="#"><i class="icon-export"></i></a>
+												<a href="http://www.nih.go.kr/NIH_NEW/not/NihKrListLink.jsp?menuIds=HOME005-MNU0853-MNU0936-MNU1009" target="_blank"><i class="icon-export"></i></a>
 											</dt>
 											<dd>
 												생물안전관련 기사 및 리뷰 소개, 고위험병 원체 정보, 생물안전Tip안내.
@@ -98,7 +98,7 @@
 							<div class="details">
 								<h5>
 									미래창조과학부
-									<a href="#"><i class="icon-home"></i></a>
+									<a href="http://www.msip.go.kr" target="_blank"><i class="icon-home"></i></a>
 								</h5>
 								<small>(Ministry of Science, ICT &amp; Future Planning) </small>
 								<ul class="dot-list">
@@ -106,7 +106,7 @@
 										<dl>
 											<dt>
 												시험·연구용 LMO정보시스템
-												<a href="#"><i class="icon-export"></i></a>
+												<a href="#" target="_blank"><i class="icon-export"></i></a>
 											</dt>
 											<dd>
 												온라인을 통한 LMO민원처리와 안전관리, LMO관련 정보 제공, 효율적인 네트워크 구축.

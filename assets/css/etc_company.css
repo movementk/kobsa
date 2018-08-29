@@ -486,7 +486,7 @@ a {
             top: -2px;
             font-size: 10px;
             content: "|";
-            margin: 0 5px; }
+            margin: 0 10px; }
           .construct-list .news-list > li .details .info li.call:before {
             content: "\E809";
             font-family: "fontello";
