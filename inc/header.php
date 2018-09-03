@@ -11,8 +11,8 @@
                 </div>
                 <div class="top-menu d-none d-xl-block">
                     <ul>
-                        <li><a href="#">LOGIN</a></li>
-                        <li><a href="#">JOIN</a></li>
+                        <li><a href="/membership/login.php">LOGIN</a></li>
+                        <li><a href="/membership/join.php">JOIN</a></li>
                     </ul>
                     <div class="global-search">
                         <form action="#">
@@ -131,8 +131,8 @@
             </div>
             <div class="member">
                 <ul>
-                    <li><a href="#">로그인</a></li>
-                    <li><a href="#">회원가입</a></li>
+                    <li><a href="/membership/login.php">로그인</a></li>
+                    <li><a href="/membership/join.php">회원가입</a></li>
                 </ul>
             </div>
         </div>
