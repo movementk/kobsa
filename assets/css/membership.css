@@ -386,17 +386,63 @@ a {
   padding-top: 0; }
 
 .step-list {
-  font-size: 0; }
+  font-size: 0;
+  text-align: center; }
   .step-list > li {
+    position: relative;
     display: inline-block;
-    color: #333; }
+    color: #333;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    padding: 15px 0;
+    border-radius: 50%;
+    border: 1px solid #e8e8e8;
+    margin-right: 30px; }
+    .step-list > li:after {
+      position: absolute;
+      top: 50%;
+      right: -20px;
+      font-size: 25px;
+      margin-top: -20px;
+      color: #e8e8e8;
+      font-family: "fontello";
+      content: "\F105"; }
+    .step-list > li:last-child {
+      margin-right: 0; }
+      .step-list > li:last-child:after {
+        content: ""; }
     .step-list > li b {
       font-size: 12px;
-      font-weight: bold;
+      font-weight: 900;
       font-family: 'Lato', sans-serif; }
     .step-list > li h5 {
       font-size: 13px;
-      margin-top: 10px; }
+      margin-top: 5px;
+      font-weight: 400; }
+    .step-list > li.active {
+      color: #fff;
+      border-color: #ed6a10;
+      background-color: #ed6a10; }
+      .step-list > li.active:after {
+        color: #ed6a10; }
+  @media (min-width: 768px) {
+    .step-list {
+      width: 595px;
+      margin: 0 auto; }
+      .step-list > li {
+        width: 115px;
+        height: 115px;
+        padding: 30px 0;
+        margin-right: 125px; }
+        .step-list > li b {
+          font-size: 16px; }
+        .step-list > li h5 {
+          font-size: 16px; }
+        .step-list > li:after {
+          font-size: 35px;
+          right: -70px;
+          margin-top: -25px; } }
 
 .form-group .form-control {
   width: 100%;
@@ -495,5 +541,239 @@ a {
   .login .section-content .login-form {
     width: 715px;
     margin: 0 auto; } }
+
+.terms .section-content .consent {
+  margin-top: 45px; }
+  .terms .section-content .consent > div {
+    border: 1px solid #dfdfdf; }
+    .terms .section-content .consent > div ~ div {
+      margin-top: 20px; }
+    .terms .section-content .consent > div .consent-head {
+      overflow: hidden;
+      padding: 20px 10px;
+      border-bottom: 1px solid #dfdfdf;
+      background-color: #f1f1f1; }
+      .terms .section-content .consent > div .consent-head h6 {
+        font-size: 14px;
+        color: #222;
+        float: left;
+        line-height: 18px;
+        font-weight: 500; }
+      .terms .section-content .consent > div .consent-head > label {
+        display: inline-block;
+        float: right;
+        font-size: 12px;
+        line-height: 18px;
+        color: #666;
+        font-weight: 400; }
+        .terms .section-content .consent > div .consent-head > label > input {
+          position: relative;
+          top: 2px;
+          margin-right: 5px; }
+    .terms .section-content .consent > div .consent-body {
+      overflow-y: scroll;
+      width: 100%;
+      height: 235px;
+      padding: 35px 10px;
+      font-size: 13px;
+      color: #666;
+      font-weight: 300;
+      line-height: 26px; }
+  .terms .section-content .consent > .check-all {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #222;
+    font-weight: 400; }
+    .terms .section-content .consent > .check-all input {
+      position: relative;
+      top: 1px;
+      margin-right: 5px; }
+.terms .section-content .classification {
+  margin-top: 40px; }
+  .terms .section-content .classification > ul > li ~ li > div {
+    margin-top: 20px; }
+  .terms .section-content .classification > ul > li > div {
+    display: table;
+    width: 100%;
+    padding: 30px 0;
+    border: 1px solid #e5e5e5;
+    border-top: 3px solid #ed6a10; }
+    .terms .section-content .classification > ul > li > div > div {
+      display: table-cell;
+      table-layout: fixed;
+      vertical-align: middle; }
+      .terms .section-content .classification > ul > li > div > div.icon-images {
+        width: 140px;
+        padding: 0 20px; }
+        .terms .section-content .classification > ul > li > div > div.icon-images figure {
+          width: 100px;
+          height: 100px;
+          line-height: 96px;
+          text-align: center;
+          border-radius: 50%;
+          border: 1px solid #e5e5e5; }
+          .terms .section-content .classification > ul > li > div > div.icon-images figure img {
+            height: 42px;
+            display: inline-block; }
+      .terms .section-content .classification > ul > li > div > div.details {
+        padding-right: 25px; }
+        .terms .section-content .classification > ul > li > div > div.details h6 {
+          font-size: 18px;
+          color: #ed6a10;
+          font-weight: 400; }
+        .terms .section-content .classification > ul > li > div > div.details p {
+          font-size: 13px;
+          color: #666;
+          font-weight: 300;
+          line-height: 20px;
+          margin-top: 20px; }
+        .terms .section-content .classification > ul > li > div > div.details .btn-area {
+          margin-top: 20px; }
+          .terms .section-content .classification > ul > li > div > div.details .btn-area p .btn-md {
+            width: 100%;
+            height: 38px;
+            font-size: 15px;
+            font-weight: 300;
+            color: #fff;
+            text-align: center;
+            line-height: 38px; }
+            .terms .section-content .classification > ul > li > div > div.details .btn-area p .btn-md.btn-orange {
+              background-color: #ed6a10; }
+    .terms .section-content .classification > ul > li > div.ibc-member {
+      border-top-color: #085eaa; }
+      .terms .section-content .classification > ul > li > div.ibc-member .details h6 {
+        color: #085eaa; }
+@media (min-width: 768px) {
+  .terms .section-content .consent {
+    margin-top: 50px; }
+    .terms .section-content .consent > div ~ div {
+      margin-top: 60px; }
+    .terms .section-content .consent > div .consent-head {
+      padding: 20px 30px; }
+      .terms .section-content .consent > div .consent-head h6 {
+        font-size: 16px; }
+      .terms .section-content .consent > div .consent-head > label {
+        font-size: 14px; }
+    .terms .section-content .consent > div .consent-body {
+      height: 260px;
+      font-size: 14px;
+      padding: 45px 30px; }
+    .terms .section-content .consent > .check-all {
+      font-size: 14px;
+      margin-top: 20px; }
+  .terms .section-content .classification {
+    margin-top: 60px; }
+    .terms .section-content .classification > ul > li ~ li > div {
+      margin-top: 0; }
+    .terms .section-content .classification > ul > li > div {
+      padding: 30px 0; }
+      .terms .section-content .classification > ul > li > div > div.icon-images {
+        width: 150px; }
+      .terms .section-content .classification > ul > li > div > div.details h6 {
+        font-size: 22px; }
+      .terms .section-content .classification > ul > li > div > div.details p {
+        font-size: 15px; }
+      .terms .section-content .classification > ul > li > div > div.details .btn-area p .btn-md {
+        width: 135px; } }
+@media (min-width: 992px) {
+  .terms .section-content .consent {
+    margin-top: 70px; }
+    .terms .section-content .consent > div .consent-body {
+      height: 350px; }
+  .terms .section-content .classification > ul > li > div > div.icon-images {
+    width: 250px;
+    padding-left: 60px; }
+    .terms .section-content .classification > ul > li > div > div.icon-images figure {
+      width: 135px;
+      height: 135px;
+      line-height: 130px; }
+      .terms .section-content .classification > ul > li > div > div.icon-images figure img {
+        height: auto; } }
+
+.join .section-content .write-form {
+  margin-top: 40px; }
+  .join .section-content .write-form .table-wrap > .essential {
+    /*display: none;*/
+    text-align: right;
+    font-size: 12px;
+    color: #d70505;
+    margin-bottom: 10px; }
+    .join .section-content .write-form .table-wrap > .essential:before {
+      content: "* "; }
+  .join .section-content .write-form .table-wrap .table {
+    table-layout: fixed;
+    border-top: 1px solid #000; }
+    .join .section-content .write-form .table-wrap .table tbody tr th {
+      width: 120px;
+      font-size: 13px;
+      color: #333;
+      font-weight: 400;
+      padding-left: 10px;
+      vertical-align: middle;
+      border: 0;
+      border-bottom: 1px solid #dfdfdf;
+      background-color: #f8f8f8; }
+      .join .section-content .write-form .table-wrap .table tbody tr th small {
+        font-size: 12px;
+        color: #999;
+        display: block; }
+      .join .section-content .write-form .table-wrap .table tbody tr th.essential:before {
+        color: #d70505;
+        content: "* "; }
+    .join .section-content .write-form .table-wrap .table tbody tr td {
+      padding: 10px;
+      height: 56px;
+      vertical-align: middle;
+      border: 0;
+      border-bottom: 1px solid #dfdfdf; }
+      .join .section-content .write-form .table-wrap .table tbody tr td .note {
+        font-size: 12px;
+        color: #666;
+        line-height: 18px;
+        font-weight: 300;
+        margin-top: 10px; }
+      .join .section-content .write-form .table-wrap .table tbody tr td .form-group .form-control {
+        width: 100%;
+        height: 35px; }
+      .join .section-content .write-form .table-wrap .table tbody tr td .form-group > label {
+        font-size: 12px;
+        color: #666;
+        font-weight: 300;
+        margin-right: 20px; }
+        .join .section-content .write-form .table-wrap .table tbody tr td .form-group > label:last-child {
+          margin-right: 0; }
+        .join .section-content .write-form .table-wrap .table tbody tr td .form-group > label > input[type="checkbox"] {
+          position: relative;
+          top: 2px;
+          margin-left: 5px; }
+      .join .section-content .write-form .table-wrap .table tbody tr td .form-group > .check-list {
+        margin: 5px 0; }
+        .join .section-content .write-form .table-wrap .table tbody tr td .form-group > .check-list > li {
+          line-height: 30px; }
+          .join .section-content .write-form .table-wrap .table tbody tr td .form-group > .check-list > li > label {
+            position: relative;
+            font-size: 12px;
+            color: #666;
+            font-weight: 300;
+            line-height: 18px;
+            padding-left: 20px; }
+            .join .section-content .write-form .table-wrap .table tbody tr td .form-group > .check-list > li > label > input[type="checkbox"] {
+              position: absolute;
+              top: 50%;
+              left: 0;
+              margin-top: -5px; }
+            .join .section-content .write-form .table-wrap .table tbody tr td .form-group > .check-list > li > label .form-control {
+              width: 90px;
+              height: 30px;
+              display: inline-block;
+              margin-left: 5px; }
+          .join .section-content .write-form .table-wrap .table tbody tr td .form-group > .check-list > li.check-top > label > input[type="checkbox"] {
+            top: 8px; }
+@media (min-width: 768px) {
+  .join .section-content .write-form {
+    margin-top: 30px; } }
+@media (min-width: 1200px) {
+  .join .section-content .write-form {
+    margin-top: 50px; } }
 
 /*# sourceMappingURL=membership.css.map */

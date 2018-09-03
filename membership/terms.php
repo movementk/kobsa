@@ -29,6 +29,73 @@
                             <h5>가입완료</h5>
                         </li>
                     </ol>
+                    <article class="consent">
+                        <div class="agreement">
+                            <div class="consent-head">
+                                <h6>이용약관</h6>
+                                <label><input type="checkbox"> 약관동의</label>
+                            </div>
+                            <div class="consent-body">
+                                내용입력
+                            </div>
+                        </div>
+                        <div class="privacy">
+                            <div class="consent-head">
+                                <h6>개인정보 수집·이용</h6>
+                                <label><input type="checkbox"> 약관동의</label>
+                            </div>
+                            <div class="consent-body">
+                                내용입력
+                            </div>
+                        </div>
+                        <label class="check-all"><input type="checkbox"> 전체 동의하기</label>
+                    </article>
+                    <article class="classification">
+                        <ul class="row">
+                            <li class="col-12 col-md-6">
+                                <div class="general-member">
+                                    <div class="icon-images">
+                                        <figure>
+                                            <img src="/assets/images/membership/ico_general_member.jpg" alt="">
+                                        </figure>
+                                    </div>
+                                    <div class="details">
+                                        <h6>일반회원</h6>
+                                        <p>
+                                            개인회원 가입을 원하시면<br class="d-xl-none">
+                                            선택해주세요
+                                        </p>
+                                        <div class="btn-area">
+                                            <p>
+                                                <a href="/membership/join.php" class="btn btn-orange btn-md" role="button">회원가입</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-12 col-md-6">
+                                <div class="ibc-member">
+                                    <div class="icon-images">
+                                        <figure>
+                                            <img src="/assets/images/membership/ico_ibc_member.jpg" alt="">
+                                        </figure>
+                                    </div>
+                                    <div class="details">
+                                        <h6>IBC 회원</h6>
+                                        <p>
+                                            IBC 기업회원 가입을<br class="d-xl-none">
+                                            원하시면 선택해주세요
+                                        </p>
+                                        <div class="btn-area">
+                                            <p>
+                                                <a href="/membership/join.php" class="btn btn-blue btn-md" role="button">회원가입</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </article>
                 </div>
             </section>
         </div>
