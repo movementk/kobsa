@@ -1450,74 +1450,244 @@
 
 //기업인증기준 제정
 .company-confirm {
-	.article-header {
-		margin-top: 35px;	
+	.legislate {
+		.article-header {
+			margin-top: 35px;	
+		}
+		.article-content {
+			margin-top: 35px;
+			.summary {
+				> h4 {
+					font-size: 15px;
+					color: #333;
+					font-weight: 400;
+					margin-bottom: 15px;
+				}
+				> p {
+					font-size: 13px;
+					color: #666;
+					line-height: 26px;
+				}
+			}
+		}
 	}
-	.article-content {
-		margin-top: 35px;
-		.summary {
-			> h4 {
-				font-size: 15px;
-				color: #333;
-				font-weight: 400;
-				margin-bottom: 15px;
-			}
-			> p {
-				font-size: 13px;
-				color: #666;
-				line-height: 26px;
-			}
-			> h5 {
-				font-size: 15px;
-				color: #333;
-				font-weight: 400;
-				margin-top: 55px;
-				margin-bottom: 15px;
-			}
-			> .link {
-				a {
-					&:before {
-						position: relative;
-						top: 2px;
-						content: "\F08E";
-						font-family: "fontello";
-						font-size: 16px;
-						color: #333;
-						margin-right: 5px;
+	.field {
+		margin-top: 60px;
+		.article-content {
+			margin-top: 25px;
+			.field-list {
+				font-size: 0;
+				> li {
+					display: inline-block;
+					width: 50%;
+					> div {
+						padding: 25px 0;
+						border: 1px solid #d6d6d6;
+						figure {
+							figcaption {
+								padding-top: 25px;
+							}
+						}
+					}
+					&:nth-of-type( 2n + 1 ) {
+						padding-right: 10px;
+					}
+					&:nth-of-type( 2n + 2 ) {
+						padding-left: 10px;
+					}
+					&:nth-of-type(2) ~ li {
+						margin-top: 20px;
+					}
+					figure {
+						text-align: center;
+						figcaption {
+							font-size: 15px;
+							color: #666;
+							span {
+								position: relative;
+								top: -1px;
+								display: inline-block;
+								width: 18px;
+								height: 18px;
+								font-size: 12px;
+								color: #fff;
+								text-align: center;
+								border-radius: 50%;
+								margin-right: 10px;
+								background-color: #ed6a10;
+								@include titi();
+							}
+						}
 					}
 				}
 			}
 		}
 	}
-	@media ( min-width: $md ) {
-		.article-header {
-			margin-top: 55px;	
-		}
+	.time {
+		margin-top: 60px;
+		padding-bottom: 55px;
+		border-bottom: 1px solid #b2b2b2;
 		.article-content {
-			margin-top: 40px;
-			.summary {
-				> h4 {
-					font-size: 16px;
-					margin-bottom: 20px;
-				}
-				> p {
+			margin-top: 30px;
+			.dot-list {
+				li {
+					position: relative;
 					font-size: 14px;
+					color: #666;
+					line-height: 24px;
+					padding-left: 15px;
+					& ~ li {
+						margin-top: 15px;
+					}
+					&:before {
+						position: absolute;
+						top: 1px;
+						left: 0;
+						content: "\E804";
+						font-family: "fontello";
+						font-size: 15px;
+						color: #ed6a10;
+					}
 				}
-				> h5 {
-					font-size: 16px;
-					margin-top: 65px;
+			}
+		}
+	}
+	.download {
+		text-align: center;
+		margin-top: 40px;
+		> p {
+			font-size: 14px;
+			color: #333;
+			font-weight: 400;
+		}
+		> .btn-area {
+			margin-top: 15px;
+			> p {
+				.btn-default {
+					width: 185px;
+					font-size: 13px;
+					color: #fff;
+					text-align: center;
+					line-height: 45px;
+					background-color: #eb6100;
+				}	
+			}
+		}
+	}
+	@media ( min-width: $md ) {
+		.legislate { 
+			.article-header {
+				margin-top: 55px;	
+			}
+			.article-content {
+				margin-top: 40px;
+				.summary {
+					> h4 {
+						font-size: 16px;
+						margin-bottom: 20px;
+					}
+					> p {
+						font-size: 14px;
+					}
+				}
+			}
+		}
+		.field {
+			margin-top: 70px;
+			.article-content {
+				margin-top: 40px;
+				.field-list {
+					> li {
+						width: 20%;
+						> div {
+							padding: 0;
+							padding: 25px 0;
+							border-right: 0;
+						}
+						&:nth-of-type( 2n + 1 ) {
+							padding-right: 0;
+						}
+						&:nth-of-type( 2n + 2 ) {
+							padding-left: 0;
+						}
+						&:nth-of-type(2) ~ li {
+							margin-top: 0;
+						}
+						&:last-child {
+							border-right: 1px solid #d6d6d6; 
+						}
+					}
+				}
+			}
+		}
+		.time {
+			margin-top: 90px;
+			padding-bottom: 75px;
+			.article-content {
+				.dot-list {
+					li {
+						font-size: 15px;
+						line-height: 36px;
+						& ~ li {
+							margin-top: 0;
+						}
+					}
+				}
+			}
+		}
+		.download {
+			> p {
+				font-size: 16px;
+			}
+			> .btn-area {
+				> p {
+					.btn-default {
+						font-size: 14px;
+					}	
 				}
 			}
 		}
 	}
 	@media ( min-width: $xl ) {
-		.article-header {
-			margin-top: 80px;	
+		.legislate { 
+			.article-header {
+				margin-top: 80px;	
+			}
 		}
-		.article-content {
-			.summary {
-				> h5 {
-					margin-top: 80px;
+		.field {
+			margin-top: 85px;
+			.article-content {
+				.field-list {
+					> li {
+						width: 200px;
+						margin-right: 40px;
+						> div {
+							border-right: 1px solid #d6d6d6;
+						}
+						&:last-child {
+							border-right: 0;
+							margin-right: 0;
+						}
+					}
+				}
+			}
+		}
+		.time {
+			padding-bottom: 85px;
+			.article-content {
+				.dot-list {
+					li {
+						line-height: 40px;
+					}
+				}
+			}
+		}
+		.download {
+			> .btn-area {
+				> p {
+					.btn-default {
+						font-size: 14px;
+					}	
 				}
 			}
 		}

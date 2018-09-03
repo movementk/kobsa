@@ -1254,51 +1254,154 @@ a {
   .international article .article-content {
     margin-top: 60px; } }
 
-.company-confirm .article-header {
+.company-confirm .legislate .article-header {
   margin-top: 35px; }
-.company-confirm .article-content {
+.company-confirm .legislate .article-content {
   margin-top: 35px; }
-  .company-confirm .article-content .summary > h4 {
+  .company-confirm .legislate .article-content .summary > h4 {
     font-size: 15px;
     color: #333;
     font-weight: 400;
     margin-bottom: 15px; }
-  .company-confirm .article-content .summary > p {
+  .company-confirm .legislate .article-content .summary > p {
     font-size: 13px;
     color: #666;
     line-height: 26px; }
-  .company-confirm .article-content .summary > h5 {
-    font-size: 15px;
+.company-confirm .field {
+  margin-top: 60px; }
+  .company-confirm .field .article-content {
+    margin-top: 25px; }
+    .company-confirm .field .article-content .field-list {
+      font-size: 0; }
+      .company-confirm .field .article-content .field-list > li {
+        display: inline-block;
+        width: 50%; }
+        .company-confirm .field .article-content .field-list > li > div {
+          padding: 25px 0;
+          border: 1px solid #d6d6d6; }
+          .company-confirm .field .article-content .field-list > li > div figure figcaption {
+            padding-top: 25px; }
+        .company-confirm .field .article-content .field-list > li:nth-of-type(2n + 1) {
+          padding-right: 10px; }
+        .company-confirm .field .article-content .field-list > li:nth-of-type(2n + 2) {
+          padding-left: 10px; }
+        .company-confirm .field .article-content .field-list > li:nth-of-type(2) ~ li {
+          margin-top: 20px; }
+        .company-confirm .field .article-content .field-list > li figure {
+          text-align: center; }
+          .company-confirm .field .article-content .field-list > li figure figcaption {
+            font-size: 15px;
+            color: #666; }
+            .company-confirm .field .article-content .field-list > li figure figcaption span {
+              position: relative;
+              top: -1px;
+              display: inline-block;
+              width: 18px;
+              height: 18px;
+              font-size: 12px;
+              color: #fff;
+              text-align: center;
+              border-radius: 50%;
+              margin-right: 10px;
+              background-color: #ed6a10;
+              font-family: 'Titillium Web', sans-serif; }
+.company-confirm .time {
+  margin-top: 60px;
+  padding-bottom: 55px;
+  border-bottom: 1px solid #b2b2b2; }
+  .company-confirm .time .article-content {
+    margin-top: 30px; }
+    .company-confirm .time .article-content .dot-list li {
+      position: relative;
+      font-size: 14px;
+      color: #666;
+      line-height: 24px;
+      padding-left: 15px; }
+      .company-confirm .time .article-content .dot-list li ~ li {
+        margin-top: 15px; }
+      .company-confirm .time .article-content .dot-list li:before {
+        position: absolute;
+        top: 1px;
+        left: 0;
+        content: "\E804";
+        font-family: "fontello";
+        font-size: 15px;
+        color: #ed6a10; }
+.company-confirm .download {
+  text-align: center;
+  margin-top: 40px; }
+  .company-confirm .download > p {
+    font-size: 14px;
     color: #333;
-    font-weight: 400;
-    margin-top: 55px;
-    margin-bottom: 15px; }
-  .company-confirm .article-content .summary > .link a:before {
-    position: relative;
-    top: 2px;
-    content: "\F08E";
-    font-family: "fontello";
-    font-size: 16px;
-    color: #333;
-    margin-right: 5px; }
+    font-weight: 400; }
+  .company-confirm .download > .btn-area {
+    margin-top: 15px; }
+    .company-confirm .download > .btn-area > p .btn-default {
+      width: 185px;
+      font-size: 13px;
+      color: #fff;
+      text-align: center;
+      line-height: 45px;
+      background-color: #eb6100; }
 @media (min-width: 768px) {
-  .company-confirm .article-header {
+  .company-confirm .legislate .article-header {
     margin-top: 55px; }
-  .company-confirm .article-content {
+  .company-confirm .legislate .article-content {
     margin-top: 40px; }
-    .company-confirm .article-content .summary > h4 {
+    .company-confirm .legislate .article-content .summary > h4 {
       font-size: 16px;
       margin-bottom: 20px; }
-    .company-confirm .article-content .summary > p {
+    .company-confirm .legislate .article-content .summary > p {
       font-size: 14px; }
-    .company-confirm .article-content .summary > h5 {
-      font-size: 16px;
-      margin-top: 65px; } }
+  .company-confirm .field {
+    margin-top: 70px; }
+    .company-confirm .field .article-content {
+      margin-top: 40px; }
+      .company-confirm .field .article-content .field-list > li {
+        width: 20%; }
+        .company-confirm .field .article-content .field-list > li > div {
+          padding: 0;
+          padding: 25px 0;
+          border-right: 0; }
+        .company-confirm .field .article-content .field-list > li:nth-of-type(2n + 1) {
+          padding-right: 0; }
+        .company-confirm .field .article-content .field-list > li:nth-of-type(2n + 2) {
+          padding-left: 0; }
+        .company-confirm .field .article-content .field-list > li:nth-of-type(2) ~ li {
+          margin-top: 0; }
+        .company-confirm .field .article-content .field-list > li:last-child {
+          border-right: 1px solid #d6d6d6; }
+  .company-confirm .time {
+    margin-top: 90px;
+    padding-bottom: 75px; }
+    .company-confirm .time .article-content .dot-list li {
+      font-size: 15px;
+      line-height: 36px; }
+      .company-confirm .time .article-content .dot-list li ~ li {
+        margin-top: 0; }
+  .company-confirm .download > p {
+    font-size: 16px; }
+  .company-confirm .download > .btn-area > p .btn-default {
+    font-size: 14px; } }
 @media (min-width: 1200px) {
-  .company-confirm .article-header {
+  .company-confirm .legislate .article-header {
     margin-top: 80px; }
-  .company-confirm .article-content .summary > h5 {
-    margin-top: 80px; } }
+  .company-confirm .field {
+    margin-top: 85px; }
+    .company-confirm .field .article-content .field-list > li {
+      width: 200px;
+      margin-right: 40px; }
+      .company-confirm .field .article-content .field-list > li > div {
+        border-right: 1px solid #d6d6d6; }
+      .company-confirm .field .article-content .field-list > li:last-child {
+        border-right: 0;
+        margin-right: 0; }
+  .company-confirm .time {
+    padding-bottom: 85px; }
+    .company-confirm .time .article-content .dot-list li {
+      line-height: 40px; }
+  .company-confirm .download > .btn-area > p .btn-default {
+    font-size: 14px; } }
 
 .location .section-content .info {
   padding-bottom: 50px;
