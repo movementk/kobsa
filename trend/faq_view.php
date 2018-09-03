@@ -14,7 +14,7 @@
             <div class="lnb-list">
                 <ul>
                     <li><a href="/trend/notification_list.php">공지사항</a></li>
-                    <li><a href="/trend/bulletin_list.php">관련 기관</a></li>
+                    <li><a href="/trend/bulletin_list.php">교육안내</a></li>
                     <li class="active"><a href="/trend/faq_list.php">FAQ</a></li>
                 </ul>
             </div>
