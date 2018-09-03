@@ -84,10 +84,10 @@
                     <li class="ibc">
                         <a href="/ibc/ibc_member.php" role="button">IBC네트워크</a>
                         <ul>
-                            <li><a href="/ibc/ibc_member.php">IBC위원목록</a></li>
-                            <li><a href="/ibc/notice_list.php">공지사항</a></li>
-                            <li><a href="/ibc/faq_list.php">질의응답</a></li>
-                            <li><a href="/ibc/reference_list.php">자료실</a></li>
+                            <li><a href="/ibc/ibc_member.php">IBC위원목록<span></span></a></li>
+                            <li><a href="/ibc/notice_list.php">공지사항<span></span></a></li>
+                            <li><a href="/ibc/faq_list.php">질의응답<span></span></a></li>
+                            <li><a href="/ibc/reference_list.php">자료실<span></span></a></li>
                         </ul>
                     </li>
                 </ul>
