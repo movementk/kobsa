@@ -106,8 +106,23 @@
     }
 }
 
-// login
-.login {
+// login , confirm
+.login, .confirm {
+    .section-header {
+        > p {
+            font-size: 13px;
+            color: #2b2b2b;
+            font-weight: 300;
+            margin-top: 20px;
+            @media(min-width: $md) {
+                font-size: 15px;
+                margin-top: 25px;
+            }
+            @media(min-width: $xl) {
+                font-size: 16px;
+            }
+        }
+    }
     .section-content {
         .login-form {
             > .form-group {
@@ -466,7 +481,7 @@
             margin-top: 40px;
             .table-wrap {
                 > .essential {
-                    /*display: none;*/
+                    display: none;
                     text-align: right;
                     font-size: 12px;
                     color: #d70505;
@@ -551,12 +566,6 @@
                                                     left: 0;
                                                     margin-top: -5px;
                                                 }
-                                                .form-control {
-                                                    width: 90px;
-                                                    height: 30px;
-                                                    display: inline-block;
-                                                    margin-left: 5px;
-                                                }
                                             }
                                             &.check-top {
                                                 > label {
@@ -568,7 +577,51 @@
                                         }
                                     }
                                 }
+                                &.expertise {
+                                    > .form-group {
+                                        > .check-list {
+                                            overflow: hidden;
+                                            > li {
+                                                display: inline-block;
+                                                float: left;
+                                                min-width: 80px;
+                                                &:nth-of-type(2n + 1) {
+                                                    clear: both;
+                                                }
+                                                &:last-child {
+                                                    clear: both;
+                                                }
+                                                > label {
+                                                    padding-left: 17px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
                             }
+                        }
+                    }
+                }
+            }
+            .btn-area {
+                margin-top: 30px;
+                p {
+                    font-size: 0;
+                    .btn-md {
+                        width: 48%;
+                        font-size: 14px;
+                        color: #fff;
+                        height: 50px;
+                        line-height: 50px;
+                        margin-right: 4%;
+                        &:last-child {
+                            margin-right: 0;
+                        }
+                        &.btn-orange {
+                            background-color: #ed6a10;
+                        }
+                        &.btn-gray {
+                            background-color: #999;
                         }
                     }
                 }
@@ -577,20 +630,257 @@
         @media(min-width: $md) {
             .write-form {
                 margin-top: 30px;
+                .table-wrap {
+                    > .essential {
+                        display: block;
+                    }
+                    .table {
+                        tbody {
+                            tr {
+                                th {
+                                    width: 200px;
+                                    font-size: 14px;
+                                    line-height: 20px;
+                                    padding-left: 20px;
+                                    small {
+                                        font-size: 13px;
+                                    }
+                                }
+                                td {
+                                    font-size: 14px;
+                                    padding-left: 20px;
+                                    padding-right: 20px;
+                                    .form-group {
+                                        .form-control {
+                                            width: 280px;
+                                        }
+                                        > label {
+                                            font-size: 14px;
+                                        }
+                                        > .check-list {
+                                            > li {
+                                                > label {
+                                                    font-size: 14px;
+                                                    > input[type="checkbox"] {
+                                                        
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                    &.expertise {
+                                        > .form-group {
+                                            > .check-list {
+                                                > li {
+                                                    line-height: 36px;
+                                                    min-width: 110px;
+                                                    &:nth-of-type(2n + 1) {
+                                                        clear: none;
+                                                    }
+                                                    &:nth-of-type(4n + 1) {
+                                                        clear: both;
+                                                    }
+                                                    label {
+                                                        padding-left: 20px;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .btn-area {
+                    text-align: center;
+                    margin-top: 60px;
+                    p {
+                        .btn-md {
+                            font-size: 16px;
+                            width: 200px;
+                            height: 65px;
+                            line-height: 65px;
+                            margin-right: 10px;
+                        }
+                    }
+                }
             }
         }
         @media(min-width: $xl) {
             .write-form {
                 margin-top: 50px;
+                .table-wrap {
+                    .table {
+                        tbody {
+                            tr {
+                                td {
+                                    &.u-pw {
+                                        .form-group {
+                                            .form-control {
+                                                display: inline-block;
+                                            }
+                                            .note {
+                                                display: inline-block;
+                                                margin: 0;
+                                                line-height: 35px;
+                                                margin-left: 10px;
+                                                vertical-align: top;
+                                            }
+                                        }
+                                    }
+                                    &.expertise {
+                                        > .form-group {
+                                            > .check-list {
+                                                > li {
+                                                    &:nth-of-type(4n + 1) {
+                                                        clear: none;
+                                                    }
+                                                    &:nth-of-type(6n + 1) {
+                                                        clear: both;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                    .inline-content {
+                                        margin-top: 10px;
+                                        label {
+                                            display: inline-block;
+                                            margin-right: 10px;
+                                        }
+                                        .form-control {
+                                            display: inline-block;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .btn-area {
+                    margin-top: 50px;
+                }
             }
         }
     }
 }
 
+// 가입완료
+.success {
+    .section-content {
+        article {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 65px;
+            background-image: url(/assets/images/membership/icon_success.jpg);
+            background-repeat: no-repeat;
+            background-size: 40px auto;
+            background-position: 50% 0;
+            h5 {
+                font-size: 24px;
+                color: #333;
+                font-weight: 300;
+                strong {
+                    font-weight: 500;
+                }
+            }
+            p {
+                font-size: 13px;
+                color: #666;
+                line-height: 20px;
+                font-weight: 300;
+                margin-top: 20px;
+            }
+            .btn-area {
+                margin-top: 45px;
+                p {
+                    font-size: 0;
+                    .btn-md {
+                        width: 48%;
+                        font-size: 14px;
+                        color: #fff;
+                        height: 50px;
+                        line-height: 50px;
+                        margin-right: 4%;
+                        &:last-child {
+                            margin-right: 0;
+                        }
+                        &.btn-orange {
+                            background-color: #ed6a10;
+                        }
+                        &.btn-gray {
+                            background-color: #999;
+                        }
+                    }
+                }
+            }
+            @media(min-width: $md) {
+                margin: 0;
+                padding: 150px 0 70px;
+                border: 1px solid #e5e5e5;
+                background-size: 50px auto;
+                background-position: 50% 68px;
+                h5 {
+                    font-size: 28px;
+                }
+                p {
+                    font-size: 15px;
+                    line-height: 24px;
+                    margin-top: 25px;
+                }
+                .btn-area {
+                    text-align: center;
+                    margin-top: 50px;
+                    p {
+                        .btn-md {
+                            font-size: 16px;
+                            width: 200px;
+                            height: 65px;
+                            line-height: 65px;
+                            margin-right: 10px;
+                        }
+                    }
+                }
+            }
+            @media(min-width: $xl) {
+                width: 715px;
+                margin: 0 auto;
+            }
+        }
+    }
+}
 
-
-
-
+// 회원정보 수정
+.modify {
+    .section-content {
+        .write-form {
+            margin-top: 0;
+            .table {
+                tbody {
+                    tr {
+                        td {
+                            .form-group {
+                                > label {
+                                    margin-top: 10px;
+                                }
+                                @media(min-width: $lg) {
+                                    position: relative;
+                                    > label {
+                                        position: absolute;
+                                        top: 50%;
+                                        right: 20px;
+                                        margin-top: -10px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 

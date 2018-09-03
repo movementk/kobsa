@@ -10,25 +10,11 @@
     <!-- Sub Content Start -->
     <main id="content">
         <div class="container">            
-            <section class="join">
+            <section class="join modify">
                 <div class="section-header">
-                    <h4>회원가입</h4>
+                    <h4>회원 정보수정</h4>
                 </div>
                 <div class="section-content">
-                    <ol class="step-list">
-                        <li>
-                            <b>01</b>
-                            <h5>약관동의</h5>
-                        </li>
-                        <li class="active">
-                            <b>02</b>
-                            <h5>정보입력</h5>
-                        </li>
-                        <li>
-                            <b>03</b>
-                            <h5>가입완료</h5>
-                        </li>
-                    </ol>
                     <article class="write-form">
                         <form action="#">
                             <div class="table-wrap">
@@ -44,45 +30,20 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <th rowspan="2"><label for="u-name">성명</label></th>
+                                            <th><label for="u-name">성명</label></th>
                                             <td>
                                                 <div class="form-group">
                                                     <input type="text" id="u-name" class="form-control">
+                                                    <label>공개하기 <input type="checkbox"></label>
                                                 </div>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>
-                                                <div class="form-group">
-                                                    <label>공개 <input type="checkbox"></label>
-                                                    <label>비공개 <input type="checkbox"></label>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th rowspan="2"><label for="u-organization">생물안전위원회 소속 기관명</label></th>
+                                            <th><label for="u-organization">생물안전위원회 소속 기관명</label></th>
                                             <td>
                                                 <div class="form-group">
                                                     <input type="text" id="u-organization" class="form-control">
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div class="form-group">
-                                                    <label>공개 <input type="checkbox"></label>
-                                                    <label>비공개 <input type="checkbox"></label>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th class="essential"><label for="u-pw">비밀번호</label></th>
-                                            <td class="u-pw">
-                                                <div class="form-group">
-                                                    <input type="password" id="u-pw" class="form-control">
-                                                    <p class="note">
-                                                        영문 대소문자/숫자/특수문자를 혼용하여 2종류 10~16자 또는 3종류 8~16자
-                                                    </p>
+                                                    <label>공개하기 <input type="checkbox"></label>
                                                 </div>
                                             </td>
                                         </tr>
@@ -99,93 +60,58 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <th rowspan="2">소속기관</th>
+                                            <th>소속기관<small>(IBC 소속기관과 동일할 수 있으나 외부위원일 경우 소속기관 직접 입력)</small></th>
                                             <td>
                                                 <div class="form-group">
                                                     <ul class="check-list">
                                                         <li class="check-top"><label><input type="checkbox"> 생물안전위원회 소속기관과 동일</label></li>
                                                         <li class="inline-content">
                                                             <label><input type="checkbox"> 직접입력</label>
-                                                            <input type="text" class="form-control">
+                                                            <input type="text" class="form-control sr-only">
                                                         </li>
                                                     </ul>
+                                                    <label>공개하기 <input type="checkbox"></label>
                                                 </div>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>
-                                                <div class="form-group">
-                                                    <label>공개 <input type="checkbox"></label>
-                                                    <label>비공개 <input type="checkbox"></label>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th rowspan="2"><label for="u-position">직책</label></th>
+                                            <th><label for="u-position">직책</label></th>
                                             <td>
                                                 <div class="form-group">
                                                     <input type="text" id="u-position" class="form-control">
+                                                    <label>공개하기 <input type="checkbox"></label>
                                                 </div>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>
-                                                <div class="form-group">
-                                                    <label>공개 <input type="checkbox"></label>
-                                                    <label>비공개 <input type="checkbox"></label>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th rowspan="2"><label for="u-phone">전화번호(핸드폰)</label></th>
+                                            <th><label for="u-phone">전화번호(핸드폰)</label></th>
                                             <td>
                                                 <div class="form-group">
                                                     <input type="text" id="u-phone" class="form-control">
+                                                    <label>공개하기 <input type="checkbox"></label>
                                                 </div>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>
-                                                <div class="form-group">
-                                                    <label>공개 <input type="checkbox"></label>
-                                                    <label>비공개 <input type="checkbox"></label>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th rowspan="2"><label for="u-contact">전화번호(사무실)</label></th>
+                                            <th><label for="u-contact">전화번호(사무실)</label></th>
                                             <td>
                                                 <div class="form-group">
                                                     <input type="text" id="u-contact" class="form-control">
+                                                    <label>공개하기 <input type="checkbox"></label>
                                                 </div>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>
-                                                <div class="form-group">
-                                                    <label>공개 <input type="checkbox"></label>
-                                                    <label>비공개 <input type="checkbox"></label>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th rowspan="2"><label for="u-mail">전자메일</label></th>
+                                            <th><label for="u-mail">전자메일</label></th>
                                             <td>
                                                 <div class="form-group">
                                                     <input type="text" id="u-mail" class="form-control">
+                                                    <label>공개하기 <input type="checkbox"></label>
                                                 </div>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>
-                                                <div class="form-group">
-                                                    <label>공개 <input type="checkbox"></label>
-                                                    <label>비공개 <input type="checkbox"></label>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th rowspan="2">전문분야<small>(중복선택 가능)</small></th>
+                                            <th>전문분야<small>(중복선택 가능)</small></th>
                                             <td class="expertise">
                                                 <div class="form-group">
                                                     <ul class="check-list">
@@ -209,14 +135,7 @@
                                                             <input type="text" class="form-control">
                                                         </li>
                                                     </ul>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div class="form-group">
-                                                    <label>공개 <input type="checkbox"></label>
-                                                    <label>비공개 <input type="checkbox"></label>
+                                                    <label>공개하기 <input type="checkbox"></label>
                                                 </div>
                                             </td>
                                         </tr>
