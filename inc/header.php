@@ -12,7 +12,7 @@
                 <div class="top-menu d-none d-xl-block">
                     <ul>
                         <li><a href="/membership/login.php">LOGIN</a></li>
-                        <li><a href="/membership/join.php">JOIN</a></li>
+                        <li><a href="/membership/terms.php">JOIN</a></li>
                     </ul>
                     <div class="global-search">
                         <form action="#">
@@ -133,7 +133,7 @@
             <div class="member">
                 <ul>
                     <li><a href="/membership/login.php">로그인</a></li>
-                    <li><a href="/membership/join.php">회원가입</a></li>
+                    <li><a href="/membership/terms.php">회원가입</a></li>
                 </ul>
             </div>
         </div>
