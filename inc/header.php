@@ -185,7 +185,13 @@
                     </ul>
                 </li>
                 <li class="ibc">
-                    <a href="/ibc/ibc_member.php">IBC네트워크</a>
+                    <a href="#">IBC네트워크</a>
+                    <ul>
+                        <li><a href="/ibc/ibc_member.php">IBC위원목록</a></li>
+                        <li><a href="/ibc/notice_list.php">공지사항</a></li>
+                        <li><a href="/ibc/faq_list.php">질의응답</a></li>
+                        <li><a href="/ibc/reference_list.php">자료실</a></li>
+                    </ul>
                 </li>
             </ul>
         </div>

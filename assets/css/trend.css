@@ -395,9 +395,7 @@ a {
   .lnb-list > ul > li {
     display: inline-block;
     text-align: center;
-    border: 1px solid #bababa;
-    border-left: 0;
-    border-top: 0;
+    vertical-align: top;
     width: 33.33%; }
     .lnb-list > ul > li a {
       font-size: 13px;
@@ -405,6 +403,9 @@ a {
       color: #999;
       width: 100%;
       line-height: 45px;
+      border: 1px solid #bababa;
+      border-left: 0;
+      border-top: 0;
       -webkit-transition-property: all;
       transition-property: all;
       -webkit-transition-duration: 0.15s;
@@ -422,9 +423,9 @@ a {
       background-color: #085eaa; }
       .lnb-list > ul > li.active a:hover {
         opacity: 1; }
-    .lnb-list > ul > li:nth-of-type(3n + 1) {
+    .lnb-list > ul > li:nth-of-type(3n + 1) a {
       border-left: 1px solid #bababa; }
-    .lnb-list > ul > li:nth-of-type(1), .lnb-list > ul > li:nth-of-type(2), .lnb-list > ul > li:nth-of-type(3) {
+    .lnb-list > ul > li:nth-of-type(1) a, .lnb-list > ul > li:nth-of-type(2) a, .lnb-list > ul > li:nth-of-type(3) a {
       border-top: 1px solid #bababa; }
 @media (min-width: 768px) {
   .lnb-list > ul > li a {
@@ -437,14 +438,14 @@ a {
     table-layout: fixed; }
     .lnb-list > ul > li {
       display: table-cell;
-      width: 1%;
-      border-bottom: 1px solid #bababa;
-      border-top: 1px solid #bababa;
-      border-left: 0 !important; }
+      width: 1%; }
       .lnb-list > ul > li a {
         font-size: 16px;
-        line-height: 55px; }
-      .lnb-list > ul > li:first-child {
+        line-height: 55px;
+        border-bottom: 1px solid #bababa;
+        border-top: 1px solid #bababa;
+        border-left: 0 !important; }
+      .lnb-list > ul > li:first-child a {
         border-left: 1px solid #bababa !important; } }
 
 /*# sourceMappingURL=trend.css.map */
