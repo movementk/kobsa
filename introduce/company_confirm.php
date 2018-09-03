@@ -44,21 +44,101 @@
 							</ul>
 						</div>
 					</nav>
-					<article>
+					<article class="legislate">
 						<div class="article-header">
 							<h3 class="sub-title">기업인증기준 제정</h3>
 						</div>
 						<div class="article-content">
 							<div class="summary">
 								<h4>생물안전시설의 개요 및 소개</h4>
-								<p>생물안전 시설은 고위험 병원체로부터 실험자와 주변인 그리고 주변 환경보호를 위하여 안전에 대한 지식, 기술 및 장비가 적절히 적용되어 이루어진 특수시설로서, 일반적인 시설과는 구별되며 병원체의 위해등급에 따라 1등급에서 4등급으로 구분되어진다. 우리나라에서는 「유전자 변형 생물체의 국가 간 이동 등에 관한 법률」을 제정하고, 「동법 시행령」 및 「동법 통합고시」 규정에 따라 2008년부터 보건복지부 질병관리본부에서 생물안전 시설에 대한  인허가 및 관리를 체계적으로 실시하기 시작하였다. 이 법 22조에서는 생물안전에 관한 사항으로 유전자 변형 생물체 연구시설을 설치·운영하고자 하는 자는 연구시설의 안전관리 등급별로 허가 또는 신고하도록 하고 있고, 위해 가능성이 큰 유전자 변형 생물체를 개발하거나 실험하는 경우 대통령령에 따라 관계 중앙 행정기관장의 승인을 받도록 규정하고 있다.  따라서 위 관련법 및 ‘생물안전 3등급 연구시설 안전지침’, ‘생물안전 3등급 연구시설 검증기술서’ 및 ‘생물안전 3등급 연구시설 설치운영 해설서’ 등에 근거하여 2008년부터 현재까지 보건복지부 질병관리본부는 생물안전 3등급 연구시설에 대한 인증 제도를 실시하고 있다.</p>
-								<br>
-								<p>본 기준(안)의 목적은 설계, 시공, 유지관리, 기술 관리 등에 관한 기본적인 사항과 생물안전시설 시공업에 대한 필요한 사항을 정해 기업인증에 적용함으로써 바람직한 시공을 통해 생물안전 분야의 건전한 발전을 도모함에 있습니다. 그리하여 기업 인증기준에 따른 성실한 기업의 발굴 및 육성을 통한 역량 강화 그리고 무분별한 업체의 </p>
-								<h5>생물안전시설 기업인증기준 관련 링크</h5>
-								<p class="link"><a href="http://kobsa.net/KOBSA/world/board.php?bo_table=ne.&wr_id=330" target="_blank">http://kobsa.net/KOBSA/world/board.php?bo_table=ne.&amp;wr_id=330</a></p>
+								<p>우리 협회는 생물안전 시설과 관련하여 기업 활동을 펼치는 회원사의 기술력 향상과 생물안전 분야 종사자의 안전을 위하여 분야별 전문 기업 인증 기준을 개발합니다. <br class="d-none d-xl-block">생물안전 시설 관련 기업 활동의 기본적인 사항과 전문 기업으로 인증 받기 위한 기준을  제시함으로써 생물안전 분야의 건전한 발전을 도모하고 기준에 부합하는 성실한 기업의 발굴 및 육성을 통해<br class="d-none d-xl-block"> 역량을 강화하고자 합니다.향후 생물안전 전문 기업 인증사업을 통해 정부의 국민보건 및 국가전염병 퇴치에 대한 확고한 의지와 체계적인 방역시스템을 확립하는데 기여하겠습니다.</p>
 							</div>
 						</div>
 					</article>
+					<article class="field">
+						<div class="article-header">
+							<h3 class="sub-title">생물안전 시설 관련 전문 기업 인증 분야</h3>
+						</div>
+						<div class="article-content">
+							<ol class="field-list">
+								<li>
+									<div>
+										<figure>
+											<img src="/assets/images/introduce/img_field_list01.jpg" alt="시공">
+											<figcaption>
+												<span>1</span>시공
+											</figcaption>
+										</figure>
+									</div>
+								</li>
+								<li>
+									<div>
+										<figure>
+											<img src="/assets/images/introduce/img_field_list02.jpg" alt="시공">
+											<figcaption>
+												<span>2</span>유지관리 및 검증
+											</figcaption>
+										</figure>
+									</div>
+								</li>
+								<li>
+									<div>
+										<figure>
+											<img src="/assets/images/introduce/img_field_list03.jpg" alt="시공">
+											<figcaption>
+												<span>3</span>멸균 및 검증
+											</figcaption>
+										</figure>
+									</div>
+								</li>
+								<li>
+									<div>
+										<figure>
+											<img src="/assets/images/introduce/img_field_list04.jpg" alt="시공">
+											<figcaption>
+												<span>4</span>장비
+											</figcaption>
+										</figure>
+									</div>
+								</li>
+								<li>
+									<div>
+										<figure>
+											<img src="/assets/images/introduce/img_field_list05.jpg" alt="시공">
+											<figcaption>
+												<span>5</span>음압시설
+											</figcaption>
+										</figure>
+									</div>
+								</li>
+							</ol>
+						</div>
+					</article>
+					<article class="time">
+						<div class="article-header">
+							<h3 class="sub-title">경과</h3>
+						</div>
+						<div class="article-content">
+							<ul class="dot-list">
+								<li>2017년 3월~ 기업 인증 기준 제정을 위한 기술위원회 소집</li>
+								<li>2017년 4월~ 분과별 분과위원장 및 위원 선임 (시공, 유지관리 및 검증, 멸균, 장비분야)</li>
+								<li>2017년 5월~ 분과위원회 자료수집 및 논의</li>
+								<li>2017년 8월~ 기준(안) 작성 및 검토 수정</li>
+								<li>2018년 2월~ 공청회 개최 및 의견 수렴 (시공, 유지관리 및 검증, 멸균분야)</li>
+								<li>2018년 3월~ 신규 분과위원회 구성 (음압시설) </li>
+								<li>2018년 4월~ 기준(안) 공개 및 검토 의견서 접수 (시공, 유지관리 및 검증, 멸균분야)</li>
+								<li>2018년 6월~ 기업인증 절차 및 관련 양식 작성</li>
+							</ul>
+						</div>
+					</article>
+					<div class="download">
+						<p>생물안전시설 기업인증기준 관련 다운로드</p>
+						<div class="btn-area">
+							<p>
+								<a href="#" class="btn btn-default" role="button">다운로드</a>
+							</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
