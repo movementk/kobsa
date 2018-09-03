@@ -811,12 +811,12 @@
 //전문자격제도
 .professional {
 	.section-header{
-		padding: 70px 0 50px;
+		padding: 40px 0 30px;
 		@media ( min-width: $md ) {
 			padding: 55px 0 50px;
 		}
 		@media ( min-width: $xl ) {
-			padding: 70px 0 50px;  
+			padding: 70px 0 60px;  
 		}
 	}
 	.section-content {
@@ -1170,9 +1170,9 @@
 			}
 		}
 		@media ( min-width: $md ) {
-			padding-top: 55px;
+			padding-top: 60px;
 			.article-content {
-				margin-top: 40px;
+				margin-top: 50px;
 				.number-list {
 					> li {
 						& ~ li {
@@ -1189,6 +1189,9 @@
 					}
 				}
 			}
+		}
+		@media ( min-width: $md ) {
+			padding-top: 80px;
 		}
 	}
 }
@@ -1208,9 +1211,9 @@
 			}
 		}
 		@media ( min-width: $md ) {
-			padding-top: 55px;
+			padding-top: 60px;
 			.article-content {
-				margin-top: 40px;
+				margin-top: 50px;
 				.number-list {
 					> li {
 						& ~ li {
@@ -1227,6 +1230,9 @@
 					}
 				}
 			}
+		}
+		@media ( min-width: $md ) {
+			padding-top: 80px;
 		}
 	}
 }
@@ -1442,7 +1448,7 @@
 				margin-top: 80px; 
 			}
 			.article-content {
-				margin-top: 60px;
+				margin-top: 50px;
 			}
 		}
 	}
@@ -1511,9 +1517,10 @@
 								height: 18px;
 								font-size: 12px;
 								color: #fff;
+								font-weight: bold;
 								text-align: center;
 								border-radius: 50%;
-								margin-right: 10px;
+								margin-right: 5px;
 								background-color: #ed6a10;
 								@include titi();
 							}
@@ -1600,8 +1607,6 @@
 					> li {
 						width: 20%;
 						> div {
-							padding: 0;
-							padding: 25px 0;
 							border-right: 0;
 						}
 						&:nth-of-type( 2n + 1 ) {
@@ -1663,6 +1668,11 @@
 						margin-right: 40px;
 						> div {
 							border-right: 1px solid #d6d6d6;
+							figure {
+								figcaption {
+									font-size: 16px; 
+								}
+							}
 						}
 						&:last-child {
 							border-right: 0;

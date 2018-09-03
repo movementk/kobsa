@@ -907,13 +907,13 @@ a {
     margin-top: 100px; } }
 
 .professional .section-header {
-  padding: 70px 0 50px; }
+  padding: 40px 0 30px; }
   @media (min-width: 768px) {
     .professional .section-header {
       padding: 55px 0 50px; } }
   @media (min-width: 1200px) {
     .professional .section-header {
-      padding: 70px 0 50px; } }
+      padding: 70px 0 60px; } }
 .professional .section-content article .article-header {
   margin-top: 55px; }
   .professional .section-content article .article-header .sub-title {
@@ -1110,9 +1110,9 @@ a {
       margin-top: 5px; }
   @media (min-width: 768px) {
     .private article {
-      padding-top: 55px; }
+      padding-top: 60px; }
       .private article .article-content {
-        margin-top: 40px; }
+        margin-top: 50px; }
         .private article .article-content .number-list > li ~ li {
           margin-top: 30px; }
         .private article .article-content .number-list > li > h3 {
@@ -1121,6 +1121,9 @@ a {
         .private article .article-content .number-list > li > small {
           display: inline-block;
           margin-top: 0; } }
+  @media (min-width: 768px) {
+    .private article {
+      padding-top: 80px; } }
 
 .government article {
   padding-top: 35px; }
@@ -1130,9 +1133,9 @@ a {
       margin-top: 5px; }
   @media (min-width: 768px) {
     .government article {
-      padding-top: 55px; }
+      padding-top: 60px; }
       .government article .article-content {
-        margin-top: 40px; }
+        margin-top: 50px; }
         .government article .article-content .number-list > li ~ li {
           margin-top: 30px; }
         .government article .article-content .number-list > li > h3 {
@@ -1141,6 +1144,9 @@ a {
         .government article .article-content .number-list > li > small {
           display: inline-block;
           margin-top: 0; } }
+  @media (min-width: 768px) {
+    .government article {
+      padding-top: 80px; } }
 
 .lmo article .article-header {
   margin-top: 35px; }
@@ -1252,7 +1258,7 @@ a {
   .international article .article-header {
     margin-top: 80px; }
   .international article .article-content {
-    margin-top: 60px; } }
+    margin-top: 50px; } }
 
 .company-confirm .legislate .article-header {
   margin-top: 35px; }
@@ -1300,9 +1306,10 @@ a {
               height: 18px;
               font-size: 12px;
               color: #fff;
+              font-weight: bold;
               text-align: center;
               border-radius: 50%;
-              margin-right: 10px;
+              margin-right: 5px;
               background-color: #ed6a10;
               font-family: 'Titillium Web', sans-serif; }
 .company-confirm .time {
@@ -1360,8 +1367,6 @@ a {
       .company-confirm .field .article-content .field-list > li {
         width: 20%; }
         .company-confirm .field .article-content .field-list > li > div {
-          padding: 0;
-          padding: 25px 0;
           border-right: 0; }
         .company-confirm .field .article-content .field-list > li:nth-of-type(2n + 1) {
           padding-right: 0; }
@@ -1393,6 +1398,8 @@ a {
       margin-right: 40px; }
       .company-confirm .field .article-content .field-list > li > div {
         border-right: 1px solid #d6d6d6; }
+        .company-confirm .field .article-content .field-list > li > div figure figcaption {
+          font-size: 16px; }
       .company-confirm .field .article-content .field-list > li:last-child {
         border-right: 0;
         margin-right: 0; }
