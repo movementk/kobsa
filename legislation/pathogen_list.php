@@ -14,8 +14,8 @@
             <div class="lnb-list">
                 <ul>
                     <li class="space"><a href="/legislation/guide_list.php">국내외 법규, 지침,<br class="d-md-none">가이드라인</a></li>
-                    <li><a href="/legislation/workshop_list.php">KOBSA 워크샵 자료</a></li>
-                    <li><a href="/legislation/technology_list.php">KOBSA 기술 자료</a></li>
+                    <li><a href="/legislation/workshop_list.php">KOBSA 교육자료</a></li>
+                    <li><a href="/legislation/technology_list.php">KOBSA 기술 ∙ 동향</a></li>
                     <li class="active"><a href="/legislation/pathogen_list.php">병원체 / 등급시설</a></li>
                 </ul>
             </div>

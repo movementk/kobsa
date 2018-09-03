@@ -122,7 +122,7 @@
 										<dl>
 											<dt>
 												사업내용
-												<a href="http://www.kalas.or.kr/" target="_blank"><i class="icon-export"></i></a>
+												<a href="http://www.kalas.or.kr/index.html?pg_idx=46" target="_blank"><i class="icon-export"></i></a>
 											</dt>
 											<dd>
 												실험동물 및 동물실험에 관한 정보교환, 관련 학술지 발간, 실험동물기술사 인증 등 주요사업 진행 

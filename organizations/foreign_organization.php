@@ -68,7 +68,7 @@
 										<dl>
 											<dt>
 												소개
-												<a href="https://www.nih.gov/" target="_blank"><i class="icon-export"></i></a>
+												<a href="https://www.nih.gov/about-nih" target="_blank"><i class="icon-export"></i></a>
 											</dt>
 											<dd>
 												 의료와 건강 관련 정책을 총괄 행정기관. 
@@ -95,7 +95,7 @@
 										<dl>
 											<dt>
 												사업내용
-												<a href="http://www.absa.org/" target="_blank"><i class="icon-export"></i></a>
+												<a href="https://absaconference.org/" target="_blank"><i class="icon-export"></i></a>
 											</dt>
 											<dd>
 												Biosafety Professional 훈련 및 양성, 자격제도 운영(CBSP, RBP) 
@@ -122,7 +122,7 @@
 										<dl>
 											<dt>
 												사업내용
-												<a href="http://www.ebsaweb.eu/" target="_blank"><i class="icon-export"></i></a>
+												<a href="http://ebsaweb.eu/events" target="_blank"><i class="icon-export"></i></a>
 											</dt>
 											<dd>
 												실험실 바이오리스크관리 기준 CWA15793 개발, 유럽내 물안전 네트워크 구성. 
@@ -176,7 +176,7 @@
 										<dl>
 											<dt>
 												사업내용
-												<a href="http://www.internationalbiosafety.org/" target="_blank"><i class="icon-export"></i></a>
+												<a href="http://www.internationalbiosafety.org/index.php/news-events/news-menu/upcoming-events" target="_blank"><i class="icon-export"></i></a>
 											</dt>
 											<dd>
 												광범위한 중요 생물안전이슈 논의, 생물안전 지식, 정보 등 공유. 

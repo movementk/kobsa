@@ -51,16 +51,16 @@
                         <a href="/legislation/guide_list.php">법령, 자료실</a>
                         <ul>
                             <li><a href="/legislation/guide_list.php">국내외 법규,<br> 지침, 가이드라인<span></span></a></li>
-                            <li><a href="/legislation/workshop_list.php">KOBSA 워크샵 자료<span></span></a></li>
-                            <li><a href="/legislation/technology_list.php">KOBSA 기술 자료<span></span></a></li>
+                            <li><a href="/legislation/workshop_list.php">KOBSA 교육자료<span></span></a></li>
+                            <li><a href="/legislation/technology_list.php">KOBSA 기술 ∙ 동향<span></span></a></li>
                             <li><a href="/legislation/pathogen_list.php">병원체 / 등급시설<span></span></a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="/trend/notification_list.php">공지 및 동향</a>
+                        <a href="/trend/notification_list.php">공지사항</a>
                         <ul>
                             <li><a href="/trend/notification_list.php">공지사항<span></span></a></li>
-                            <li><a href="/trend/bulletin_list.php">게시판<span></span></a></li>
+                            <li><a href="/trend/bulletin_list.php">교육안내<span></span></a></li>
                             <li><a href="/trend/faq_list.php">FAQ<span></span></a></li>
                         </ul>
                     </li>
@@ -79,6 +79,7 @@
                             <li><a href="#">시설 유지보수전문<span></span></a></li>
                             <li><a href="#">장비 및 소모품 전문<span></span></a></li>
                             <li><a href="#">멸균 및 검증 전문<span></span></a></li>
+                            <li><a href="#">기타<span></span></a></li>
                         </ul>
                     </li>
                     <li class="ibc">
@@ -153,16 +154,16 @@
                     <a href="#">법령, 자료실</a>
                     <ul>
                         <li><a href="/legislation/guide_list.php">국내외 법규, 지침, 가이드라인</a></li>
-                        <li><a href="/legislation/workshop_list.php">KOBSA 워크샵 자료</a></li>
-                        <li><a href="/legislation/technology_list.php">KOBSA 기술 자료</a></li>
+                        <li><a href="/legislation/workshop_list.php">KOBSA 교육자료</a></li>
+                        <li><a href="/legislation/technology_list.php">KOBSA 기술 ∙ 동향</a></li>
                         <li><a href="/legislation/pathogen_list.php">병원체 / 등급시설</a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="#">공지 및 동향</a>
+                    <a href="#">공지사항</a>
                     <ul>
                         <li><a href="/trend/notification_list.php">공지사항</a></li>
-                        <li><a href="/trend/bulletin_list.php">게시판</a></li>
+                        <li><a href="/trend/bulletin_list.php">교육안내</a></li>
                         <li><a href="/trend/faq_list.php">질의응답</a></li>
                     </ul>
                 </li>

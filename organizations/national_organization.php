@@ -98,7 +98,7 @@
 							<div class="details">
 								<h5>
 									미래창조과학부
-									<a href="http://www.msip.go.kr" target="_blank"><i class="icon-home"></i></a>
+									<a href="http://www.msit.go.kr" target="_blank"><i class="icon-home"></i></a>
 								</h5>
 								<small>(Ministry of Science, ICT &amp; Future Planning) </small>
 								<ul class="dot-list">
@@ -106,7 +106,7 @@
 										<dl>
 											<dt>
 												시험·연구용 LMO정보시스템
-												<a href="#" target="_blank"><i class="icon-export"></i></a>
+												<a href="https://www.open.go.kr/search/list/govm_org.do?mId=NjQ=" target="_blank"><i class="icon-export"></i></a>
 											</dt>
 											<dd>
 												온라인을 통한 LMO민원처리와 안전관리, LMO관련 정보 제공, 효율적인 네트워크 구축.
