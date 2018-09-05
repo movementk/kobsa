@@ -228,9 +228,118 @@
             <div class="btn-area">
                 <p>
                     <a href="#" class="btn btn-md btn-blue" role="button">버튼1</a>
+                </p><br>
+                <p>
+                	<a href="#" class="btn btn-sm btn-white" role="button">이전글</a>
+                	<a href="#" class="btn btn-sm btn-white" role="button">다음글</a>
+                	<a href="#" class="btn btn-sm btn-sm-bl" role="button">목록</a>
                 </p>
             </div>
             
+            <br><br><br>
+            
+            <!-- 코멘트 작성 -->
+            <h2 class="ex-title">코멘트 작성</h2>
+            <article class="comment-area">
+				<h3>토론의견 작성</h3>
+				<form action="#">
+					<div class="comment-write">
+						<div class="write">
+							<div class="form-group">
+								<textarea id="comment" class="form-control" placeholder="댓글을 입력해 주세요"></textarea>
+								<label for="comment" class="sr-only"></label>
+								<button type="submit" class="btn btn-gray">등록</button>
+							</div>
+						</div>
+						<p class="comment-num">총 <i>5</i>개의 의견이 있습니다.</p>
+					</div>
+					<div class="article-content">
+						<ul class="comment-list">
+							<li>
+								<div class="info">
+									<strong>xhdfhdlalwl</strong>
+									<p class="date">2018.08.12</p>
+								</div>
+								<div class="details">
+									<p>좋은 의견입니다.좋은 의견입니다.좋은 의견입니다.좋은 의견입니다.좋은 의견입니다.좋은 의견입니다.좋은 의견입니다.좋은 의견입니다.좋은 의견입니다.좋은 의견입니다.</p>
+									<ul class="modify-list">
+										<li><a href="#">댓글</a></li>
+										<li><a href="#">수정</a></li>
+										<li><a href="#" class="delete">삭제</a></li>
+									</ul>
+								</div>
+								<ul class="reply">
+									<li>
+										<div class="reply-wrap">
+											<div class="info">
+												<strong>홍길동</strong>
+												<p class="date">2018.08.12</p>
+											</div>
+											<div class="details">
+												<p>좋아요</p>
+												<ul class="modify-list">
+													<li><a href="#">수정</a></li>
+													<li><a href="#" class="delete">삭제</a></li>
+												</ul>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="reply-wrap">
+											<div class="info">
+												<strong>고길동</strong>
+												<p class="date">2018.08.12</p>
+											</div>
+											<div class="details">
+												<p>잘 보고 갑니다. 앞으로도 좋은 제안 부탁드립니다좋은제안이네요..잘 보고 갑니다. 앞으로도 좋은 제안 부탁드립니다~~~~</p>
+												<ul class="modify-list">
+													<li><a href="#">수정</a></li>
+													<li><a href="#" class="delete">삭제</a></li>
+												</ul>
+											</div>
+										</div>	
+									</li>
+									<li>
+										<div class="write">
+											<div class="form-group">
+												<textarea id="comment" class="form-control" placeholder="댓글을 입력해 주세요"></textarea>
+												<label for="comment" class="sr-only"></label>
+												<button type="submit" class="btn btn-gray">등록</button>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<div class="info">
+									<strong>xhdfhdlalwl</strong>
+									<p class="date">2018.08.12</p>
+								</div>
+								<div class="details">
+									<p>좋은 의견입니다.</p>
+									<ul class="modify-list">
+										<li><a href="#">수정</a></li>
+										<li><a href="#" class="delete">삭제</a></li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<div class="info">
+									<strong>xhdfhdlalwl</strong>
+									<p class="date">2018.08.12</p>
+								</div>
+								<div class="details">
+									<p>좋은 의견입니다.</p>
+									<ul class="modify-list">
+										<li><a href="#">수정</a></li>
+										<li><a href="#" class="delete">삭제</a></li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</form>
+			</article>
             
             <br><br><br>
             

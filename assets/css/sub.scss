@@ -568,6 +568,7 @@
 .btn-area {
     p {
         font-size: 0;
+		overflow: hidden;
         .btn {
             display: inline-block;
             font-size: 13px;
@@ -584,6 +585,24 @@
                 color: #fff;
                 background-color: #085eaa;
             }
+			&.btn-sm {
+				width: 30%;
+				color: #666;
+				line-height: 36px;
+				text-align: center;
+				margin-right: 5%;
+				&:last-child {
+					margin-right: 0;
+				}
+			}
+			&.btn-white {
+				border: 1px solid #333;	
+			}
+			&.btn-sm-bl {
+                color: #fff;
+				border: 1px solid #085eaa;
+                background-color: #085eaa;
+			}
             @media(min-width: $md) {
                 font-size: 15px;
                 &.btn-md {
@@ -591,10 +610,176 @@
                     height: 50px;
                     line-height: 50px;
                 }
+				&.btn-sm {
+					width: 150px;
+					line-height: 50px;
+					margin-right: 0;
+					&:nth-of-type(2) {
+						margin-right: 0;
+					}
+				}
+				&.btn-white {
+					float: left;
+					margin-right: 10px;
+				}
+				&.btn-sm-bl {
+					float: right; 
+				}
             }
         }
     }
 }
+
+//코멘트 작성
+.comment-area {
+	> h3 {
+		font-size: 15px;
+		color: #323232;
+		font-weight: 400;
+		padding-left: 30px;
+		margin-bottom: 10px;
+		background-image: url(/assets/images/sub/bg_comment_title.jpg);
+		background-repeat: no-repeat;
+		background-position: 0 100%;
+	}
+	.write {
+		width: 100%;
+		text-align: right;
+		padding: 20px 10px 10px;
+		border: 1px solid #d6d6d6;
+		border-radius: 5px;
+		background-color: #f7f7f7;
+		.form-control {
+			min-height: 85px;
+			font-size: 12px;
+			background-color: #fff;
+			color: #515151;
+			opacity: .8;
+			padding: 15px 10px;
+			border: 1px solid #d6d6d6;
+		}
+		.btn-gray {
+			width: 70px;
+			font-size: 12px;
+			color: #fff;
+			text-align: center;
+			background-color: #666;
+			line-height: 30px;
+			margin-top: 10px;
+			&:hover {
+				opacity: .8;
+				@include transition();
+			}
+		}
+	}
+	.comment-write {
+		.comment-num {
+			font-size: 13px;
+			color: #606060;
+			margin-top: 40px;
+			i {
+				font-style: normal;
+				color: #ed6a10;
+				font-weight: 400;
+			}
+		}
+	}
+	.article-content {
+		margin-top: 10px;
+		.comment-list {
+			border-top: 2px solid #aeaeae;
+			border-bottom: 2px solid #aeaeae;
+			> li {
+				padding: 20px 10px 25px;
+				& ~ li {
+					border-top: 1px solid #e5e5e5;
+				}
+				.info {
+					font-size: 0;
+					strong {
+						display: inline-block;
+						font-size: 13px;
+						color: #3d3d3d;
+						font-weight: 600;
+					}
+					.date {
+						display: inline-block;
+						font-size: 12px;
+						color: #666;
+						margin-left: 25px;
+					}
+				}
+				.details {
+					margin-top: 20px;
+					> p {
+						font-size: 12px;
+						color: #515151;	
+					}
+					.modify-list {
+						font-size: 0;
+						text-align: right;
+						margin-top: 30px;
+						li {
+							display: inline-block;
+							> a {
+								display: inline-block;
+								font-size: 12px;
+								color: #666;
+								&.delete {
+									&:hover {
+										color: #ed6a10;
+									}
+								}
+							}
+							&:last-child {
+								&:after {
+									display: none;
+								}
+							}
+							&:after {
+								position: relative;
+								top: -1px;
+								content: "|";
+								display: inline-block;
+								font-size: 10px;
+								color: #d6d6d6;
+								margin: 0 10px;
+							}
+						}
+					}
+				}
+				.reply {
+					margin-top: 30px;
+					> li {
+						.reply-wrap {
+							border: 1px solid #ececec;
+							border-radius: 5px;
+							padding: 20px 10px 20px 35px;
+							background-color: #f7f7f7;
+							background-image: url(/assets/images/sub/bg_comment_reply.png);
+							background-repeat: no-repeat;
+							background-position: 11px 18px;
+							> .details {
+								margin: 10px 0 0;
+								> p {
+									padding-right: 15px;
+									line-height: 22px;
+									word-break: keep-all;
+								}
+							}
+						}
+						& ~ li {
+							margin-top: 10px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
 
 // 게시판 리스트 공통
 .common-list {

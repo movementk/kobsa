@@ -94,7 +94,9 @@
                     </article>
                     <div class="btn-area">
                         <p>
-                            <a href="/trend/notification_list.php" class="btn btn-md btn-blue" role="button">목록</a>
+                            <a href="#" class="btn btn-sm btn-white" role="button">이전글</a>
+							<a href="#" class="btn btn-sm btn-white" role="button">다음글</a>
+							<a href="/trend/notification_list.php" class="btn btn-sm btn-sm-bl" role="button">목록</a>
                         </p>
                     </div>
                 </div>
