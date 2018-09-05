@@ -74,7 +74,9 @@
                     			</table>
                     			<div class="btn-area">
                     				<p>
-                    					<a href="/etc_company/construct_list.php" class="btn btn-default" role="button">목록</a>
+                    					<a href="#" class="btn btn-sm btn-white" role="button">이전글</a>
+										<a href="#" class="btn btn-sm btn-white" role="button">다음글</a>
+										<a href="/etc_company/construct_list.php" class="btn btn-sm btn-sm-bl" role="button">목록</a>
                     				</p>
                     			</div>
                     		</div>
