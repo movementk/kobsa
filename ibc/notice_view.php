@@ -72,26 +72,6 @@
                                 </ul>
                             </dd>
                         </dl>
-                        <div class="page-link">
-                            <ul>
-                                <li class="prev">
-                                    <dl>
-                                        <dt>이전글</dt>
-                                        <dd>
-                                            <a href="#">협회 '생물안전관리자' 민간자격증 안내</a>
-                                        </dd>
-                                    </dl>
-                                </li>
-                                <li class="next">
-                                    <dl>
-                                        <dt>다음글</dt>
-                                        <dd>
-                                            <a href="#">[KOBSA] 정회원 가입 안내</a>
-                                        </dd>
-                                    </dl>
-                                </li>
-                            </ul>
-                        </div>
                         <div class="btn-area">
 							<p>
 								<a href="#" class="btn btn-sm btn-white" role="button">이전글</a>
