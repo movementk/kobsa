@@ -611,4 +611,15 @@ a {
       .member-popup .modal-dialog .modal-content .modal-body {
         padding: 40px 20px 50px; } }
 
+.notice-view .comment-area {
+  margin-top: 70px; }
+  .notice-view .comment-area .paging {
+    margin-top: 50px; }
+@media (min-width: 768px) {
+  .notice-view .comment-area .paging {
+    margin-top: 50px; } }
+@media (min-width: 768px) {
+  .notice-view .comment-area {
+    margin-top: 90px; } }
+
 /*# sourceMappingURL=ibc.css.map */
