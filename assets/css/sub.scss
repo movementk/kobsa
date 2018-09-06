@@ -654,9 +654,19 @@
 			font-size: 12px;
 			background-color: #fff;
 			color: #515151;
-			opacity: .8;
 			padding: 15px 10px;
 			border: 1px solid #d6d6d6;
+		}
+		::placeholder {
+			opacity: .3;
+		}
+
+		:-ms-input-placeholder {
+			opacity: .3;
+		}
+
+		::-ms-input-placeholder {
+			opacity: .3;
 		}
 		.btn-gray {
 			width: 70px;
@@ -714,7 +724,8 @@
 					margin-top: 20px;
 					> p {
 						font-size: 12px;
-						color: #515151;	
+						color: #515151;
+						line-height: 22px;
 					}
 					.modify-list {
 						font-size: 0;
@@ -917,12 +928,12 @@
     }
     @media(min-width: $md) {
         .btn-area {
-            margin-top: 30px;
+            margin-top: 50px;
         }
     }
     @media(min-width: $xl) {
         .btn-area {
-            margin-top: 40px;
+            margin-top: 30px;
         }
     }
 }
