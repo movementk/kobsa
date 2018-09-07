@@ -169,6 +169,30 @@
                                             </td>
                                         </tr>
                                         <tr>
+                                            <th rowspan="2">주소</th>
+                                            <td class="addr">
+                                                <div class="form-group">
+                                                    <input type="text" id="u-zipcode" class="form-control">
+                                                    <a href="#" class="zipcode-btn" role="button">우편번호</a>
+                                                    <label for="u-zipcode" class="sr-only">우편번호</label>
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" id="u-addr1" class="form-control">
+                                                    <label for="u-addr1" class="sr-only">주소</label>
+                                                    <input type="text" id="u-addr2" class="form-control">
+                                                    <label for="u-addr2" class="sr-only">상세주소</label>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-group">
+                                                    <label>공개 <input type="checkbox"></label>
+                                                    <label>비공개 <input type="checkbox"></label>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
                                             <th rowspan="2"><label for="u-mail">전자메일</label></th>
                                             <td>
                                                 <div class="form-group">

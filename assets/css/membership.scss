@@ -598,6 +598,40 @@
                                         }
                                     }
                                 }
+                                &.addr {
+                                    .form-group {
+                                        position: relative;
+                                        padding-right: 100px;
+                                        .zipcode-btn {
+                                            position: absolute;
+                                            top: 0;
+                                            right: 0;
+                                            width: 90px;
+                                            height: 35px;
+                                            line-height: 35px;
+                                            text-align: center;
+                                            color: #fff;
+                                            font-size: 12px;
+                                            background-color: #464646;
+                                            @include transition();
+                                            &:hover {
+                                                opacity: .7;
+                                            }
+                                        }
+                                        .form-control {
+                                            width: 100%;
+                                            margin-bottom: 10px;
+                                        }
+                                        & ~ .form-group {
+                                            padding-right: 0;
+                                            .form-control {
+                                                &:last-child {
+                                                    margin-bottom: 0;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
                             }
                         }
                     }
@@ -684,6 +718,28 @@
                                                         padding-left: 20px;
                                                     }
                                                 }
+                                            }
+                                        }
+                                    }
+                                    &.addr {
+                                        .form-group {
+                                            padding-right: 0 !important;
+                                            &:first-child {
+                                                .form-control {
+                                                    display: inline-block;
+                                                    width: 160px;
+                                                }
+                                                .zipcode-btn {
+                                                    position: static;
+                                                    display: inline-block;
+                                                    width: 105px;
+                                                    font-size: 13px;
+                                                    margin-left: 10px;
+                                                    vertical-align: top;
+                                                }
+                                            }
+                                            .form-control {
+                                                width: 455px;
                                             }
                                         }
                                     }

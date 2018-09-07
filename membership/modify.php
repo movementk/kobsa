@@ -102,6 +102,23 @@
                                             </td>
                                         </tr>
                                         <tr>
+                                            <th>주소</th>
+                                            <td class="addr">
+                                                <div class="form-group">
+                                                    <input type="text" id="u-zipcode" class="form-control">
+                                                    <a href="#" class="zipcode-btn" role="button">우편번호</a>
+                                                    <label for="u-zipcode" class="sr-only">우편번호</label>
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" id="u-addr1" class="form-control">
+                                                    <label for="u-addr1" class="sr-only">주소</label>
+                                                    <input type="text" id="u-addr2" class="form-control">
+                                                    <label for="u-addr2" class="sr-only">상세주소</label>
+                                                    <label>공개하기 <input type="checkbox"></label>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
                                             <th><label for="u-mail">전자메일</label></th>
                                             <td>
                                                 <div class="form-group">

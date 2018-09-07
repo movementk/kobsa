@@ -788,6 +788,37 @@ a {
             clear: both; }
           .join .section-content .write-form .table-wrap .table tbody tr td.expertise > .form-group > .check-list > li > label {
             padding-left: 17px; }
+      .join .section-content .write-form .table-wrap .table tbody tr td.addr .form-group {
+        position: relative;
+        padding-right: 100px; }
+        .join .section-content .write-form .table-wrap .table tbody tr td.addr .form-group .zipcode-btn {
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 90px;
+          height: 35px;
+          line-height: 35px;
+          text-align: center;
+          color: #fff;
+          font-size: 12px;
+          background-color: #464646;
+          -webkit-transition-property: all;
+          transition-property: all;
+          -webkit-transition-duration: 0.15s;
+          transition-duration: 0.15s;
+          -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+          -webkit-transition-delay: 0s;
+          transition-delay: 0s; }
+          .join .section-content .write-form .table-wrap .table tbody tr td.addr .form-group .zipcode-btn:hover {
+            opacity: .7; }
+        .join .section-content .write-form .table-wrap .table tbody tr td.addr .form-group .form-control {
+          width: 100%;
+          margin-bottom: 10px; }
+        .join .section-content .write-form .table-wrap .table tbody tr td.addr .form-group ~ .form-group {
+          padding-right: 0; }
+          .join .section-content .write-form .table-wrap .table tbody tr td.addr .form-group ~ .form-group .form-control:last-child {
+            margin-bottom: 0; }
   .join .section-content .write-form .btn-area {
     margin-top: 30px; }
     .join .section-content .write-form .btn-area p {
@@ -836,6 +867,20 @@ a {
           clear: both; }
         .join .section-content .write-form .table-wrap .table tbody tr td.expertise > .form-group > .check-list > li label {
           padding-left: 20px; }
+      .join .section-content .write-form .table-wrap .table tbody tr td.addr .form-group {
+        padding-right: 0 !important; }
+        .join .section-content .write-form .table-wrap .table tbody tr td.addr .form-group:first-child .form-control {
+          display: inline-block;
+          width: 160px; }
+        .join .section-content .write-form .table-wrap .table tbody tr td.addr .form-group:first-child .zipcode-btn {
+          position: static;
+          display: inline-block;
+          width: 105px;
+          font-size: 13px;
+          margin-left: 10px;
+          vertical-align: top; }
+        .join .section-content .write-form .table-wrap .table tbody tr td.addr .form-group .form-control {
+          width: 455px; }
     .join .section-content .write-form .btn-area {
       text-align: center;
       margin-top: 60px; }
