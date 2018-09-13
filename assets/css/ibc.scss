@@ -359,7 +359,26 @@
 	}
 }
 
-
+.faq-view {
+	.comment-area {
+		margin-top: 70px;
+		.paging {
+			margin-top: 50px;
+		}
+	}
+	@media ( min-width: $md ) {
+		.comment-area {
+			.paging {
+				margin-top: 50px;
+			}
+		}
+	}
+	@media ( min-width: $md ) {
+		.comment-area {
+			margin-top: 90px;
+		}
+	}
+}
 
 
 

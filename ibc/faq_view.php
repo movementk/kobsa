@@ -80,6 +80,141 @@
 							</p>
 						</div>
                     </article>
+                    <article class="comment-area">
+						<h3>토론의견 작성</h3>
+						<form action="#">
+							<div class="comment-write">
+								<div class="write">
+									<div class="form-group">
+										<textarea id="comment" class="form-control" placeholder="댓글을 입력해 주세요"></textarea>
+										<label for="comment" class="sr-only"></label>
+										<button type="submit" class="btn btn-gray">등록</button>
+									</div>
+								</div>
+								<p class="comment-num">총 <i>5</i>개의 의견이 있습니다.</p>
+							</div>
+							<div class="article-content">
+								<ul class="comment-list">
+									<li>
+										<div class="info">
+											<strong>xhdfhdlalwl</strong>
+											<p class="date">2018.08.12</p>
+										</div>
+										<div class="details">
+											<p>좋은 의견입니다.좋은 의견입니다.좋은 의견입니다.좋은 의견입니다.좋은 의견입니다.좋은 의견입니다.좋은 의견입니다.좋은 의견입니다.좋은 의견입니다.좋은 의견입니다.</p>
+											<ul class="modify-list">
+												<li><a href="#">댓글</a></li>
+												<li><a href="#">수정</a></li>
+												<li><a href="#" class="delete">삭제</a></li>
+											</ul>
+										</div>
+										<ul class="reply">
+											<li>
+												<div class="info">
+													<strong>홍길동</strong>
+													<p class="date">2018.08.12</p>
+												</div>
+												<div class="details">
+													<p>좋아요</p>
+													<ul class="modify-list">
+														<li><a href="#">수정</a></li>
+														<li><a href="#" class="delete">삭제</a></li>
+													</ul>
+												</div>
+											</li>
+											<li>
+												<div class="info">
+													<strong>고길동</strong>
+													<p class="date">2018.08.12</p>
+												</div>
+												<div class="details">
+													<p>잘 보고 갑니다. 앞으로도 좋은 제안 부탁드립니다좋은제안이네요..잘 보고 갑니다. 앞으로도 좋은 제안 부탁드립니다~~~~</p>
+													<ul class="modify-list">
+														<li><a href="#">수정</a></li>
+														<li><a href="#" class="delete">삭제</a></li>
+													</ul>
+												</div>
+											</li>
+											<li>
+												<div class="write">
+													<div class="form-group">
+														<textarea id="comment2" class="form-control" placeholder="댓글을 입력해 주세요"></textarea>
+														<label for="comment2" class="sr-only"></label>
+														<button type="submit" class="btn btn-gray">등록</button>
+													</div>
+												</div>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<div class="info">
+											<strong>xhdfhdlalwl</strong>
+											<p class="date">2018.08.12</p>
+										</div>
+										<div class="details">
+											<p>좋은 의견입니다.</p>
+											<ul class="modify-list">
+												<li><a href="#">댓글</a></li>
+												<li><a href="#">수정</a></li>
+												<li><a href="#" class="delete">삭제</a></li>
+											</ul>
+										</div>
+									</li>
+									<li>
+										<div class="info">
+											<strong>xhdfhdlalwl</strong>
+											<p class="date">2018.08.12</p>
+										</div>
+										<div class="details">
+											<p>잘 보고 갑니다. 앞으로도 좋은 제안 부탁드립니다좋은제안이네요..잘 보고 갑니다. 앞으로도 좋은 제안 부탁드립니다~~~~잘 보고 갑니다. 앞으로도 좋은 제안 부탁드립니다좋은제안이네요..잘 보고 갑니다. 앞으로도 좋은 제안 부탁드립니다~~~~잘 보고 갑니다. 앞으로도 좋은 제안 부탁드립니다좋은제안이네요..잘 보고 갑니다. 앞으로도 좋은 제안 부탁드립니다~~~~</p>
+											<ul class="modify-list">
+												<li><a href="#">댓글</a></li>
+												<li><a href="#">수정</a></li>
+												<li><a href="#" class="delete">삭제</a></li>
+											</ul>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</form>
+						<nav class="paging" aria-label="Page navigation">
+							<ul class="pagination">
+								<li class="page-item first">
+									<a class="page-link" href="#" aria-label="Previous">
+										<i class="icon-angle-double-left">
+											<span class="sr-only">첫번째페이지</span>
+										</i>
+									</a>
+								</li>
+								<li class="page-item prev">
+									<a class="page-link" href="#" aria-label="Previous">
+										<i class="icon-angle-left">
+											<span class="sr-only">이전페이지</span>
+										</i>
+									</a>
+								</li>
+								<li class="page-item active"><a class="page-link" href="#">1</a></li>
+								<li class="page-item"><a class="page-link" href="#">2</a></li>
+								<li class="page-item"><a class="page-link" href="#">3</a></li>
+								<li class="page-item"><a class="page-link" href="#">4</a></li>
+								<li class="page-item"><a class="page-link" href="#">5</a></li>
+								<li class="page-item next">
+									<a class="page-link" href="#" aria-label="Next">
+										<i class="icon-angle-right">
+											<span class="sr-only">다음페이지</span>
+										</i>
+									</a>
+								</li>
+								<li class="page-item last">
+									<a class="page-link" href="#" aria-label="Next">
+										<i class="icon-angle-double-right">
+											<span class="sr-only">마지막페이지</span>
+										</i>
+									</a>
+								</li>
+							</ul>
+						</nav>
+					</article>
                 </div>
             </section>
         </div>
