@@ -1154,11 +1154,11 @@ body {
               .pathogen-popup .modal-dialog .modal-content .modal-body .search-body .result-list li a {
                 display: table;
                 width: 100%;
+                padding: 10px 0;
                 font-size: 13px;
                 table-layout: fixed; }
                 .pathogen-popup .modal-dialog .modal-content .modal-body .search-body .result-list li a h5 {
                   display: table-cell;
-                  height: 58px;
                   font-size: 10px;
                   color: #333;
                   font-weight: 300;

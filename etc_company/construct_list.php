@@ -24,6 +24,11 @@
             <section class="construct-list">
                 <div class="section-header">
                     <h4>설계, 시공</h4>
+                    <div class="btn-area">
+                        <p>
+                            <a href="/etc_company/construct_write.php" class="btn btn-md btn-blue" role="button">전문기업 신청하기</a>
+                        </p>
+                    </div>
                 </div>
                 <div class="section-content">
                     <ul class="news-list">

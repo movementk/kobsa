@@ -520,7 +520,7 @@ a {
         font-size: 17px;
         color: #666;
         font-weight: 400;
-        border-radius: 50%;
+        border-radius: 50% !important;
         margin: 0 3px;
         background: none; }
       .paging .pagination > li.active > a {

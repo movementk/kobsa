@@ -28,9 +28,6 @@
                     <div class="search-form">
                         <form action="#">
                             <div class="form-group">
-                                <select class="form-control">
-                                    <option>선택</option>
-                                </select>
                                 <input type="text" id="board-search" class="form-control" placeholder="검색어를 입력해주세요">
                                 <label for="board-search" class="sr-only">검색어입력</label>
                             </div>
@@ -41,238 +38,94 @@
                             </button>
                         </form>
                     </div>
-                    <article class="board-list">
-                        <div class="board-head d-none d-xl-block">
+                    <article class="pathogen-result">
+                        <dl>
+                            <dt>검색결과</dt>
+                            <dd>페스트균 (Yersinia pestis)</dd>
+                        </dl>
+                        <div class="article-content">
                             <ul>
-                                <li class="num">No.</li>
-                                <li class="subject">제목</li>
-                                <li class="date">등록일</li>
-                                <li class="hit">조회</li>
+                                <li>
+                                    <a href="#">
+                                        <h5>페스트균 (Yersinia pestis)</h5>
+                                        <div class="risk-person">
+                                            <p>제3위험군</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <h5>페스트균 (Yersinia pestis)</h5>
+                                        <div class="risk-person">
+                                            <p>제3위험군</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <h5>페스트균 (Yersinia pestis)</h5>
+                                        <div class="risk-person">
+                                            <p>제3위험군</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <h5>페스트균 (Yersinia pestis)</h5>
+                                        <div class="risk-person">
+                                            <p>제3위험군</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <h5>페스트균 (Yersinia pestis)</h5>
+                                        <div class="risk-person">
+                                            <p>제3위험군</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <h5>페스트균 (Yersinia pestis)</h5>
+                                        <div class="risk-person">
+                                            <p>제3위험군</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <h5>페스트균 (Yersinia pestis)</h5>
+                                        <div class="risk-person">
+                                            <p>제3위험군</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <h5>페스트균 (Yersinia pestis)</h5>
+                                        <div class="risk-person">
+                                            <p>제3위험군</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <h5>페스트균 (Yersinia pestis)</h5>
+                                        <div class="risk-person">
+                                            <p>제3위험군</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <h5>페스트균 (Yersinia pestis)</h5>
+                                        <div class="risk-person">
+                                            <p>제3위험군</p>
+                                        </div>
+                                    </a>
+                                </li>
                             </ul>
-                        </div>
-                        <div class="board-body">
-                            <ol>
-                                <li>
-                                    <ul>
-                                        <li class="d-none d-xl-block num">123</li>
-                                        <li class="subject">
-                                            <a href="/legislation/pathogen_view.php">
-                                                A-PBA(아시아-태평양생물안전협회) 13차 정기 생물안전컨퍼런스 안내
-                                            </a>
-                                        </li>
-                                        <li class="date">
-                                            <dl>
-                                                <dt class="d-xl-none">등록일</dt>
-                                                <dd>2017-08-01</dd>
-                                            </dl>
-                                        </li>
-                                        <li class="hit">
-                                            <dl>
-                                                <dt class="d-xl-none">조회수</dt>
-                                                <dd>123</dd>
-                                            </dl>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <ul>
-                                        <li class="d-none d-xl-block num">123</li>
-                                        <li class="subject">
-                                            <a href="/legislation/pathogen_view.php">
-                                                A-PBA(아시아-태평양생물안전협회) 13차 정기 생물안전컨퍼런스 안내
-                                            </a>
-                                        </li>
-                                        <li class="date">
-                                            <dl>
-                                                <dt class="d-xl-none">등록일</dt>
-                                                <dd>2017-08-01</dd>
-                                            </dl>
-                                        </li>
-                                        <li class="hit">
-                                            <dl>
-                                                <dt class="d-xl-none">조회수</dt>
-                                                <dd>123</dd>
-                                            </dl>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <ul>
-                                        <li class="d-none d-xl-block num">123</li>
-                                        <li class="subject">
-                                            <a href="/legislation/pathogen_view.php">
-                                                A-PBA(아시아-태평양생물안전협회) 13차 정기 생물안전컨퍼런스 안내
-                                            </a>
-                                        </li>
-                                        <li class="date">
-                                            <dl>
-                                                <dt class="d-xl-none">등록일</dt>
-                                                <dd>2017-08-01</dd>
-                                            </dl>
-                                        </li>
-                                        <li class="hit">
-                                            <dl>
-                                                <dt class="d-xl-none">조회수</dt>
-                                                <dd>123</dd>
-                                            </dl>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <ul>
-                                        <li class="d-none d-xl-block num">123</li>
-                                        <li class="subject">
-                                            <a href="/legislation/pathogen_view.php">
-                                                A-PBA(아시아-태평양생물안전협회) 13차 정기 생물안전컨퍼런스 안내
-                                            </a>
-                                        </li>
-                                        <li class="date">
-                                            <dl>
-                                                <dt class="d-xl-none">등록일</dt>
-                                                <dd>2017-08-01</dd>
-                                            </dl>
-                                        </li>
-                                        <li class="hit">
-                                            <dl>
-                                                <dt class="d-xl-none">조회수</dt>
-                                                <dd>123</dd>
-                                            </dl>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <ul>
-                                        <li class="d-none d-xl-block num">123</li>
-                                        <li class="subject">
-                                            <a href="/legislation/pathogen_view.php">
-                                                A-PBA(아시아-태평양생물안전협회) 13차 정기 생물안전컨퍼런스 안내
-                                            </a>
-                                        </li>
-                                        <li class="date">
-                                            <dl>
-                                                <dt class="d-xl-none">등록일</dt>
-                                                <dd>2017-08-01</dd>
-                                            </dl>
-                                        </li>
-                                        <li class="hit">
-                                            <dl>
-                                                <dt class="d-xl-none">조회수</dt>
-                                                <dd>123</dd>
-                                            </dl>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <ul>
-                                        <li class="d-none d-xl-block num">123</li>
-                                        <li class="subject">
-                                            <a href="/legislation/pathogen_view.php">
-                                                A-PBA(아시아-태평양생물안전협회) 13차 정기 생물안전컨퍼런스 안내
-                                            </a>
-                                        </li>
-                                        <li class="date">
-                                            <dl>
-                                                <dt class="d-xl-none">등록일</dt>
-                                                <dd>2017-08-01</dd>
-                                            </dl>
-                                        </li>
-                                        <li class="hit">
-                                            <dl>
-                                                <dt class="d-xl-none">조회수</dt>
-                                                <dd>123</dd>
-                                            </dl>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <ul>
-                                        <li class="d-none d-xl-block num">123</li>
-                                        <li class="subject">
-                                            <a href="/legislation/pathogen_view.php">
-                                                A-PBA(아시아-태평양생물안전협회) 13차 정기 생물안전컨퍼런스 안내
-                                            </a>
-                                        </li>
-                                        <li class="date">
-                                            <dl>
-                                                <dt class="d-xl-none">등록일</dt>
-                                                <dd>2017-08-01</dd>
-                                            </dl>
-                                        </li>
-                                        <li class="hit">
-                                            <dl>
-                                                <dt class="d-xl-none">조회수</dt>
-                                                <dd>123</dd>
-                                            </dl>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <ul>
-                                        <li class="d-none d-xl-block num">123</li>
-                                        <li class="subject">
-                                            <a href="/legislation/pathogen_view.php">
-                                                A-PBA(아시아-태평양생물안전협회) 13차 정기 생물안전컨퍼런스 안내
-                                            </a>
-                                        </li>
-                                        <li class="date">
-                                            <dl>
-                                                <dt class="d-xl-none">등록일</dt>
-                                                <dd>2017-08-01</dd>
-                                            </dl>
-                                        </li>
-                                        <li class="hit">
-                                            <dl>
-                                                <dt class="d-xl-none">조회수</dt>
-                                                <dd>123</dd>
-                                            </dl>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <ul>
-                                        <li class="d-none d-xl-block num">123</li>
-                                        <li class="subject">
-                                            <a href="/legislation/pathogen_view.php">
-                                                A-PBA(아시아-태평양생물안전협회) 13차 정기 생물안전컨퍼런스 안내
-                                            </a>
-                                        </li>
-                                        <li class="date">
-                                            <dl>
-                                                <dt class="d-xl-none">등록일</dt>
-                                                <dd>2017-08-01</dd>
-                                            </dl>
-                                        </li>
-                                        <li class="hit">
-                                            <dl>
-                                                <dt class="d-xl-none">조회수</dt>
-                                                <dd>123</dd>
-                                            </dl>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <ul>
-                                        <li class="d-none d-xl-block num">123</li>
-                                        <li class="subject">
-                                            <a href="/legislation/pathogen_view.php">
-                                                A-PBA(아시아-태평양생물안전협회) 13차 정기 생물안전컨퍼런스 안내
-                                            </a>
-                                        </li>
-                                        <li class="date">
-                                            <dl>
-                                                <dt class="d-xl-none">등록일</dt>
-                                                <dd>2017-08-01</dd>
-                                            </dl>
-                                        </li>
-                                        <li class="hit">
-                                            <dl>
-                                                <dt class="d-xl-none">조회수</dt>
-                                                <dd>123</dd>
-                                            </dl>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ol>
                         </div>
                     </article>
                     <nav class="paging" aria-label="Page navigation">

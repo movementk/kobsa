@@ -448,6 +448,27 @@ a {
       .lnb-list > ul > li:first-child a {
         border-left: 1px solid #bababa !important; } }
 
+.construct-list .section-header .btn-area {
+  width: 100%;
+  margin-top: 20px; }
+  .construct-list .section-header .btn-area p .btn-md {
+    width: 100%;
+    text-align: center; }
+@media (min-width: 768px) {
+  .construct-list .section-header {
+    position: relative; }
+    .construct-list .section-header .btn-area {
+      width: auto;
+      margin: 0; }
+      .construct-list .section-header .btn-area p .btn-md {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        width: 150px;
+        margin-top: -25px; } }
+@media (min-width: 1200px) {
+  .construct-list .section-header .btn-area p .btn-md {
+    width: 180px; } }
 .construct-list .news-list {
   border-top: 2px solid #030303; }
   .construct-list .news-list > li {
@@ -580,12 +601,11 @@ a {
 .construct-view .section-content article .article-content {
   padding-top: 30px; }
   .construct-view .section-content article .article-content figure {
-    /*height: 215px;*/
     text-align: center;
     padding-bottom: 30px; }
     .construct-view .section-content article .article-content figure img {
-      margin: 0 auto;
-      border: 1px solid #e1e1e1; }
+      width: 100%;
+      margin: 0 auto; }
   .construct-view .section-content article .article-content .table-wrap {
     border-top: 1px solid #333; }
     .construct-view .section-content article .article-content .table-wrap .table tr th {
@@ -649,5 +669,104 @@ a {
     padding-left: 40px; }
   .construct-view .section-content article .article-content .table-wrap .btn-area {
     margin-top: 40px; } }
+
+.construct-write .section-content .write-form .table-wrap .table {
+  table-layout: fixed;
+  border-top: 1px solid #000; }
+  .construct-write .section-content .write-form .table-wrap .table tbody tr th {
+    width: 120px;
+    font-size: 13px;
+    color: #333;
+    font-weight: 400;
+    padding-left: 10px;
+    vertical-align: middle;
+    border: 0;
+    border-bottom: 1px solid #dfdfdf;
+    background-color: #f8f8f8; }
+  .construct-write .section-content .write-form .table-wrap .table tbody tr td {
+    padding: 10px;
+    height: 56px;
+    vertical-align: middle;
+    border: 0;
+    border-bottom: 1px solid #dfdfdf; }
+    .construct-write .section-content .write-form .table-wrap .table tbody tr td .form-group .form-control {
+      width: 100%;
+      height: 35px;
+      font-size: 13px; }
+    .construct-write .section-content .write-form .table-wrap .table tbody tr td .form-group textarea {
+      width: 100% !important;
+      height: 150px !important; }
+    .construct-write .section-content .write-form .table-wrap .table tbody tr td.attach .form-group {
+      position: relative;
+      padding-right: 80px; }
+      .construct-write .section-content .write-form .table-wrap .table tbody tr td.attach .form-group .file {
+        width: 100%; }
+      .construct-write .section-content .write-form .table-wrap .table tbody tr td.attach .form-group .form-control {
+        background-color: #fff !important; }
+      .construct-write .section-content .write-form .table-wrap .table tbody tr td.attach .form-group input[type='button'] {
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 13px;
+        color: #fff;
+        font-weight: 300;
+        text-align: center;
+        width: 70px;
+        height: 35px;
+        line-height: 35px;
+        text-align: center;
+        border: 0;
+        cursor: pointer;
+        background-color: #ccc; }
+      .construct-write .section-content .write-form .table-wrap .table tbody tr td.attach .form-group input[type='file'] {
+        display: none !important; }
+.construct-write .section-content .write-form .btn-area {
+  margin-top: 30px; }
+  .construct-write .section-content .write-form .btn-area p {
+    font-size: 0; }
+    .construct-write .section-content .write-form .btn-area p .btn-md {
+      width: 48%;
+      font-size: 14px;
+      color: #fff;
+      height: 50px;
+      line-height: 50px;
+      margin-right: 4%; }
+      .construct-write .section-content .write-form .btn-area p .btn-md:last-child {
+        margin-right: 0; }
+      .construct-write .section-content .write-form .btn-area p .btn-md.btn-orange {
+        background-color: #ed6a10; }
+      .construct-write .section-content .write-form .btn-area p .btn-md.btn-gray {
+        background-color: #999; }
+@media (min-width: 768px) {
+  .construct-write .section-content .write-form .table-wrap .table tbody tr th {
+    width: 200px;
+    font-size: 14px;
+    line-height: 20px;
+    padding-left: 20px; }
+  .construct-write .section-content .write-form .table-wrap .table tbody tr td {
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 20px; }
+    .construct-write .section-content .write-form .table-wrap .table tbody tr td .form-group .form-control {
+      font-size: 14px; }
+    .construct-write .section-content .write-form .table-wrap .table tbody tr td.attach .form-group {
+      position: relative;
+      width: 450px;
+      padding-right: 100px; }
+      .construct-write .section-content .write-form .table-wrap .table tbody tr td.attach .form-group input[type='button'] {
+        width: 90px;
+        font-size: 14px; }
+  .construct-write .section-content .write-form .btn-area {
+    text-align: center;
+    margin-top: 60px; }
+    .construct-write .section-content .write-form .btn-area p .btn-md {
+      font-size: 16px;
+      width: 200px;
+      height: 65px;
+      line-height: 65px;
+      margin-right: 10px; } }
+@media (min-width: 1200px) {
+  .construct-write .section-content .write-form .btn-area {
+    margin-top: 50px; } }
 
 /*# sourceMappingURL=etc_company.css.map */
