@@ -622,4 +622,15 @@ a {
   .notice-view .comment-area {
     margin-top: 90px; } }
 
+.faq-view .comment-area {
+  margin-top: 70px; }
+  .faq-view .comment-area .paging {
+    margin-top: 50px; }
+@media (min-width: 768px) {
+  .faq-view .comment-area .paging {
+    margin-top: 50px; } }
+@media (min-width: 768px) {
+  .faq-view .comment-area {
+    margin-top: 90px; } }
+
 /*# sourceMappingURL=ibc.css.map */
