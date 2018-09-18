@@ -74,9 +74,13 @@
                     			</table>
                     			<div class="btn-area">
                     				<p>
-                    					<a href="#" class="btn btn-sm btn-white" role="button">이전글</a>
-										<a href="#" class="btn btn-sm btn-white" role="button">다음글</a>
-										<a href="/etc_company/construct_list.php" class="btn btn-sm btn-sm-bl" role="button">목록</a>
+                    					<a href="#" class="btn btn-xs btn-white" role="button">이전글</a>
+										<a href="#" class="btn btn-xs btn-white" role="button">다음글</a>
+                    				</p>
+                    				<p>
+                    					<a href="/etc_company/construct_list.php" class="btn btn-sm btn-sm-bl" role="button">목록</a>
+                    					<a href="#" class="btn btn-sm btn-sm-bl" role="button">수정</a>
+                    					<a href="#" class="btn btn-sm btn-sm-bl" role="button">삭제</a> 
                     				</p>
                     			</div>
                     		</div>
