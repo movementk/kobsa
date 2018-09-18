@@ -432,7 +432,7 @@ a {
     width: 100%; }
     .lnb-list > ul > li {
       display: table-cell;
-      width: 25%; }
+      width: 1%; }
       .lnb-list > ul > li a {
         font-size: 15px;
         line-height: 55px;
