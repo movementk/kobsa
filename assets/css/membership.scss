@@ -107,7 +107,7 @@
 }
 
 // login , confirm
-.login, .confirm {
+.login, .confirm, .pw-confirm {
     .section-header {
         > p {
             font-size: 13px;
@@ -235,6 +235,16 @@
             }
         }
     }
+}
+
+// 비밀번호 확인
+.pw-confirm {
+	.section-content {
+		.login-form {
+			border: none;
+			padding: 0;
+		}
+	}
 }
 
 // 회원가입 step 01
