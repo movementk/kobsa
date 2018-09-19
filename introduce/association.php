@@ -81,7 +81,7 @@
 									<img src="/assets/images/introduce/img_activity02.png" class="img-fluid" alt="">
 								</figure>
 								<dl>
-									<dt>02. 워크숍 및 컨퍼러스 개최</dt>
+									<dt>02. 워크숍 및 컨퍼런스 개최</dt> 
 									<dd>
 										<ul>
 											<li>생물안전연구시설 설치,운영자 워크숍 (상반기)</li>
@@ -129,7 +129,7 @@
 										<ul>
 											<li>기관 생물안전위원회 위원 네트워크 운영 </li>
 											<li>A-PBA 등 국제생물안전기관과 연계활동</li>
-											<li>생물안전 관련 최신동향 및 정보 제</li>
+											<li>생물안전 관련 최신동향 및 정보 제공</li> 
 										</ul>
 									</dd>
 								</dl>
