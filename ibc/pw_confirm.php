@@ -1,11 +1,11 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
 <link rel="stylesheet" href="/assets/css/sub.css">
-<link rel="stylesheet" href="/assets/css/membership.css">
+<link rel="stylesheet" href="/assets/css/ibc.css">
 </head>
 <body class="sub membership">
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
     <!-- page-header -->
-    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/membership/_pageheader.php'); ?>
+    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/ibc/_pageheader.php'); ?>
     
     <!-- Sub Content Start -->
     <main id="content">
