@@ -1302,6 +1302,17 @@
 									}
 								}
 							}
+                            tbody {
+                                tr {
+                                    &:nth-of-type(3) {
+                                        td {
+                                            &:last-child {
+                                                border-right: 1px solid #e1e1e1 !important;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
 						}
 						.table-2 {
 							thead {
