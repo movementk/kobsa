@@ -182,6 +182,14 @@
 							content: "|";
 							margin: 0 10px;
 						}
+                        &.user {
+                            &:before {
+                                content: "\F061";
+                                font-family: "fontello";
+                                font-size: 12px;
+                                margin-right: 3px;
+                            }
+                        }
 						&.call {
 							&:before {
 								content: "\E809";

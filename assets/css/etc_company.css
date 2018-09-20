@@ -509,6 +509,11 @@ a {
             font-size: 10px;
             content: "|";
             margin: 0 10px; }
+          .construct-list .news-list > li .details .info li.user:before {
+            content: "\F061";
+            font-family: "fontello";
+            font-size: 12px;
+            margin-right: 3px; }
           .construct-list .news-list > li .details .info li.call:before {
             content: "\E809";
             font-family: "fontello";
