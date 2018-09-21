@@ -848,44 +848,15 @@
     padding-right: 10px !important;
     background-color: rgba(0, 0, 0, .6);
     .modal-dialog {
-        max-width: 635px !important;
+        max-width: 685px;
         margin: 50px auto 0;
         .modal-content {
-            padding: 0 10px 10px;
+            padding: 0;
             border-radius: 0;
 			border-bottom: 0;
-            .modal-header {
-                overflow: hidden;
-                padding: 20px 0 15px;
-                .modal-title {
-                    font-size: 16px;
-                    color: #333;
-                    display: block;
-                    float: left;
-                    font-weight: 400;
-                }
-                .close {
-                    float: right;
-                    display: block;
-                    width: 24px;
-                    height: 24px;
-					line-height: 24px;
-                    padding: 0;
-                    margin: 0;
-                    opacity: 1;
-                    span {
-                        position: relative;
-                        top: -3px;
-						text-align: right;
-                    }
-                    &:hover/*, &:focus*/ {
-                        opacity: .7;
-                    }
-                }
-            }
+            background: none;
             .modal-body {
                 padding: 0;
-				/*padding: 0 0 70px;*/
                 border-bottom: 0;
                 .slide-content {
                     position: relative;
@@ -899,29 +870,83 @@
                         }
                     }
                     .slick-arrow {
+                        display: none !important;
+                    }
+                    .slick-dots {
                         position: absolute;
-                        top: 50%;
-                        font-size: 20px;
-                        color: #fff;
-                        padding: 0 !important;
-                        cursor: pointer;
-                        margin-top: -15px;
-                        border: 0 !important;
-                        background: none;
-                        z-index: 1;
-                        @include transition();
-                        &.slick-prev {
-                            left: 10px;
+                        bottom: 20px;
+                        right: 20px;
+                        li {
+                            display: inline-block;
+                            margin-left: 10px;
+                            &:first-child {
+                                margin-left: 0;
+                            }
+                            button {
+                                width: 15px;
+                                height: 15px;
+                                display: block;
+                                padding: 0;
+                                margin: 0;
+                                cursor: pointer;
+                                text-indent: -9999999px;
+                                background: none;
+                                border-radius: 50%;
+                                border: 0;
+                                background-color: rgba(255, 255, 255, 0.6);
+                            }
+                            &.slick-active {
+                                button {
+                                    background-color: #0957d5;
+                                }
+                            }
                         }
-                        &.slick-next {
-                            right: 10px;
-                        }
-                        &:hover {
-                            color: #0957d5;
-                        }
-                        @media(min-width: $md) {
-                            font-size: 28px;
-                            margin-top: -21px;
+                    }
+                }
+            }
+            .modal-foot {
+                overflow: hidden;
+                padding-top: 10px;
+                background: none;
+                label {
+                    float: left;
+                    font-size: 12px;
+                    color: #fff;
+                    line-height: 20px;
+                    font-weight: lighter;
+                    input {
+                        position: relative;
+                        top: 2px;
+                        margin-right: 5px;
+                    }
+                }
+                .btn-area {
+                    float: right;
+                    .close {
+                        display: block;
+                        font-size: 12px;
+                        border: 0;
+                        font-weight: 300;
+                        display: inline-block;
+                        line-height: 20px;
+                        padding: 0 10px;
+                        margin: 0;
+                        text-shadow: none !important;
+                        box-shadow: none !important;
+                        opacity: 1 !important;
+                        background-color: #f1f1f1;
+                    }
+                }
+                @media(min-width: $md) {
+                    label {
+                        font-size: 14px;
+                        line-height: 30px;
+                    }
+                    .btn-area {
+                        .close {
+                            font-size: 14px;
+                            line-height: 30px;
+                            padding: 0 20px;
                         }
                     }
                 }
@@ -932,20 +957,8 @@
 		.modal-dialog {
 			margin: 100px auto 0;
 			.modal-content {
-				padding: 0 30px 30px;
-				.modal-header {
-					padding: 25px 0 20px;
-					.modal-title {
-						font-size: 18px;
-					}
-					.close {
-						width: 27px;
-						height: 27px;
-						line-height: 27px;
-					}
-				}
 				.modal-body {
-					/*padding: 0 0 105px;*/
+					
 				}
 			}
 		}

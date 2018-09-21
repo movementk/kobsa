@@ -265,12 +265,6 @@
     <div class="modal fade slide-modal" id="slide-popup" tabindex="-1" role="dialog" aria-labelledby="slide-popupLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="slide-popupLabel">슬라이드 모달</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
                 <div class="modal-body">
 					<div class="slide-content">
 					    <ul>
@@ -292,6 +286,12 @@
 					    </ul>
 					</div>
                 </div>
+                <div class="modal-foot">
+                    <label><input type="checkbox"> 오늘하루 열지않습니다.</label>
+                    <div class="btn-area">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">닫기</button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -306,14 +306,12 @@
 				setTimeout(function(){
 					$('#slide-popup .modal-body .slide-content ul').slick({
 						autoplay: true,
-						dots: false,
+						dots: true,
 						infinite: true,
 						autoplaySpeed: 5000,
 						cssEase: 'linear',
 						pauseOnHover: false,
-						pauseOnFocus: false,
-                        prevArrow: '<button class="slick-prev"><i class="icon-left-open-big"></i></button>',
-                        nextArrow: '<button class="slick-next"><i class="icon-right-open-big"></i></button>',
+						pauseOnFocus: false
 					});
 				}, 200);
 			});
