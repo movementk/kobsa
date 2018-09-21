@@ -258,9 +258,66 @@
             </div>
         </article>
     </main>
+    
+    <button type="button" data-toggle="modal" data-target="#slide-popup">팝업열기</button>
+    
+    <!-- slide-modal popup -->
+    <div class="modal fade slide-modal" id="slide-popup" tabindex="-1" role="dialog" aria-labelledby="slide-popupLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="slide-popupLabel">슬라이드 모달</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+					<div class="slide-content">
+					    <ul>
+					        <li>
+					            <figure>
+					                <img src="/assets/images/main/img_xl_slider01.jpg" class="img-fluid" alt="">
+					            </figure>
+					        </li>
+					        <li>
+					            <figure>
+					                <img src="/assets/images/main/img_xl_slider01.jpg" class="img-fluid" alt="">
+					            </figure>
+					        </li>
+					        <li>
+					            <figure>
+					                <img src="/assets/images/main/img_xl_slider01.jpg" class="img-fluid" alt="">
+					            </figure>
+					        </li>
+					    </ul>
+					</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
     <script type="text/javascript" src="/assets/js/main.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        (function($){
+			$('#slide-popup').on('show.bs.modal', function (e) {
+				setTimeout(function(){
+					$('#slide-popup .modal-body .slide-content ul').slick({
+						autoplay: true,
+						dots: false,
+						infinite: true,
+						autoplaySpeed: 5000,
+						cssEase: 'linear',
+						pauseOnHover: false,
+						pauseOnFocus: false,
+                        prevArrow: '<button class="slick-prev"><i class="icon-left-open-big"></i></button>',
+                        nextArrow: '<button class="slick-next"><i class="icon-right-open-big"></i></button>',
+					});
+				}, 200);
+			});
+        })(jQuery);
+    </script>
 </body>
 </html>

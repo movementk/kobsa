@@ -825,3 +825,129 @@
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********** video-modal popup **********/
+.modal-open {
+    padding-right: 0 !important;
+}
+.slide-modal {
+    padding-left: 10px !important;
+    padding-bottom: 150px;
+    padding-right: 10px !important;
+    background-color: rgba(0, 0, 0, .6);
+    .modal-dialog {
+        max-width: 635px !important;
+        margin: 50px auto 0;
+        .modal-content {
+            padding: 0 10px 10px;
+            border-radius: 0;
+			border-bottom: 0;
+            .modal-header {
+                overflow: hidden;
+                padding: 20px 0 15px;
+                .modal-title {
+                    font-size: 16px;
+                    color: #333;
+                    display: block;
+                    float: left;
+                    font-weight: 400;
+                }
+                .close {
+                    float: right;
+                    display: block;
+                    width: 24px;
+                    height: 24px;
+					line-height: 24px;
+                    padding: 0;
+                    margin: 0;
+                    opacity: 1;
+                    span {
+                        position: relative;
+                        top: -3px;
+						text-align: right;
+                    }
+                    &:hover/*, &:focus*/ {
+                        opacity: .7;
+                    }
+                }
+            }
+            .modal-body {
+                padding: 0;
+				/*padding: 0 0 70px;*/
+                border-bottom: 0;
+                .slide-content {
+                    position: relative;
+                    display: block;
+                    li {
+                        figure {
+                            .img-fluid {
+                                width: 100%;
+                                display: block;
+                            }
+                        }
+                    }
+                    .slick-arrow {
+                        position: absolute;
+                        top: 50%;
+                        font-size: 20px;
+                        color: #fff;
+                        padding: 0 !important;
+                        cursor: pointer;
+                        margin-top: -15px;
+                        border: 0 !important;
+                        background: none;
+                        z-index: 1;
+                        @include transition();
+                        &.slick-prev {
+                            left: 10px;
+                        }
+                        &.slick-next {
+                            right: 10px;
+                        }
+                        &:hover {
+                            color: #0957d5;
+                        }
+                        @media(min-width: $md) {
+                            font-size: 28px;
+                            margin-top: -21px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+	@media (min-width: $md) {
+		.modal-dialog {
+			margin: 100px auto 0;
+			.modal-content {
+				padding: 0 30px 30px;
+				.modal-header {
+					padding: 25px 0 20px;
+					.modal-title {
+						font-size: 18px;
+					}
+					.close {
+						width: 27px;
+						height: 27px;
+						line-height: 27px;
+					}
+				}
+				.modal-body {
+					/*padding: 0 0 105px;*/
+				}
+			}
+		}
+	}
+}
