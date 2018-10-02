@@ -1032,12 +1032,15 @@ a {
   padding-right: 0 !important; }
 
 .slide-modal {
+  text-align: center;
   padding-left: 10px !important;
   padding-bottom: 150px;
   padding-right: 10px !important;
   background-color: rgba(0, 0, 0, 0.6); }
   .slide-modal .modal-dialog {
+    min-width: 300px;
     max-width: 685px;
+    display: inline-block;
     margin: 50px auto 0; }
     .slide-modal .modal-dialog .modal-content {
       padding: 0;
@@ -1050,8 +1053,9 @@ a {
         .slide-modal .modal-dialog .modal-content .modal-body .slide-content {
           position: relative;
           display: block; }
+          .slide-modal .modal-dialog .modal-content .modal-body .slide-content .slick-track {
+            width: auto !important; }
           .slide-modal .modal-dialog .modal-content .modal-body .slide-content li figure .img-fluid {
-            width: 100%;
             display: block; }
           .slide-modal .modal-dialog .modal-content .modal-body .slide-content .slick-arrow {
             display: none !important; }

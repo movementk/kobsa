@@ -843,12 +843,15 @@
     padding-right: 0 !important;
 }
 .slide-modal {
+    text-align: center;
     padding-left: 10px !important;
     padding-bottom: 150px;
     padding-right: 10px !important;
     background-color: rgba(0, 0, 0, .6);
     .modal-dialog {
+        min-width: 300px;
         max-width: 685px;
+        display: inline-block;
         margin: 50px auto 0;
         .modal-content {
             padding: 0;
@@ -861,10 +864,12 @@
                 .slide-content {
                     position: relative;
                     display: block;
+                    .slick-track {
+                        width: auto !important;
+                    }
                     li {
                         figure {
                             .img-fluid {
-                                width: 100%;
                                 display: block;
                             }
                         }
