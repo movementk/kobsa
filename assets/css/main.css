@@ -1055,6 +1055,8 @@ a {
           display: block; }
           .slide-modal .modal-dialog .modal-content .modal-body .slide-content .slick-track {
             width: auto !important; }
+          .slide-modal .modal-dialog .modal-content .modal-body .slide-content li.slick-slide {
+            width: auto !important; }
           .slide-modal .modal-dialog .modal-content .modal-body .slide-content li figure .img-fluid {
             display: block; }
           .slide-modal .modal-dialog .modal-content .modal-body .slide-content .slick-arrow {

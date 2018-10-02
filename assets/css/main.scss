@@ -868,6 +868,9 @@
                         width: auto !important;
                     }
                     li {
+                        &.slick-slide {
+                            width: auto !important;
+                        }
                         figure {
                             .img-fluid {
                                 display: block;
