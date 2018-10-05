@@ -1328,4 +1328,63 @@ a {
     .attention dd {
       font-size: 13px; } }
 
+.result .section-header h4 {
+  font-size: 18px;
+  color: #333;
+  font-weight: 400; }
+  .result .section-header h4 span {
+    color: #085eaa; }
+  @media (min-width: 768px) {
+    .result .section-header h4 {
+      font-size: 24px; } }
+.result .section-content article .sub-title {
+  margin-bottom: 30px; }
+.result .section-content article ~ article {
+  margin-top: 50px; }
+  @media (min-width: 768px) {
+    .result .section-content article ~ article {
+      margin-top: 60px; } }
+.result .section-content article .board-list .board-body ol li.none-search {
+  text-align: center;
+  font-weight: 300;
+  color: #999;
+  font-size: 15px;
+  padding: 10px 0; }
+  @media (min-width: 768px) {
+    .result .section-content article .board-list .board-body ol li.none-search {
+      font-size: 18px;
+      padding: 15px 0; } }
+.result .section-content article .btn-area {
+  margin-top: 30px; }
+  .result .section-content article .btn-area > .btn-more {
+    display: block;
+    margin: 0 auto;
+    font-size: 12px;
+    width: 140px;
+    line-height: 33px;
+    text-align: center;
+    border-radius: 30px;
+    border: 1px solid #bcbcbc; }
+  @media (min-width: 768px) {
+    .result .section-content article .btn-area {
+      margin-top: 40px; }
+      .result .section-content article .btn-area .btn-more {
+        width: 150px;
+        font-size: 14px;
+        line-height: 38px; } }
+  @media (min-width: 1200px) {
+    .result .section-content article .btn-area .btn-more {
+      -webkit-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.15s;
+      transition-duration: 0.15s;
+      -webkit-transition-timing-function: linear;
+      transition-timing-function: linear;
+      -webkit-transition-delay: 0s;
+      transition-delay: 0s; }
+      .result .section-content article .btn-area .btn-more:hover {
+        color: #fff;
+        border-color: #333;
+        background-color: #333; } }
+
 /*# sourceMappingURL=sub.css.map */

@@ -239,6 +239,9 @@
                                 overflow: hidden;
                                 white-space: nowrap;
                                 display: block;
+                                .icon-lock {
+                                    
+                                }
                             }
                         }
                         &.date {
@@ -1300,7 +1303,85 @@
 }
 
 
-
+// 검색결과
+.result {
+    .section-header {
+        h4 {
+            font-size: 18px;
+            color: #333;
+            font-weight: 400;
+            span {
+                color: #085eaa;
+            }
+            @media(min-width: $md) {
+                font-size: 24px;
+            }
+        }
+    }
+    .section-content {
+        article {
+            .sub-title {
+                margin-bottom: 30px;
+            }
+            & ~ article {
+                margin-top: 50px;
+                @media(min-width: $md) {
+                    margin-top: 60px;
+                }
+            }
+            .board-list {
+                .board-body {
+                    ol {
+                        li {
+                            &.none-search {
+                                text-align: center;
+                                font-weight: 300;
+                                color: #999;
+                                font-size: 15px;
+                                padding: 10px 0;
+                                @media(min-width: $md) {
+                                    font-size: 18px;
+                                    padding: 15px 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .btn-area {
+                margin-top: 30px;
+                > .btn-more {
+                    display: block;
+                    margin: 0 auto;
+                    font-size: 12px;
+                    width: 140px;
+                    line-height: 33px;
+                    text-align: center;
+                    border-radius: 30px;
+                    border: 1px solid #bcbcbc;
+                }
+                @media(min-width: $md) {
+                    margin-top: 40px;
+                    .btn-more {
+                        width: 150px;
+                        font-size: 14px;
+                        line-height: 38px;
+                    }
+                }
+                @media(min-width: $xl) {
+                    .btn-more {
+                        @include transition();
+                        &:hover {
+                            color: #fff;
+                            border-color: #333;
+                            background-color: #333;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 

@@ -9,7 +9,9 @@
         <div class="jumbotron">
             <div class="visual-slider">
                 <div class="summary">
-                    <div>
+                    <div class="bg-box d-block d-xl-none" style="background-image: url(/assets/images/main/bg_md_jumbo.jpg);"></div>
+                    <div class="bg-box d-none d-xl-block" style="background-image: url(/assets/images/main/bg_xl_jumbo.jpg);"></div>
+                    <div class="slogan">
                         <small>생물안전분야의 밝은 미래</small>
                         <h3>For a better future in the field of biosecurity</h3>
                         <p>
@@ -17,13 +19,19 @@
                             요구에 대응하고, 선진화를 통하여 관련산업의 지속적
                             발전을 위해 힘쓰고 있습니다
                         </p>
+                        <div class="btn-more">
+                            <a href="#" class="btn btn-default" role="button">자세히 보기</a>
+                        </div>
                     </div>
                 </div>
-                <div class="slider-bg"></div>
+                <div class="slider-bg d-block d-xl-none" style="background-image: url(/assets/images/main/img_md_slider01.jpg);"></div>
+                <div class="slider-bg d-none d-xl-block" style="background-image: url(/assets/images/main/img_xl_slider01.jpg);"></div>
             </div>
             <div class="visual-slider">
                 <div class="summary">
-                    <div>
+                    <div class="bg-box d-block d-xl-none" style="background-image: url(/assets/images/main/bg_md_jumbo.jpg);"></div>
+                    <div class="bg-box d-none d-xl-block" style="background-image: url(/assets/images/main/bg_xl_jumbo.jpg);"></div>
+                    <div class="slogan">
                         <small>생물안전분야의 밝은 미래</small>
                         <h3>For a better future in the field of biosecurity</h3>
                         <p>
@@ -31,13 +39,19 @@
                             요구에 대응하고, 선진화를 통하여 관련산업의 지속적
                             발전을 위해 힘쓰고 있습니다
                         </p>
+                        <div class="btn-more">
+                            <a href="#" class="btn btn-default" role="button">자세히 보기</a>
+                        </div>
                     </div>
                 </div>
-                <div class="slider-bg"></div>
+                <div class="slider-bg d-block d-xl-none" style="background-image: url(/assets/images/main/img_md_slider01.jpg);"></div>
+                <div class="slider-bg d-none d-xl-block" style="background-image: url(/assets/images/main/img_xl_slider01.jpg);"></div>
             </div>
             <div class="visual-slider">
                 <div class="summary">
-                    <div>
+                    <div class="bg-box d-block d-xl-none" style="background-image: url(/assets/images/main/bg_md_jumbo.jpg);"></div>
+                    <div class="bg-box d-none d-xl-block" style="background-image: url(/assets/images/main/bg_xl_jumbo.jpg);"></div>
+                    <div class="slogan">
                         <small>생물안전분야의 밝은 미래</small>
                         <h3>For a better future in the field of biosecurity</h3>
                         <p>
@@ -45,9 +59,13 @@
                             요구에 대응하고, 선진화를 통하여 관련산업의 지속적
                             발전을 위해 힘쓰고 있습니다
                         </p>
+                        <div class="btn-more">
+                            <a href="#" class="btn btn-default" role="button">자세히 보기</a>
+                        </div>
                     </div>
                 </div>
-                <div class="slider-bg"></div>
+                <div class="slider-bg d-block d-xl-none" style="background-image: url(/assets/images/main/img_md_slider01.jpg);"></div>
+                <div class="slider-bg d-none d-xl-block" style="background-image: url(/assets/images/main/img_xl_slider01.jpg);"></div>
             </div>
         </div>
         
@@ -249,9 +267,64 @@
             </div>
         </article>
     </main>
+    
+    <button type="button" data-toggle="modal" data-target="#slide-popup">팝업열기</button>
+    
+    <!-- slide-modal popup -->
+    <div class="modal fade slide-modal" id="slide-popup" tabindex="-1" role="dialog" aria-labelledby="slide-popupLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+					<div class="slide-content">
+					    <ul>
+					        <li>
+					            <figure>
+					                <img src="/assets/images/main/img_xl_slider01.jpg" class="img-fluid" alt="">
+					            </figure>
+					        </li>
+					        <li>
+					            <figure>
+					                <img src="/assets/images/main/img_xl_slider01.jpg" class="img-fluid" alt="">
+					            </figure>
+					        </li>
+					        <li>
+					            <figure>
+					                <img src="/assets/images/main/img_xl_slider01.jpg" class="img-fluid" alt="">
+					            </figure>
+					        </li>
+					    </ul>
+					</div>
+                </div>
+                <div class="modal-foot">
+                    <label><input type="checkbox"> 오늘하루 열지않습니다.</label>
+                    <div class="btn-area">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">닫기</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
     <script type="text/javascript" src="/assets/js/main.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        (function($){
+			$('#slide-popup').on('show.bs.modal', function (e) {
+				setTimeout(function(){
+					$('#slide-popup .modal-body .slide-content ul').slick({
+						autoplay: true,
+						dots: true,
+						infinite: true,
+						autoplaySpeed: 5000,
+						cssEase: 'linear',
+						pauseOnHover: false,
+						pauseOnFocus: false
+					});
+				}, 200);
+			});
+        })(jQuery);
+    </script>
 </body>
 </html>
