@@ -19,6 +19,9 @@
                             요구에 대응하고, 선진화를 통하여 관련산업의 지속적
                             발전을 위해 힘쓰고 있습니다
                         </p>
+                        <div class="btn-more">
+                            <a href="#" class="btn btn-default" role="button">자세히 보기</a>
+                        </div>
                     </div>
                 </div>
                 <div class="slider-bg d-block d-xl-none" style="background-image: url(/assets/images/main/img_md_slider01.jpg);"></div>
@@ -36,6 +39,9 @@
                             요구에 대응하고, 선진화를 통하여 관련산업의 지속적
                             발전을 위해 힘쓰고 있습니다
                         </p>
+                        <div class="btn-more">
+                            <a href="#" class="btn btn-default" role="button">자세히 보기</a>
+                        </div>
                     </div>
                 </div>
                 <div class="slider-bg d-block d-xl-none" style="background-image: url(/assets/images/main/img_md_slider01.jpg);"></div>
@@ -53,6 +59,9 @@
                             요구에 대응하고, 선진화를 통하여 관련산업의 지속적
                             발전을 위해 힘쓰고 있습니다
                         </p>
+                        <div class="btn-more">
+                            <a href="#" class="btn btn-default" role="button">자세히 보기</a>
+                        </div>
                     </div>
                 </div>
                 <div class="slider-bg d-block d-xl-none" style="background-image: url(/assets/images/main/img_md_slider01.jpg);"></div>

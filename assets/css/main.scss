@@ -65,7 +65,7 @@
             &.summary {
                 position: relative;
                 width: 100%;
-                height: 365px;
+                height: 450px;
                 color: #fff;
                 padding: 50px 10px 0;
                 .bg-box {
@@ -97,6 +97,18 @@
                     font-size: 13px;
                     line-height: 24px;
                 }
+                .btn-more {
+                    margin-top: 25px;
+                    .btn-default {
+                        color: #fff;
+                        font-size: 12px;
+                        font-weight: 300;
+                        width: 130px;
+                        line-height: 33px;
+                        border-radius: 30px;
+                        border: 1px solid #fff;
+                    }
+                }
             }
             &.slider-bg {
                 display: none;
@@ -107,7 +119,7 @@
         overflow: hidden;
         .slick-arrow {
             position: absolute;
-            bottom: 200px;
+            bottom: 150px;
             display: block !important;
             width: 24px;
             height: 24px;
@@ -131,7 +143,7 @@
         }
         .slick-dots {
             left: 20px;
-            bottom: 230px;
+            bottom: 180px;
             text-align: left;
         }
         .visual-slider {
@@ -170,6 +182,12 @@
                         line-height: 24px;
                         @include transition($duration: 1s, $delay: 2.5s);
                     }
+                    .btn-more {
+                        position: relative;
+                        top: 50px;
+                        opacity: 0;
+                        @include transition($duration: 1s, $delay: 3s);
+                    }
                 }
                 &.slider-bg {
                     top: 30px;
@@ -190,6 +208,10 @@
                             opacity: 1;
                         }
                         p {
+                            top: 0;
+                            opacity: 1;
+                        }
+                        .btn-more {
                             top: 0;
                             opacity: 1;
                         }
@@ -214,13 +236,23 @@
             > div {
                 &.summary {
                     padding: 0;
-                    padding-top: 250px;
+                    padding-top: 220px;
                     height: 710px;
                     text-align: right;
                     > div {
                         width: 585px;
                         display: inline-block;
                         text-align: left;
+                    }
+                    .btn-more {
+                        margin-top: 30px;
+                        .btn-default {
+                            font-size: 13px;
+                            &:hover {
+                                color: #0c7ade;
+                                background-color: #fff;
+                            }
+                        }
                     }
                 }
                 &.slider-bg {
@@ -253,7 +285,7 @@
             > div {
                 &.summary {
                     padding: 0;
-                    padding-top: 250px;
+                    padding-top: 220px;
                     height: 710px;
                     text-align: right;
                     > div {

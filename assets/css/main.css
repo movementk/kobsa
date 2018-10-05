@@ -435,7 +435,7 @@ a {
       .jumbotron .visual-slider > div.summary {
         position: relative;
         width: 100%;
-        height: 365px;
+        height: 450px;
         color: #fff;
         padding: 50px 10px 0; }
         .jumbotron .visual-slider > div.summary .bg-box {
@@ -462,6 +462,16 @@ a {
         .jumbotron .visual-slider > div.summary p {
           font-size: 13px;
           line-height: 24px; }
+        .jumbotron .visual-slider > div.summary .btn-more {
+          margin-top: 25px; }
+          .jumbotron .visual-slider > div.summary .btn-more .btn-default {
+            color: #fff;
+            font-size: 12px;
+            font-weight: 300;
+            width: 130px;
+            line-height: 33px;
+            border-radius: 30px;
+            border: 1px solid #fff; }
       .jumbotron .visual-slider > div.slider-bg {
         display: none; }
   @media (min-width: 768px) {
@@ -469,7 +479,7 @@ a {
       overflow: hidden; }
       .jumbotron .slick-arrow {
         position: absolute;
-        bottom: 200px;
+        bottom: 150px;
         display: block !important;
         width: 24px;
         height: 24px;
@@ -490,7 +500,7 @@ a {
           right: 90%; }
       .jumbotron .slick-dots {
         left: 20px;
-        bottom: 230px;
+        bottom: 180px;
         text-align: left; }
       .jumbotron .visual-slider > div {
         position: relative;
@@ -552,6 +562,18 @@ a {
             transition-timing-function: linear;
             -webkit-transition-delay: 2.5s;
             transition-delay: 2.5s; }
+          .jumbotron .visual-slider > div.summary .btn-more {
+            position: relative;
+            top: 50px;
+            opacity: 0;
+            -webkit-transition-property: all;
+            transition-property: all;
+            -webkit-transition-duration: 1s;
+            transition-duration: 1s;
+            -webkit-transition-timing-function: linear;
+            transition-timing-function: linear;
+            -webkit-transition-delay: 3s;
+            transition-delay: 3s; }
         .jumbotron .visual-slider > div.slider-bg {
           top: 30px;
           height: 619px; }
@@ -568,6 +590,9 @@ a {
           .jumbotron .visual-slider.action > div.summary p {
             top: 0;
             opacity: 1; }
+          .jumbotron .visual-slider.action > div.summary .btn-more {
+            top: 0;
+            opacity: 1; }
         .jumbotron .visual-slider.action > div.slider-bg {
           top: 0; } }
   @media (min-width: 1200px) {
@@ -579,13 +604,20 @@ a {
         right: 93%; }
     .jumbotron .visual-slider > div.summary {
       padding: 0;
-      padding-top: 250px;
+      padding-top: 220px;
       height: 710px;
       text-align: right; }
       .jumbotron .visual-slider > div.summary > div {
         width: 585px;
         display: inline-block;
         text-align: left; }
+      .jumbotron .visual-slider > div.summary .btn-more {
+        margin-top: 30px; }
+        .jumbotron .visual-slider > div.summary .btn-more .btn-default {
+          font-size: 13px; }
+          .jumbotron .visual-slider > div.summary .btn-more .btn-default:hover {
+            color: #0c7ade;
+            background-color: #fff; }
     .jumbotron .visual-slider > div.slider-bg {
       top: 30px;
       height: 797px;
@@ -606,7 +638,7 @@ a {
       padding-left: 50px; }
     .jumbotron .visual-slider > div.summary {
       padding: 0;
-      padding-top: 250px;
+      padding-top: 220px;
       height: 710px;
       text-align: right; }
       .jumbotron .visual-slider > div.summary > div {
