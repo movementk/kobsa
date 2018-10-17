@@ -639,6 +639,20 @@
 			text-align: center;
 			padding: 40px 0;
 			border: 1px solid #eaeaea;
+			.item {
+				display: table;
+				width: 100%;
+				figure {
+					display: table-cell;
+					width: 150px;
+					height: 100px;
+					margin: 0 auto;
+					vertical-align: middle;
+					img {
+						max-height: 100%;
+					}
+				}
+			}
 			ul {
 				display: inline-block;
 				text-align: center; 
